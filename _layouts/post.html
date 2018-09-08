@@ -1,6 +1,5 @@
 ---
 layout: default
-comments: true
 ---
 <div class="post">
   <div class="post-info">
@@ -21,7 +20,7 @@ comments: true
   </aside> -->
   {% if page.tags %}
     <div class="tags tags_top">
-      Tags:
+      <strong>Tags:</strong>
       {% for tag in page.tags %}
         <a href="{{ site.baseurl }}/tags#{{ tag }}" class="tag">&#35;{{ tag }}</a>
       {% endfor %}
@@ -31,16 +30,17 @@ comments: true
   {{ content }}
 </div>
 {% if page.tags %}
-  <div class="tags ">
-    Tags:
+  <div class="tags tags_bottom">
+    <strong>Tags:</strong>
     {% for tag in page.tags %}
       <a href="{{ site.baseurl }}/tags#{{ tag }}" class="tag">&#35;{{ tag }}</a>
     {% endfor %}
   </div>
 {% endif %}
-<!-- {% if page.comments %} -->
+<br>
+{% if page.comments %}
   {% include disqus_comments.html %}
-<!-- {% endif %} -->
+{% endif %}
 <div class="pagination">
   {% if page.next.url %}
     <a href="{{ page.next.url | prepend: site.baseurl }}" class="left arrow">&#8592;</a>
