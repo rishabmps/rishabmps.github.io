@@ -1,10 +1,10 @@
 # Site settings
+
 title:          Rishabh Agarwal
 description:    "Snapshots of my interests"
 url:            "https://www.rishabhjain.me"
 logo:           /assets/apple-touch-icon.png
 repository: rishabmps/rishabmps.github.io
-
 # Author
 author:
   name:         Rishabh Agarwal Jain
