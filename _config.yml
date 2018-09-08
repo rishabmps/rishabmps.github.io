@@ -1,14 +1,14 @@
 # Site settings
-title:          Shutter Clicks
+title:          Rishabh Agarwal
 description:    "Snapshots of my interests"
-url:            "https://www.lycarter.com"
+url:            "https://www.rishabhjain.me"
 logo:           /assets/apple-touch-icon.png
 
 # Author
 author:
-  name:         Landon Carter
-  url:          https://www.lycarter.com
-  email:        me@lycarter.com
+  name:         Rishabh Agarwal Jain
+  url:          https://www.rishabhjain.me
+  email:        rishab.mps@gmail.com
 
 # Build settings
 markdown:       kramdown
