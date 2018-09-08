@@ -24,6 +24,9 @@
   padding: 0;
   font-size: 1.2em;
 }
+
+
+
 .tags_top{
    
    border-bottom: 1px solid #e5e5e5; 
@@ -32,6 +35,13 @@
 .tags_bottom{
    font-size: 1.2em;
 }
+
+.tags_values{
+    float: left;
+    margin-top: 18px;
+}
+
+
 
 .tags li {
   display: inline-block;

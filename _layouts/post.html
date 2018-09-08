@@ -20,10 +20,19 @@ layout: default
   </aside> -->
   {% if page.tags %}
     <div class="tags tags_top">
+      <div class="tags_values">
       <strong>Tags:</strong>
       {% for tag in page.tags %}
         <a href="{{ site.baseurl }}/tags#{{ tag }}" class="tag">&#35;{{ tag }}</a>
       {% endfor %}
+      </div>
+      <span>
+    <ul style="text-align: right;margin-bottom: 0px;margin-right:  10px;">
+      <li style="list-style: none; display: inline-block;"><i class="fa fa-facebook fa-stack fa-lg"></i></li>
+      <li style="list-style: none;display: inline-block;"><i class="fa fa-twitter fa-stack fa-lg"></i></li>
+      <li style="list-style: none;display: inline-block;"><i class="fa fa-github fa-stack fa-lg"></i></li>
+    </ul>
+  </span>
     </div>
     <br>
   {% endif %}
@@ -38,7 +47,7 @@ layout: default
     {% endfor %}
   </div>
 {% endif %}
-<hr style="background-color: #829ec0;display: block;height: 2px;border: 0;border-top: 1px solid;margin: 1em 0;padding: 0;">
+<hr style="background-color: #829ec0;display: block;height: 2px;border: 0;border-top: 1px solid;margin: 1em 0;padding: 0;"  >
 
 <br>
 {% if page.comments %}
