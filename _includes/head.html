@@ -1,0 +1,47 @@
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-57039341-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-57039341-1');
+  </script>
+
+  <!-- Page details -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- xml feed -->
+  {% feed_meta %}
+
+  <title>
+    {% if page.title == "Home" %}
+      {{ site.title }}
+    {% else %}
+      {{ page.title }} - {{ site.title }}
+    {% endif %}
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+
+  {% if page.table-zebra %}
+    <link rel="stylesheet" href="{{ "/assets/css/table-zebra.css" | relative_url }}">
+  {% endif %}
+
+  {% if page.gallery %}
+    <link rel="stylesheet" href="{{ "/assets/css/photoswipe.css" | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/css/photoswipe-default-skin/default-skin.css" | relative_url }}">
+    <script src="{{ "/assets/js/photoswipe.min.js" | relative_url }}"></script>
+    <script src="{{ "/assets/js/photoswipe-ui-default.min.js" | relative_url }}"></script>
+  {% endif %}
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ "/assets/favicon-32x32.png" | relative_url }}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ "/assets/favicon-16x16.png" | relative_url }}">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ "/assets/apple-touch-icon.png" | relative_url }}">
+
+  {% seo title=false %}
+</head>

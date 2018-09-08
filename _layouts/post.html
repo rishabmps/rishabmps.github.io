@@ -1,0 +1,50 @@
+---
+layout: default
+---
+
+<div class="post">
+  <div class="post-info">
+    {% if page.date %}
+      <time datetime="{{ page.date }}">{{ page.date | date: "%B %d, %Y" }}</time>
+    {% endif %}
+  </div>
+
+  <h1 class="post-title">{{ page.title }}</h1>
+  <div class="post-line"></div>
+
+  {{ content }}
+
+</div>
+
+{% if page.tags %}
+<div class="tags">
+  Tags:
+  {% for tag in page.tags %}
+    <a href="{{ site.baseurl }}/tags#{{ tag }}" class="tag">&#35;{{ tag }}</a>
+  {% endfor %}
+</div>
+{% endif %}
+
+<div class="pagination">
+  {% if page.next.url %}
+    <a href="{{ page.next.url | prepend: site.baseurl }}" class="left arrow">&#8592;</a>
+  {% endif %}
+  {% if page.previous.url %}
+    <a href="{{ page.previous.url | prepend: site.baseurl }}" class="right arrow">&#8594;</a>
+  {% endif %}
+
+  <a href="#" class="top">Top</a>
+</div>
+
+{% if page.math %}
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  </script>
+{% endif %}
+
+{% if page.gallery %}
+  {% for src in page.other_image_sources %}
+    <script src="{{ "/assets/img/sizes/" | relative_url }}{{ src }}.js"></script>
+  {% endfor %}
+  <script src = "{{ "/assets/img/sizes/" | relative_url }}{{ page.id | remove_first: '/' | replace: '/', '-' }}.js"></script>
+  <script src="{{ "/assets/js/photoswipe-initializer.js" | relative_url }}"></script>
+{% endif %}

@@ -1,0 +1,30 @@
+# Site settings
+title:          Shutter Clicks
+description:    "Snapshots of my interests"
+url:            "https://www.lycarter.com"
+logo:           /assets/apple-touch-icon.png
+
+# Author
+author:
+  name:         Landon Carter
+  url:          https://www.lycarter.com
+  email:        me@lycarter.com
+
+# Build settings
+markdown:       kramdown
+
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        compressed
+
+# Gems
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Permalinks
+permalink:      /:year-:month-:day/:title
+paginate:       10
