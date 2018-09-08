@@ -1,42 +1,46 @@
 ---
 layout: default
+comments: true
 ---
-
 <div class="post">
   <div class="post-info">
     {% if page.date %}
       <time datetime="{{ page.date }}">{{ page.date | date: "%B %d, %Y" }}</time>
     {% endif %}
   </div>
-
   <h1 class="post-title">{{ page.title }}</h1>
   <div class="post-line"></div>
   
-  <aside class="social-share">
+  <!-- <aside class="social-share">
     <h2>Share this:</h2>
-
     <ul>
-        <li class="twitter"><a href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.url }}{% if page.description %}&text={{ page.description | url_escape }}{% else %}{{ page.title | url_escape }}{% endif %}{% if site.twitter %}&via={{ site.twitter }}{% endif %}" title="Share on Twitter">Twitter</a></li>
-
-        <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}{% if page.description %}&t={{ page.description | url_escape }}{% else %}{{ page.title | url_escape }}{% endif %}" title="Share on Facebook">Facebook</a></li>
-
-        <li class="googleplus"><a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" title="Share on Google Plus">Google+</a></li>
+      <li class="twitter"><a href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.url }}&text={% if page.description %}{{ page.description | url_escape }}{% else %}{{ page.title | url_escape }}{% endif %}{% if site.twitter %}&via={{ site.twitter }}{% endif %}" title="Share on Twitter">Twitter</a></li>
+      <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}{% if page.description %}&t={{ page.description | url_escape }}{% else %}{{ page.title | url_escape }}{% endif %}" title="Share on Facebook">Facebook</a></li>
+      <li class="googleplus"><a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" title="Share on Google Plus">Google+</a></li>
     </ul>
-  </aside>
-  
+  </aside> -->
+  {% if page.tags %}
+    <div class="tags tags_top">
+      Tags:
+      {% for tag in page.tags %}
+        <a href="{{ site.baseurl }}/tags#{{ tag }}" class="tag">&#35;{{ tag }}</a>
+      {% endfor %}
+    </div>
+    <br>
+  {% endif %}
   {{ content }}
-
 </div>
-
 {% if page.tags %}
-<div class="tags">
-  Tags:
-  {% for tag in page.tags %}
-    <a href="{{ site.baseurl }}/tags#{{ tag }}" class="tag">&#35;{{ tag }}</a>
-  {% endfor %}
-</div>
+  <div class="tags ">
+    Tags:
+    {% for tag in page.tags %}
+      <a href="{{ site.baseurl }}/tags#{{ tag }}" class="tag">&#35;{{ tag }}</a>
+    {% endfor %}
+  </div>
 {% endif %}
-
+<!-- {% if page.comments %} -->
+  {% include disqus_comments.html %}
+<!-- {% endif %} -->
 <div class="pagination">
   {% if page.next.url %}
     <a href="{{ page.next.url | prepend: site.baseurl }}" class="left arrow">&#8592;</a>
@@ -44,15 +48,12 @@ layout: default
   {% if page.previous.url %}
     <a href="{{ page.previous.url | prepend: site.baseurl }}" class="right arrow">&#8594;</a>
   {% endif %}
-
   <a href="#" class="top">Top</a>
 </div>
-
 {% if page.math %}
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
   </script>
 {% endif %}
-
 {% if page.gallery %}
   {% for src in page.other_image_sources %}
     <script src="{{ "/assets/img/sizes/" | relative_url }}{{ src }}.js"></script>
