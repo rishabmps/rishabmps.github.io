@@ -29,6 +29,7 @@ layout: default
   {% endif %}
   {{ content }}
 </div>
+<hr style="background-color: #829ec0;display: block;height: 2px;/* border: 0; */border-top: 1px solid;margin: 1em 0;padding: 0;">
 {% if page.tags %}
   <div class="tags tags_bottom">
     <strong>Tags:</strong>
@@ -37,6 +38,8 @@ layout: default
     {% endfor %}
   </div>
 {% endif %}
+<hr style="background-color: #829ec0;display: block;height: 2px;border: 0;border-top: 1px solid;margin: 1em 0;padding: 0;">
+
 <br>
 {% if page.comments %}
   {% include disqus_comments.html %}
