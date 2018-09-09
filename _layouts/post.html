@@ -58,9 +58,6 @@ layout: default
 <hr style="background-color: #829ec0;display: block;height: 2px;border: 0;border-top: 1px solid;margin: 1em 0;padding: 0;"  >
 {% endif %}
 <br>
-{% if page.comments %}
-  {% include disqus_comments.html %}
-{% endif %}
 <div class="pagination">
   {% if page.next.url %}
     <a href="{{ page.next.url | prepend: site.baseurl }}" class="left arrow">&#8592;</a>
@@ -68,8 +65,13 @@ layout: default
   {% if page.previous.url %}
     <a href="{{ page.previous.url | prepend: site.baseurl }}" class="right arrow">&#8594;</a>
   {% endif %}
-  <a href="#" class="top">Top</a>
+  <a href="#" class="top"><strong>Top</strong></a>
 </div>
+<br>
+{% if page.comments %}
+  {% include disqus_comments.html %}
+{% endif %}
+
 {% if page.math %}
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
   </script>
