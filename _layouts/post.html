@@ -8,54 +8,36 @@ layout: default
     {% endif %}
   </div>
   <h1 class="post-title">{{ page.title }}</h1>
-  <ul style="text-align: center;margin-bottom: 0px; padding: 0px;">
-
-      <li style="list-style: none;display: inline-block;"><i class="fa fa-google-plus fa-stack fa-lg" style="color: #31567b; width: 1.4em;"></i></li>
-      <li style="list-style: none; display: inline-block;"><i class="fa fa-facebook fa-stack fa-lg" style="color: #31567b; width: 1.4em;"></i></li>
-      <li style="list-style: none;display: inline-block;"><i class="fa fa-twitter fa-stack fa-lg" style="color: #31567b; width: 1.4em;"></i></li>
-      <li style="list-style: none;display: inline-block;"><i class="fa fa fa-linkedin-square fa-stack fa-lg" style="color: #31567b; width: 1.4em;"></i></li>  
-      <li style="list-style: none;display: inline-block;"><i class="fa fa fa-envelope fa-stack fa-lg" style="color: #31567b; width: 1.4em;"></i></li>
-    </ul>
+  {% if page.share %}
+    {% include share.html %}
+  {% endif %}
   <div class="post-line" style="width: 9rem;"></div>
   
-  <!-- <aside class="social-share">
-    <h2>Share this:</h2>
-    <ul>
-      <li class="twitter"><a href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.url }}&text={% if page.description %}{{ page.description | url_escape }}{% else %}{{ page.title | url_escape }}{% endif %}{% if site.twitter %}&via={{ site.twitter }}{% endif %}" title="Share on Twitter">Twitter</a></li>
-      <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}{% if page.description %}&t={{ page.description | url_escape }}{% else %}{{ page.title | url_escape }}{% endif %}" title="Share on Facebook">Facebook</a></li>
-      <li class="googleplus"><a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" title="Share on Google Plus">Google+</a></li>
-    </ul>
-  </aside> -->
-  
-    
   
   {% if page.tags %}
     <div class="tags tags_top">
       <div class="tags_values">
-      <strong>Tags:</strong>
-      {% for tag in page.tags %}
-        <a href="{{ site.baseurl }}/tags#{{ tag }}" class="tag">&#35;{{ tag }}</a>
-      {% endfor %}
+        <strong>Tags:</strong>
+        {% for tag in page.tags %}
+          <a href="{{ site.baseurl }}/tags#{{ tag }}" class="tag">&#35;{{ tag }}</a>
+        {% endfor %}
       </div>
       
     </div>
     <br>
   {% endif %}
+  
   {{ content }}
 </div>
-
 {% if page.tags %}
-
-<hr style="background-color: #829ec0;display: block;height: 2px;/* border: 0; */border-top: 1px solid;margin: 1em 0;padding: 0;">
-
+  <hr style="background-color: #829ec0;display: block;height: 2px;/* border: 0; */border-top: 1px solid;margin: 1em 0;padding: 0;">
   <div class="tags tags_bottom">
     <strong>Tags:</strong>
     {% for tag in page.tags %}
       <a href="{{ site.baseurl }}/tags#{{ tag }}" class="tag">&#35;{{ tag }}</a>
     {% endfor %}
   </div>
-
-<hr style="background-color: #829ec0;display: block;height: 2px;border: 0;border-top: 1px solid;margin: 1em 0;padding: 0;"  >
+  <hr style="background-color: #829ec0;display: block;height: 2px;border: 0;border-top: 1px solid;margin: 1em 0;padding: 0;"  >
 {% endif %}
 <br>
 {% include pagination.html %}
@@ -63,7 +45,6 @@ layout: default
 {% if page.comments %}
   {% include disqus_comments.html %}
 {% endif %}
-
 {% if page.math %}
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
   </script>
