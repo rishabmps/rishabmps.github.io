@@ -31,8 +31,11 @@
 								});">
 							<i class="fa fa-envelope fa-stack fa-lg footer-svg" style="width: 1.4em;"></i></a></li>
 							<li style="list-style: none;display: inline-block;">
-							<a href="#" target="_blank" style="color: #000000;"
-								onClick>
+							<a href="{{site.url}}/feed.xml" target="_blank" style="color: #000000;"
+								onClick="gtag('event', 'rss', {
+								'event_category': 'rss',
+								'event_label': 'feed'
+								});">
 							<i class="fa fa-rss fa-stack fa-lg footer-svg" style="width: 1.4em;"></i></a></li>
 						</ul>
 					</span>
