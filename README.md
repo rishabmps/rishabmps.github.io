@@ -1,8 +1,7 @@
-# Tale
-
 This blog is not ready yet, I am still making changes.
 Currently it might show posts from @[lycarter](https://github.com/lycarter/) , as it is derived from it.
 
+# Tale
 
 [![Gem Version](https://badge.fury.io/rb/tale.svg)](https://badge.fury.io/rb/tale)
 
