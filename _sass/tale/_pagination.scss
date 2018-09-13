@@ -1,3 +1,16 @@
+
+.left-pagination{
+    position: relative;
+    width: 30%;
+    float:left;
+}
+.right-pagination{
+    position: relative;
+    width: 30%;
+    float:right;
+}
+
+
 .pagination {
   border-top: .5px solid $grey-2;
   font-family: $serif-secondary;
@@ -41,16 +54,6 @@
   .right {
     right: 0;
   }
-}
-.left-pagination{
-    position: relative;
-    width: 30%;
-    float:left;
-}
-.right-pagination{
-    position: relative;
-    width: 30%;
-    float:right;
 }
 
 
