@@ -27,4 +27,5 @@ plugins:
 
 # Permalinks
 permalink:      /:year-:month-:day/:title
+#permalink:      none
 paginate:       10
