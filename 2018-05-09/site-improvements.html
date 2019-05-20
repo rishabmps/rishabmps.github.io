@@ -35,7 +35,7 @@ gtag('config', 'UA-79519182-3');
   <link type="application/atom+xml" rel="alternate" href="https://www.rishabhjain.me/pages/rishabmps/feed.xml" title="Cognitive Sciences" />
   <title>
   
-     - Cognitive Sciences
+    Jekyll Site Improvements - Cognitive Sciences
   
   </title>
   <!-- CSS -->
@@ -50,16 +50,18 @@ gtag('config', 'UA-79519182-3');
   <link rel="apple-touch-icon" sizes="180x180" href="/pages/rishabmps/assets/apple-touch-icon.png">
   <!-- Begin Jekyll SEO tag v2.5.0 -->
 <meta name="generator" content="Jekyll v3.8.5" />
-<meta property="og:title" content="Cognitive Sciences" />
-<meta name="author" content="Rishabh Agarwal Jain" />
+<meta property="og:title" content="Jekyll Site Improvements" />
+<meta name="author" content="Landon" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Blog on recent advancements in AI/ML" />
-<meta property="og:description" content="Blog on recent advancements in AI/ML" />
-<link rel="canonical" href="https://www.rishabhjain.me/pages/rishabmps/404.html" />
-<meta property="og:url" content="https://www.rishabhjain.me/pages/rishabmps/404.html" />
+<meta name="description" content="I’ll talk about some of the things I’ve done to make this site a bit more my own, or upgrade it a bit. You can also follow along in real-time by following the source" />
+<meta property="og:description" content="I’ll talk about some of the things I’ve done to make this site a bit more my own, or upgrade it a bit. You can also follow along in real-time by following the source" />
+<link rel="canonical" href="https://www.rishabhjain.me/pages/rishabmps/2018-05-09/site-improvements" />
+<meta property="og:url" content="https://www.rishabhjain.me/pages/rishabmps/2018-05-09/site-improvements" />
 <meta property="og:site_name" content="Cognitive Sciences" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2018-05-09T00:00:00+00:00" />
 <script type="application/ld+json">
-{"description":"Blog on recent advancements in AI/ML","author":{"@type":"Person","name":"Rishabh Agarwal Jain"},"@type":"WebPage","url":"https://www.rishabhjain.me/pages/rishabmps/404.html","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://www.rishabhjain.me/pages/rishabmps/assets/apple-touch-icon.png"},"name":"Rishabh Agarwal Jain"},"headline":"Cognitive Sciences","@context":"http://schema.org"}</script>
+{"description":"I’ll talk about some of the things I’ve done to make this site a bit more my own, or upgrade it a bit. You can also follow along in real-time by following the source","author":{"@type":"Person","name":"Landon"},"@type":"BlogPosting","url":"https://www.rishabhjain.me/pages/rishabmps/2018-05-09/site-improvements","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://www.rishabhjain.me/pages/rishabmps/assets/apple-touch-icon.png"},"name":"Landon"},"headline":"Jekyll Site Improvements","dateModified":"2018-05-09T00:00:00+00:00","datePublished":"2018-05-09T00:00:00+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.rishabhjain.me/pages/rishabmps/2018-05-09/site-improvements"},"@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 </head>
@@ -82,10 +84,99 @@ gtag('config', 'UA-79519182-3');
     </nav>
 
     <main>
-      <h1>
-OOPS...
-NOTHING here.
-</h1>
+      <div class="post">
+    <div class="post-info">
+        
+            <time datetime="2018-05-09 00:00:00 +0000">May 09, 2018</time>
+        
+    </div>
+    <h1 class="post-title">Jekyll Site Improvements</h1>
+    
+    <div class="post-line" style="width: 9rem;"></div>
+    
+    
+    
+        <div class="tags tags_top">
+            <div class="tags_values">
+                <strong>Tags:</strong>
+                
+                    <a href="/pages/rishabmps/tags#meta" class="tag">&#35;meta</a>
+                
+            </div>
+            
+        </div>
+        <br>
+    
+    <div class="post-content">
+        <p>I’ll talk about some of the things I’ve done to make this site a bit more my own, or upgrade it a bit. You can also follow along in real-time by following the <a href="https://github.com/lycarter/lycarter.github.com">source</a></p>
+
+<h2 id="customized-fonts-and-colors">Customized fonts and colors</h2>
+<p>This was one of the first things I did, and one of the reasons I moved away from Blogger - it was very difficult to customize Blogger’s appearance, With Jekyll, it’s much easier, and Tale has extremely nice scss support, and a particularly nice variables.scss file. I’ve never dealt with scss before, but it was super easy to figure out and change. Commit <a href="https://github.com/lycarter/lycarter.github.com/commit/9faf7e06ed6dae4a9065417798e4d7f97b8c018e#diff-a747c56a582f71180f6c87cc19d7bae9"><code class="highlighter-rouge">9faf7e0</code></a></p>
+
+<h2 id="customized-layout">Customized layout</h2>
+<p>Since Jekyll is a normal content site with a good templating engine, it’s pretty easy to customize page layout too, just by editing the layout files. You can also add custom layouts for specific posts, which I’ll cover when I talk about Mathjax. I made a few changes early on in commit <a href="https://github.com/lycarter/lycarter.github.com/commit/492a6d59076fff15e9c9365edd0ae191bb3ee4f8"><code class="highlighter-rouge">492a6d5</code></a> and commit <a href="https://github.com/lycarter/lycarter.github.com/commit/78a49e226a7a9d19a45e4050c636df8759be0f61"><code class="highlighter-rouge">78a49e2</code></a>.</p>
+
+<h2 id="thumbnail-generation">Thumbnail generation</h2>
+<p>One of the things I really wanted in my new site was a seamless way to integrate photos. I still haven’t gotten it where I want it (I wrote up a <a href="https://github.com/lycarter/lycarter.github.com/blob/master/_drafts/2018-03-19-content-vs-perfection.md">draft</a> on that), but one thing I did add was a thumbnail generation script in commit <a href="https://github.com/lycarter/lycarter.github.com/commit/46473e3efa922c3f4e51ba9b60872bebbe16de6e"><code class="highlighter-rouge">46473e3</code></a>. Unfortunately, it does need to be triggered manually.</p>
+
+<h2 id="mathjax-support">Mathjax support</h2>
+<p>This was my first foray into custom front matter, adding a <code class="highlighter-rouge">math: true</code> tag to my front matter enables a code block that loads mathjax. This is pretty cool - I could just enable mathjax on every page, but by only loading it when needed, I can make pages more lightweight and load faster. That was added to <code class="highlighter-rouge">_layouts/post.html</code> in commit <a href="https://github.com/lycarter/lycarter.github.com/commit/627c82e3132542b9395a0b8afbdf92c1014ee107#diff-663f387b6a1a407ab38de055a12bc7c8"><code class="highlighter-rouge">627c82e</code></a></p>
+
+<h2 id="google-analytics">Google Analytics</h2>
+<p>I wanted at least a little bit of metrics on how many people actually looked at this site, so I added Google Analytics. I should probably add a customization so that analytics is only added on the live site, because I definitely pollute my data when I’m editing the site locally. That’s a task for later, though. Analytics was added in commit <a href="https://github.com/lycarter/lycarter.github.com/commit/8a78a676fbcdab491330f85305f847d3622b4b34"><code class="highlighter-rouge">8a78a67</code></a>.</p>
+
+<h2 id="debugging-page">Debugging Page</h2>
+<p>I didn’t actually have anything to debug here, but again while browsing the Jekyll docs, I found some stuff I wanted to try. This is roughly equivalent to a “dumpfile” that you might have in other post-processors, but you can peek at it if you navigate to <a href="/pages/rishabmps/about-technical">/about-technical</a>.</p>
+
+<h2 id="jekyll-plugins">Jekyll Plugins</h2>
+
+<p>I was browsing through the available Jekyll plugins and decided to add a few. They were all ridiculously easy to add, which has been awesome.</p>
+
+<h3 id="xml-feed">XML Feed</h3>
+<p>I found one to generate an Atom XML feed, which would be great for anyone that wants to follow with an RSS reader (I use feedly). Turns out it was ridiculously easy to add, just two lines in commit <a href="https://github.com/lycarter/lycarter.github.com/commit/19bc218d0f675fb795fd5951df3f02852b4117df"><code class="highlighter-rouge">19bc218</code></a>.</p>
+
+<h3 id="sitemap">Sitemap</h3>
+<p>Adding a sitemap is useful for search engines to correctly crawl your webpage. My secret goal is to push this blog way up on Google results for “Landon Carter” or “Landon Carter Blog” or similar. There are a lot of other Landon Carter’s in the world - I need to surpass them all, at least on Google. Anyway, adding a sitemap was literally just another line in <code class="highlighter-rouge">_config.yml</code> in commit <a href="https://github.com/lycarter/lycarter.github.com/commit/52e38fd4a583010a468f069295f93c344734ffa3"><code class="highlighter-rouge">52e38fd</code></a>.</p>
+
+<h3 id="seo">SEO</h3>
+<p>Search Engine Optimization adds some meta information to page headers so that search engines know what they’re looking at. It also helps with sharing things on Facebook or other social media sites. This one was slightly more involved, at 3 lines of code in commit <a href="https://github.com/lycarter/lycarter.github.com/commit/b3c338366b6b62a8ce37010c81779e1c3df219b5"><code class="highlighter-rouge">b3c3383</code></a>. I can also add custom SEO tags, like I did for my <a href="/pages/rishabmps/2018-05-05/dinner-party">dinner party post</a>. I added a custom image so I could share it on Facebook with that specific image selected, you can see that change in commit <a href="https://github.com/lycarter/lycarter.github.com/commit/a7ce057a6ac20cfcf20d2802ff2e0b276413990f"><code class="highlighter-rouge">a7ce057</code></a>.</p>
+
+<h3 id="tags">Tags</h3>
+<p>This isn’t quite a plugin, but is a baked-in feature that you can use if you choose. I didn’t start out with it, but now my posts have tags. You can browse posts by tags by navigating to <a href="/pages/rishabmps/tags">/tags</a>. This was inspired by [Rebecca’s site](http://rebecca.li/tags/, which has tags, and from the <a href="https://github.com/rebeccali/rliwebsite">source code</a> of which I borrowed the tags page with some minor tweaks. Added in commit <a href="https://github.com/lycarter/lycarter.github.com/commit/bb09075e26637d92e123af0dd8d6939e9fd82916"><code class="highlighter-rouge">bb09075</code></a>.</p>
+
+<p>Overall, this has been a pretty fun project, with nice bite-size pieces to tackle. I’ve been pleased at how well I can actually keep up with it, even during the semester. Thanks for reading :)</p>
+
+    </div>
+</div>
+
+    <hr style="background-color: #829ec0;display: block;height: 2px;/* border: 0; */border-top: 1px solid;margin: 1em 0;padding: 0;">
+    <div class="tags tags_bottom">
+        <strong>Tags:</strong>
+        
+            <a href="/pages/rishabmps/tags#meta" class="tag">&#35;meta</a>
+        
+    </div>
+    <hr style="background-color: #829ec0;display: block;height: 2px;border: 0;border-top: 1px solid;margin: 1em 0;padding: 0;"  >
+
+<br>
+<div class="pagination">
+  
+  <div class="left-pagination">
+    <a href="/pages/rishabmps/2018-05-18/google-codejam" class="left arrow"><strong>&#8592; Google Codejam 2018</strong></a>
+    </div>
+  
+  
+  <div class="right-pagination">
+    <a href="/pages/rishabmps/2018-05-05/lotw-4" class="right arrow"><strong>Links of the Week 5/5 &#8594;</strong></a>
+    </div>
+  
+  <a href="#" class="top"><strong>Top</strong></a>
+</div>
+<br>
+
+    
+
+
 
       
     </main>

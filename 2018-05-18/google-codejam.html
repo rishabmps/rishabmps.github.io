@@ -35,13 +35,15 @@ gtag('config', 'UA-79519182-3');
   <link type="application/atom+xml" rel="alternate" href="https://www.rishabhjain.me/pages/rishabmps/feed.xml" title="Cognitive Sciences" />
   <title>
   
-     - Cognitive Sciences
+    Google Codejam 2018 - Cognitive Sciences
   
   </title>
   <!-- CSS -->
   <link rel="stylesheet" href="/pages/rishabmps/assets/css/main.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   
+  
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_HTMLorMML' async></script>
   
   
   <!-- Favicon -->
@@ -50,16 +52,18 @@ gtag('config', 'UA-79519182-3');
   <link rel="apple-touch-icon" sizes="180x180" href="/pages/rishabmps/assets/apple-touch-icon.png">
   <!-- Begin Jekyll SEO tag v2.5.0 -->
 <meta name="generator" content="Jekyll v3.8.5" />
-<meta property="og:title" content="Cognitive Sciences" />
-<meta name="author" content="Rishabh Agarwal Jain" />
+<meta property="og:title" content="Google Codejam 2018" />
+<meta name="author" content="Landon" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Blog on recent advancements in AI/ML" />
-<meta property="og:description" content="Blog on recent advancements in AI/ML" />
-<link rel="canonical" href="https://www.rishabhjain.me/pages/rishabmps/404.html" />
-<meta property="og:url" content="https://www.rishabhjain.me/pages/rishabmps/404.html" />
+<meta name="description" content="I participated in Google Code Jam for the first time last year, making it through the first two rounds to the round of 3000. I looked at the problems in the round of 3000 last year, but didn’t happen to have time to actually make a good effort at solving any of them." />
+<meta property="og:description" content="I participated in Google Code Jam for the first time last year, making it through the first two rounds to the round of 3000. I looked at the problems in the round of 3000 last year, but didn’t happen to have time to actually make a good effort at solving any of them." />
+<link rel="canonical" href="https://www.rishabhjain.me/pages/rishabmps/2018-05-18/google-codejam" />
+<meta property="og:url" content="https://www.rishabhjain.me/pages/rishabmps/2018-05-18/google-codejam" />
 <meta property="og:site_name" content="Cognitive Sciences" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2018-05-18T00:00:00+00:00" />
 <script type="application/ld+json">
-{"description":"Blog on recent advancements in AI/ML","author":{"@type":"Person","name":"Rishabh Agarwal Jain"},"@type":"WebPage","url":"https://www.rishabhjain.me/pages/rishabmps/404.html","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://www.rishabhjain.me/pages/rishabmps/assets/apple-touch-icon.png"},"name":"Rishabh Agarwal Jain"},"headline":"Cognitive Sciences","@context":"http://schema.org"}</script>
+{"description":"I participated in Google Code Jam for the first time last year, making it through the first two rounds to the round of 3000. I looked at the problems in the round of 3000 last year, but didn’t happen to have time to actually make a good effort at solving any of them.","author":{"@type":"Person","name":"Landon"},"@type":"BlogPosting","url":"https://www.rishabhjain.me/pages/rishabmps/2018-05-18/google-codejam","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://www.rishabhjain.me/pages/rishabmps/assets/apple-touch-icon.png"},"name":"Landon"},"headline":"Google Codejam 2018","dateModified":"2018-05-18T00:00:00+00:00","datePublished":"2018-05-18T00:00:00+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.rishabhjain.me/pages/rishabmps/2018-05-18/google-codejam"},"@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 </head>
@@ -82,10 +86,96 @@ gtag('config', 'UA-79519182-3');
     </nav>
 
     <main>
-      <h1>
-OOPS...
-NOTHING here.
-</h1>
+      <div class="post">
+    <div class="post-info">
+        
+            <time datetime="2018-05-18 00:00:00 +0000">May 18, 2018</time>
+        
+    </div>
+    <h1 class="post-title">Google Codejam 2018</h1>
+    
+    <div class="post-line" style="width: 9rem;"></div>
+    
+    
+    
+        <div class="tags tags_top">
+            <div class="tags_values">
+                <strong>Tags:</strong>
+                
+                    <a href="/pages/rishabmps/tags#thoughts" class="tag">&#35;thoughts</a>
+                
+            </div>
+            
+        </div>
+        <br>
+    
+    <div class="post-content">
+        <p>I participated in Google Code Jam for the first time last year, making it through the first two rounds to the round of 3000. I looked at the problems in the round of 3000 last year, but didn’t happen to have time to actually make a good effort at solving any of them.</p>
+
+<p>This year I’m competing again, and writing this post as I go along. Once again, I’m not super invested in the competition, but I’d like to at least match last year’s result.</p>
+
+<h2 id="qualification-round-drafted-4718">Qualification Round (drafted 4/7/18)</h2>
+
+<p>I glanced at the problems Friday night shortly after the release, but then got distracted playing a game of <em>Werewords</em> with my roommates and finishing reading <em>Ready Player One</em>. On Saturday morning, I woke up early and looked at the problems again, intending to get enough points in the morning to guarantee moving on. I opened Cubic UFO first and started drawing some things out. I pretty quickly worked out the geometry as either a rectangle or a hexagon. The rectangle covered cases for \(A \leq \sqrt{2} \), and the hexagon covered larger cases. I worked out the specifics of the geometry after a half hour of struggling to remember how trig works, and coded up a quick binary search numerical solver, determining that binary search would be fast enough for the input spec. Unfortunately, the server was experiencing high load, and wouldn’t accept my answer before I had to head out for the day. Edit: Turns out that my solution for the hexagon case was wrong - I probably swapped a sign somewhere on accident.</p>
+
+<p>I came back later in the day to find that my answer had <em>not</em> been accepted, and with very little to debug with, I decided to just do the first two problems and call it a day. Saving The Universe Again I quickly worked out a bucket system, where each shot was in a certain power bucket. The President could swap commands to move a shot down one bucket, halving its power. After that realization, the coding was a straightforward greedy simulation. When submitting that problem, I realized that my output line for Cubic UFO had been missing a colon after copying it over for the new problem, so I fixed that and resubmitted Cubic UFO. Since the server had been fixed, both solutions went through and were marked correct.</p>
+
+<p>Now that the server was working again, I decided to go ahead and finish up the remaining two problems. I pretty quickly realized that Trouble Sort was flawed because it could not change the parity of any element, and coded up a solution with a dictionary of <code class="highlighter-rouge">{element value -&gt; (count_even, count_odd)}</code>, which then subtracted from the same dictionary after sorting. The first time a count went negative on the second pass was the problem element. This isn’t exactly what the problem was asking for, but as it turns out, the two are equivalent. I didn’t even realize until reading over the problem again to write this blog post. Go figure.</p>
+
+<p>For the final problem, Go, Gopher!, I decided that a clever predictive algorithm probably wasn’t necessary (or if it was, I didn’t care enough to code it). I started by squaring off the area into a low-aspect-ratio rectangle (in retrospect, I could have hard-coded 5x4 and 15x14). I first approached with an algorithm that would calculate the “expected value” of each interior cell of my target rectangle, then realized that I could carry this information over for each step, so I refactored to keep track of the expected value of each cell, commanding the gopher to dig at the best cell. This turned out to work just fine on pretty much the first try (modulo syntax errors and off-by-one errors), completing the contest. Final “actual time” per problem: it was about 55, 15, 15, and 30 mins for Cubic UFO, Saving The Universe Again, Trouble Sort, and Go, Gopher!, respectively. I felt pretty rusty at the beginning, but was feeling better by the end. Total score: 79/100, and an easy qualification to Round 1.</p>
+
+<h2 id="round-1-completed-51818">Round 1 (completed 5/18/18)</h2>
+
+<p>I was busy during round 1A, traveling to NYC for a weekend trip.</p>
+
+<p>During 1B, I started by coding Rounding Error, submitting a bit less than an hour into the contest. Reading the analysis, I definitely solved the full problem correctly, including the greedy approach. Unfortunately, my implementation had some sort of bug, or perhaps I missed a corner case. Anyway, didn’t get it. I looked for the bug for about 10 minutes before deciding to move on.</p>
+
+<p>Mysterious Road Signs looked pretty difficult for the amount of points it was worth, so I decided to skip it and look at Transmutation. I decided that I would just attempt Test set 1 with a naive approach, and coded that up in about an hour, submitting at 1:41 out of 2:30. Unfortunately, my implementation for this problem <em>also</em> had a bug.</p>
+
+<p>At that point, I decided I didn’t quite care enough to debug - both my solution to Rounding Error and Transmutation passed all of the test cases I gave them, so I would have to try to hunt down some corner case that I was missing, which didn’t sound fun. I got 0 points, and didn’t advance.</p>
+
+<p>And then round 1C started at like 5am, which definitely wasn’t worth waking up for.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>Turns out, I’m pretty rusty at coding - I’ve barely done any coding since the end of my internship last year, and none under any sort of time pressure (even loose time constraints like the assignment being due the next day). The problems were pretty interesting to look at though, and kept me at least a little sharp. It’ll be interesting to attempt it again next year after coding full-time for 8 months. Hopefully I’ll do better then? Maybe I’ll even practice a bit :P</p>
+
+<p>As always, thanks for reading!</p>
+
+    </div>
+</div>
+
+    <hr style="background-color: #829ec0;display: block;height: 2px;/* border: 0; */border-top: 1px solid;margin: 1em 0;padding: 0;">
+    <div class="tags tags_bottom">
+        <strong>Tags:</strong>
+        
+            <a href="/pages/rishabmps/tags#thoughts" class="tag">&#35;thoughts</a>
+        
+    </div>
+    <hr style="background-color: #829ec0;display: block;height: 2px;border: 0;border-top: 1px solid;margin: 1em 0;padding: 0;"  >
+
+<br>
+<div class="pagination">
+  
+  <div class="left-pagination">
+    <a href="/pages/rishabmps/2018-05-18/lotw-5" class="left arrow"><strong>&#8592; Links of the Week 5/18</strong></a>
+    </div>
+  
+  
+  <div class="right-pagination">
+    <a href="/pages/rishabmps/2018-05-09/site-improvements" class="right arrow"><strong>Jekyll Site Improvements &#8594;</strong></a>
+    </div>
+  
+  <a href="#" class="top"><strong>Top</strong></a>
+</div>
+<br>
+
+    
+
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+
 
       
     </main>
