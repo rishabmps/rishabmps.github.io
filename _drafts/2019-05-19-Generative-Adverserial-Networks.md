@@ -4,7 +4,7 @@ title: "Generative Adversarial Networks"
 author: "Rishabh Agarwal Jain"
 tags:
 - GANs
-image: "/assets/img/thumbnail/2018-06-18-seattle-trip-4_thumb_800.jpg"
+image: "/assets/img/thumbnail/saddle_min.jpg"
 gallery: true
 comments: true
 share: true
@@ -53,6 +53,5 @@ For a value function Fn, the generator would like to minimize it, and the discri
 ![Discriminator Maximum]({{ "/assets/img/thumbnail/saddle_max.jpg" | absolute_url }} "Saddle Point for generator" ){:height="50%" width="75%"}_Maximum with respect to the discriminator_
 
 
-
-If both networks are big enough, then equilibrium can be reached. But, practically it is a daunting task, and more often then not, convergence is not achieved. Hence, designing an algorithm for finding the equilibrium of GAN involving high dimensional continuous cost function is still a niche research problem.
+If both networks are big enough, then equilibrium can be reached. However, practically it is a daunting task, and more often then not, convergence is not achieved. Hence, designing an algorithm for finding the equilibrium of GAN involving high dimensional continuous cost function is still a niche research problem.
 
