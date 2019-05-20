@@ -35,13 +35,15 @@ gtag('config', 'UA-79519182-3');
   <link type="application/atom+xml" rel="alternate" href="https://www.rishabhjain.me/pages/rishabmps/feed.xml" title="Cognitive Sciences" />
   <title>
   
-     - Cognitive Sciences
+    MEng Thesis - Cognitive Sciences
   
   </title>
   <!-- CSS -->
   <link rel="stylesheet" href="/pages/rishabmps/assets/css/main.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   
+  
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_HTMLorMML' async></script>
   
   
   <!-- Favicon -->
@@ -50,16 +52,18 @@ gtag('config', 'UA-79519182-3');
   <link rel="apple-touch-icon" sizes="180x180" href="/pages/rishabmps/assets/apple-touch-icon.png">
   <!-- Begin Jekyll SEO tag v2.5.0 -->
 <meta name="generator" content="Jekyll v3.8.5" />
-<meta property="og:title" content="Cognitive Sciences" />
-<meta name="author" content="Rishabh Agarwal Jain" />
+<meta property="og:title" content="MEng Thesis" />
+<meta name="author" content="Landon" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Blog on recent advancements in AI/ML" />
-<meta property="og:description" content="Blog on recent advancements in AI/ML" />
-<link rel="canonical" href="https://www.rishabhjain.me/pages/rishabmps/404.html" />
-<meta property="og:url" content="https://www.rishabhjain.me/pages/rishabmps/404.html" />
+<meta name="description" content="Last week, I finished up my MEng thesis and turned it in, which was my last task to accomplish before graduating, again. I’ve added it to my projects page." />
+<meta property="og:description" content="Last week, I finished up my MEng thesis and turned it in, which was my last task to accomplish before graduating, again. I’ve added it to my projects page." />
+<link rel="canonical" href="https://www.rishabhjain.me/pages/rishabmps/2018-06-02/meng-thesis" />
+<meta property="og:url" content="https://www.rishabhjain.me/pages/rishabmps/2018-06-02/meng-thesis" />
 <meta property="og:site_name" content="Cognitive Sciences" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2018-06-02T00:00:00+00:00" />
 <script type="application/ld+json">
-{"description":"Blog on recent advancements in AI/ML","author":{"@type":"Person","name":"Rishabh Agarwal Jain"},"@type":"WebPage","url":"https://www.rishabhjain.me/pages/rishabmps/404.html","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://www.rishabhjain.me/pages/rishabmps/assets/apple-touch-icon.png"},"name":"Rishabh Agarwal Jain"},"headline":"Cognitive Sciences","@context":"http://schema.org"}</script>
+{"description":"Last week, I finished up my MEng thesis and turned it in, which was my last task to accomplish before graduating, again. I’ve added it to my projects page.","author":{"@type":"Person","name":"Landon"},"@type":"BlogPosting","url":"https://www.rishabhjain.me/pages/rishabmps/2018-06-02/meng-thesis","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://www.rishabhjain.me/pages/rishabmps/assets/apple-touch-icon.png"},"name":"Landon"},"headline":"MEng Thesis","dateModified":"2018-06-02T00:00:00+00:00","datePublished":"2018-06-02T00:00:00+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.rishabhjain.me/pages/rishabmps/2018-06-02/meng-thesis"},"@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 </head>
@@ -82,10 +86,116 @@ gtag('config', 'UA-79519182-3');
     </nav>
 
     <main>
-      <h1>
-OOPS...
-NOTHING here.
-</h1>
+      <div class="post">
+    <div class="post-info">
+        
+            <time datetime="2018-06-02 00:00:00 +0000">June 02, 2018</time>
+        
+    </div>
+    <h1 class="post-title">MEng Thesis</h1>
+    
+    <div class="post-line" style="width: 9rem;"></div>
+    
+    
+    
+        <div class="tags tags_top">
+            <div class="tags_values">
+                <strong>Tags:</strong>
+                
+                    <a href="/pages/rishabmps/tags#thoughts" class="tag">&#35;thoughts</a>
+                
+            </div>
+            
+        </div>
+        <br>
+    
+    <div class="post-content">
+        <p>Last week, I finished up my MEng thesis and turned it in, which was my last task to accomplish before graduating, again. I’ve added it to my <a href="/pages/rishabmps/projects">projects</a> page.</p>
+
+<p>My thesis was titled “<a href="/assets/pdf/MIT_Thesis.pdf">Multi-Path Planning for Hydraulic Fluid Routing</a>,” and focused on a path-planning algorithm I started working on during a SuperUROP, designed to route hydraulic fluid pipes within a 3D printed robot. The algorithm is far more general than that though - it solves the circuit-routing problem, which has multiple paths routed through a common space without intersecting.</p>
+
+<h1 id="summary">Summary</h1>
+
+<p>As far as I can tell, there aren’t any other published exact solutions to the general circuit-routing problem, mostly because such a thing is not very useful in most scenarios - the problem is NP-Complete, so exact solutions are slow (probably, I never actually proved it, but variations are). Furthermore, exact solutions are very rarely useful - an approximate solution is usually good enough, and is much faster to compute. In the special case where \(z = 2\), topology-based algorithms are quite successful. This is particularly relevant for the problem’s namesake-circuit routing, especially on 2-layer PCBs.</p>
+
+<p>Nevertheless, it was an interesting problem to work on. The solution that I came up with was basically a series of nested graph searches - each path is planned independently using a variant of A*, then collisions between the paths are checked, then the outer “graph search” splits - when two paths intersect, at most one of them can use the node in question in the optimal solution, so two branches are created - one where one path can use the node, and one where the other path can use the node. The paths are then replanned with the new constraints, and the procedure repeats until an optimal solution is found. That’s just a rough overview - see the paper for more details.</p>
+
+<h1 id="lpa">LPA*</h1>
+
+<p>One cool thing that I found was this algorithm called “Lifelong Planning A*”, aka LPA*. This algorithm was developed by <a href="https://www.cs.cmu.edu/~maxim/files/aij04.pdf">Koenig et al in 2005</a>. This is a variant of A* which remembers the intermediate values and updates them intelligently when movement costs are updated (ie, when a node is marked as unusable in the outer graph search). This allows replans to be extremely fast, a key feature in the algorithm I developed.</p>
+
+<h1 id="optimizations">Optimizations</h1>
+
+<p>I managed to get the algorithm working last year, during my SuperUROP, but it was still fairly slow. For my MEng, I focused on speed improvements and benchmarking.</p>
+
+<h2 id="code-profiling">Code Profiling</h2>
+
+<p>I had a few theories about things that could be optimized in the code based on my own reasoning about the code, but the best way to figure out the actual steps to take to maximize the impact was to profile the code. I used <a href="https://docs.python.org/2/library/profile.html">cProfile</a> to profile the code and <a href="https://jiffyclub.github.io/snakeviz/">SnakeViz</a> to visualize it. This was amazingly easy to get working, and the visualizations were really pretty. You can (sorta) see the visualization <a href="/assets/other/meng-profiling/profiling_results.htm">here</a>, but this is just a saved copy of the webpage. Without snakeviz actually running and serving things correctly, the page misbehaves slightly. If you’d like to see them for real, just install SnakeViz and grab the profiling results from my <a href="https://github.com/lycarter/mpa-star">GitHub repo</a>.</p>
+
+<h2 id="priority-queue-optimization">Priority Queue Optimization</h2>
+
+<p>After profiling the code, I noticed that my priority queue implementation was very slow. I’d noted when I wrote it that the <code class="highlighter-rouge">remove</code> operation was just \(O(n)\), and that really showed. I investigated and implemented a number of other priority queue implementations, and wound up settling on wrapping <a href="http://www.grantjenks.com/docs/sortedcontainers/">SortedSets</a> from the Sorted Containers Python library. <a href="http://stromberg.dnsalias.org/~dstromberg/treap/">Treap</a>, also from PyPI, also performed quite well, but had a bit more overhead. Turns out Python lists are <em>really fast</em>.</p>
+
+<p>By optimizing the priority queue, I improved performance by about 70%.</p>
+
+<h2 id="caching-layer">Caching Layer</h2>
+
+<p>In certain scenarios, different branches of the outer graph search can converge to contain identical inner graph searches. Without a caching layer on inner graph searches, duplicate work will be done to solve both inner graph searches, so I added a caching layer. This turned out to be a bit difficult - chasing pointers in Python isn’t very intuitive, and I actually had some objects being duplicated that I didn’t want duplicated. I eventually solved that and finished adding the caching layer. The added benefit was a significantly reduced memory footprint, not that the algorithm tended to have an unwieldy memory footprint anyway.</p>
+
+<p>By adding the caching layer, I improved performance by an additional 50%.</p>
+
+<h1 id="conclusion">Conclusion</h1>
+
+<p>Frankly, I didn’t have as much time to work on this research or my thesis as I would have liked. I was busy <a href="/pages/rishabmps/2018-05-18/taing-009-744">TA’ing 2.009 and 2.744</a>, which meant the amount of time I had to dedicate to research was pretty small. With some more time, I probably would have reimplemented everything in Java, or even better, learned C++ and implemented it in that. Java especially would have made debugging the caching layer addition quite a bit easier - I had a hell of a time debugging that without type-checking. Either reimplementation probably would have improved performance by a healthy margin. Anyway, feel free to shoot me a message or pull request if there’s things you’re interested in.</p>
+
+<p>On the (very unlikely) chance that you need to reference this work, here’s the appropriate BibTeX citation (to be updated later with a <a href="https://dspace.mit.edu/">DSpace</a> link as well):</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@thesis{carter_2018,
+	place={Cambridge},
+	title={Multi-Path Planning for Hydraulic Fluid Routing},
+	url={https://www.lycarter.com/assets/pdf/MIT_Thesis.pdf},
+	school={MIT},
+	author={Carter, Landon Y},
+	year={2018}
+}
+</code></pre></div></div>
+
+<p>Thanks for reading! :)</p>
+
+    </div>
+</div>
+
+    <hr style="background-color: #829ec0;display: block;height: 2px;/* border: 0; */border-top: 1px solid;margin: 1em 0;padding: 0;">
+    <div class="tags tags_bottom">
+        <strong>Tags:</strong>
+        
+            <a href="/pages/rishabmps/tags#thoughts" class="tag">&#35;thoughts</a>
+        
+    </div>
+    <hr style="background-color: #829ec0;display: block;height: 2px;border: 0;border-top: 1px solid;margin: 1em 0;padding: 0;"  >
+
+<br>
+<div class="pagination">
+  
+  <div class="left-pagination">
+    <a href="/pages/rishabmps/2018-06-04/ramen" class="left arrow"><strong>&#8592; Ramen</strong></a>
+    </div>
+  
+  
+  <div class="right-pagination">
+    <a href="/pages/rishabmps/2018-05-18/taing-009-744" class="right arrow"><strong>TA'ing 2.009 and 2.744 &#8594;</strong></a>
+    </div>
+  
+  <a href="#" class="top"><strong>Top</strong></a>
+</div>
+<br>
+
+    
+
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+
 
       
     </main>

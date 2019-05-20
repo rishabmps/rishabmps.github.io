@@ -1,0 +1,1026 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://www.rishabhjain.me/pages/rishabmps/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.rishabhjain.me/pages/rishabmps/" rel="alternate" type="text/html" /><updated>2019-05-20T21:29:22+00:00</updated><id>https://www.rishabhjain.me/pages/rishabmps/feed.xml</id><title type="html">Cognitive Sciences</title><subtitle>Blog on recent advancements in AI/ML</subtitle><author><name>Rishabh Agarwal Jain</name><email>rishab.mps@gmail.com</email></author><entry><title type="html">Links of the Week 6/21</title><link href="https://www.rishabhjain.me/pages/rishabmps/2018-06-21/lotw-7" rel="alternate" type="text/html" title="Links of the Week 6/21" /><published>2018-06-21T00:00:00+00:00</published><updated>2018-06-21T00:00:00+00:00</updated><id>https://www.rishabhjain.me/pages/rishabmps/2018-06-21/lotw-7</id><content type="html" xml:base="https://www.rishabhjain.me/pages/rishabmps/2018-06-21/lotw-7">&lt;p&gt;I’m still traveling, but I’ve got an hour and a half to kill in a coffee shop, so it’s back at it for links of the week!&lt;/p&gt;
+
+&lt;p&gt;In spirit of my recent trip to Seattle, here’s a &lt;a href=&quot;https://www.youtube.com/watch?v=ouRjOcO6-bA&quot;&gt;video&lt;/a&gt; on how 3M tape was used to build MoPOP (and presumably also Stata and a number of Gehry’s other buildings)&lt;/p&gt;
+
+&lt;h2 id=&quot;photography&quot;&gt;Photography&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.japancamerahunter.com/2018/06/film-news-cinestill-release-developer-fix-bw-monobath/&quot;&gt;CineStill Developer + Fix Monobath&lt;/a&gt;: A monobath solution is pretty cool - I probably wouldn’t be inclined to use it for developing film in TNQ’s darkroom, because you don’t get control over the exact development time, and it seems more temperature-sensitive, but this would be a great solution for a small apartment when you don’t want to have lots of different bottles of chemicals. It’d be great for very small-batch film development.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://nikonrumors.com/2018/06/15/new-reports-indicate-that-the-nikon-d850-sensor-imx309aqj-is-made-by-sony.aspx/&quot;&gt;D850 Sensor made by Sony&lt;/a&gt;: I seem to remember that Nikon had touted designing the D850 sensor (and indeed, maybe they collaborated on the design).&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=QChWIFi8fOY&quot;&gt;Breakdown of David Fincher films&lt;/a&gt;: This is a really interesting video detailing some CG effects used in Fincher films, and I didn’t quite realize that Fincher was the common link between these films I’ve seen.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=5osSJD8fvM0&quot;&gt;Thomas Heaton Q&amp;amp;A&lt;/a&gt;: Thomas Heaton is a Youtube photographer that’s exploded in popularity over the past year or two. I caught him when he first went viral and was getting ~20k views/video, but recently his videos have really blended together. This one stood out and included some really good, frank advice.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.instagram.com/p/BkB1T-lAQWV/?taken-by=nite0wlz&quot;&gt;Chicago Train GIF&lt;/a&gt;: While figuring out how to do the effect for two photos in my &lt;a href=&quot;/pages/rishabmps/2018-06-18/seattle-trip&quot;&gt;Chicago Trip Report&lt;/a&gt;, I stumbled upon this, and thought it was really beautiful. I don’t love the music choice, I would have gone with a soundscape of train and water noises with some distant city noises to enhance the isolation effect.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.worldofindie.co.uk/?p=682&quot;&gt;Early satellite moon photos were better than published&lt;/a&gt;: The US used aerial cameras developed for spy work during the cold war to photograph the moon from satellites, but in order not to tip off the USSR/World how good the tech was, moon photos were published with artifacts added and detail removed. The satellites exposed film, developed it, and scanned it to send back to Earth in near-real-time (some dozens of minutes delay, probably).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;software&quot;&gt;Software&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://about.gitlab.com/2018/06/15/introducing-gitlab-s-integrated-development-environment/&quot;&gt;Gitlab Web IDE&lt;/a&gt;: Gitlab gained a huge amount of publicity and projects following Microsoft purchasing Github, and it seems really cool. Comments from one of the various Hacker News thread were pretty on point though - Gitlab is what happens when you want &lt;em&gt;every&lt;/em&gt; feature, and it has a ton of features, but Github had a much more focused user interface. For Gitlab’s web IDE, I’d be curious how much of an IDE it is, vs just a text editor with syntax highlighting.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/roboyoshi/datacurator-filetree/tree/wip/root&quot;&gt;Data Curator’s Filetree&lt;/a&gt;: Via &lt;a href=&quot;http://reddit.com/r/datacurator&quot;&gt;r/datacurator&lt;/a&gt;, this is a directory structure that’s designed to be easily browseable, never degrade, etc. I use something very similar for my photo library, and it’s survived 12 years and 5 computers with no file loss and only minimal metadata degradation (mostly from the time period before I used Lightroom). Perhaps most importantly, &lt;code class=&quot;highlighter-rouge&quot;&gt;tree -L 4 -N --charset=UTF8&lt;/code&gt; is a Linux oneliner I should memorize and use more often.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.blog.google/products/hire/say-hello-to-the-new-hire-a-smarter-faster-way-to-recruit-by-google/&quot;&gt;Hire, by Google&lt;/a&gt;: One of my friends is on this team and shared it, but it’s a Google product that I’d bet anything started as an internal product because Google has just that ridiculous of a scale.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.infoq.com/news/2018/06/JavaValuesJun18&quot;&gt;Java Value Types&lt;/a&gt;: Java’s types are extremely powerful and can be somewhat confusing. This proposal is to introduce a third type which is more similar to C++’s structs, in that to some extent, memory layout can be directly controlled (and thus, directly manipulated). On the other hand, it’s a ridiculously pedantic discussion that only Java devs care about, when viewed from the outside.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://dev.stephendiehl.com/hask/&quot;&gt;What I wish I knew when learning Haskell&lt;/a&gt;: Via &lt;a href=&quot;http://rebecca.li/&quot;&gt;rmli&lt;/a&gt;, who’s encouraging me to play around with Haskell. I may try to write a CSG renderer in Haskell as a nice little project…&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://nanxiao.me/en/learn-new-technology-through-writing-a-tutorial-about-it/&quot;&gt;Learn something by writing a tutorial&lt;/a&gt;: The idea of documenting a process as you learn it or do it for the first time is an interesting one. It can lead to errors along the lines of “figured out a way to do something and documented it, but it’s actually bad practice and you should do it some other way”. That said, documentation was one of the reasons I started this blog, so it is definitely useful.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;tech-hardware&quot;&gt;(Tech) Hardware&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://aloiskraus.wordpress.com/2018/06/16/why-skylakex-cpus-are-sometimes-50-slower-how-intel-has-broken-existing-code/&quot;&gt;Skylake CPU architecture change for pause&lt;/a&gt;: Basically, &lt;code class=&quot;highlighter-rouge&quot;&gt;pause&lt;/code&gt; changed from about 10 cycles to around 140 cycles in a subsequent generation of Intel server CPU architecture, which made some existing code run a lot slower.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.engadget.com/amp/2018/06/18/astra-arm-supercomputer/&quot;&gt;ARM supercomputer used by Sandia National Lab&lt;/a&gt;: Sandia’s getting a new supercomputer present, which focuses on memory bandwidth - useful for applications with a high memory to CPU speed requirement ratio (in comparison with many supercomputers that focus more on pure petaflops). There’s definitely a wide variety of applications, and it’s good to see specialization. General CPU architectures are nice to develop on, but aren’t well-suited for performance-optimized workloads. The energy/size/complexity cost vs economies of scale need to be evaluated for all applications, and a stronger optimization and specialization indicates that CPU design and fab is becoming less of a process that requires significant economies of scale.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=ljOoGyCso8s&quot;&gt;Scottie tours PCB factory&lt;/a&gt;: Scottie from &lt;a href=&quot;https://www.youtube.com/channel/UCO8DQrSp5yEP937qNqTooOw&quot;&gt;Strange Parts&lt;/a&gt; tours a Chinese PCB fab, and covers the process. Chinese PCB fabs are one of the greatest successes of modern manufacturing, in my mind - totally custom boards in very small quantities in under 24 hours of manufacturing, shipped to you in the US in 3 days - order Thursday night, receive Monday morning.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;mecheother-hardware&quot;&gt;(MechE/Other) Hardware&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.popsci.com/world-cup-ball-design&quot;&gt;World Cup Ball Design&lt;/a&gt;: I remember a popsci article about the Jabulani (2010 World Cup ball), spouting off about how round it was due to fewer panels, and then subsequently reading a large amount of criticism about how it didn’t fly straight and was difficult to use. As a former baseball pitcher, the thought of the ball seams changing year to year is absolutely incomprehensible. Pitchers get very precise control over the pitch path and speed based on the grip and wrist twist applied when pitching, and good batters will be able to see the seams and ball spin to evaluate a pitch, noticing before the ball starts moving that it’s a fastball, changeup, knuckle, or curveball.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.seattletimes.com/business/boeing-aerospace/troublesome-advanced-engines-for-boeing-and-airbus-jets-disrupt-airlines-and-production-lines/&quot;&gt;Airbus + Boeing latest generation engine issues&lt;/a&gt;: This is a really interesting and comprehensive article about some of the issues facing latest-generation jet engines by Rolls-Royce and Pratt &amp;amp; Whitney, supplied for Boeing and Airbus. This is particularly interesting for me, too, because Airbus is one of Palantir’s &lt;a href=&quot;http://www.airbus.com/newsroom/press-releases/en/2017/06/airbus-launches-new-open-aviation-data-platform--skywise--to-sup.html&quot;&gt;largest corporate customers&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.baldengineer.com/six-oscilloscope-measurements-using-arduino.html&quot;&gt;Learning how to use an Oscilloscope with an Arduino&lt;/a&gt;: This, to me, is actually more interesting as a way to figure out how slow Arduinos are.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;entertainmentsocial-of-interest&quot;&gt;Entertainment/Social of-interest&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.vulture.com/2018/06/how-netflix-swallowed-tv-industry.html&quot;&gt;Netflix History + Prospectus-ish&lt;/a&gt;: A good history of Netflix with lots of cool examples of how they operate and make decisions.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=gmIwxqdwgrI&quot;&gt;Owning a Ramen Restaurant in Japan&lt;/a&gt;: A cute micro-documentary on a ramen restaurant owner in Japan.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.newyorker.com/magazine/2018/06/18/omakase&quot;&gt;Omakase: On Race &amp;amp; Yellow Fever&lt;/a&gt;: This was shared by a friend of mine, and resonates with me quite well. It reminds me a bit of &lt;em&gt;Battle Hymn of the Tiger Mother&lt;/em&gt;, which also resonated with me. This might deserve a post of its own, but I resonate a lot with the general feelings of wanting to fit in, go with the flow, of wanting to be successful, of having parents who gave so much of their lives to me in an effort to ensure I could be successful, and etc. In many ways, I identify with the viewpoint of the woman in this article more than the man, in the sense of trying to not cause disturbance, though not the colorations borne of facing the discrimination of being an Asian woman.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=iOntet85kBw&quot;&gt;Yappie, Ep 1&lt;/a&gt;: I’ve followed WongFu very closely for years, and this new series takes a look at some issues facing many young Americans: “safe” and “secure” vs “caring” and “doing something more”. Yappie seems poised to focus specifically on aspects of these issues most pertinent to Asian-Americans, but the underlying themes are universal - is it wrong to desire safety and security in life, rather than striving to actively improve the world? Is it wrong to disregard job security in order to pursue something “more meaningful”? Is it possible to do both? Since Phil wrote it, it’s likely to be a bit heavy-handed, but impressions from the first episode were good. (To date, my longstanding favorite WongFu production is &lt;a href=&quot;https://www.youtube.com/watch?v=VSkYbgxl93Y&quot;&gt;Shell&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.reddit.com/r/videos/comments/8rke8i/jim_jefferies_explaining_how_he_dealt_with_his/?st=jihv37z8&amp;amp;sh=70cdd376&quot;&gt;Vaccinations and comedy&lt;/a&gt;: Get vaccinated, kids.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;As always, thanks for reading! :)&lt;/p&gt;</content><author><name>Landon</name></author><category term="LOTW" /><summary type="html">I’m still traveling, but I’ve got an hour and a half to kill in a coffee shop, so it’s back at it for links of the week!</summary></entry><entry><title type="html">Seattle is Saturated</title><link href="https://www.rishabhjain.me/pages/rishabmps/2018-06-18/seattle-trip" rel="alternate" type="text/html" title="Seattle is Saturated" /><published>2018-06-18T00:00:00+00:00</published><updated>2018-06-18T00:00:00+00:00</updated><id>https://www.rishabhjain.me/pages/rishabmps/2018-06-18/seattle-trip</id><content type="html" xml:base="https://www.rishabhjain.me/pages/rishabmps/2018-06-18/seattle-trip">&lt;p&gt;After graduation, I wanted to go travel a bit, and especially visit some friends on the west coast that I haven’t seen for a while, and probably won’t get to see for a little while. Hunter has been working in Seattle and is moving back to Boston soon, so it was also a good opportunity to visit her before she moved.&lt;/p&gt;
+
+&lt;p&gt;I arrived Thursday night, with an excellent view on the approach in to SeaTac.&lt;/p&gt;
+
+&lt;div class=&quot;gallery&quot;&gt;
+&lt;figure name=&quot;1&quot; alt=&quot;views from plane&quot; caption=&quot;The approach into SeaTac was one of the best I've seen, excellent views of Mt. Rainier and the surrounding landscape.&quot;&gt;&lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Since I’d just flown from the east coast, I was about 3 hours ahead, and woke up early Friday morning. Hunter went off to work and I headed towards Seattle Center, to see the Space Needle and some nearby attractions, which most notably included the Museum of Popular Culture, a beautiful Frank Gehry building that photographed well from every single angle.&lt;/p&gt;
+
+&lt;p class=&quot;tiny&quot;&gt;&lt;del&gt;Here's where I wish I had some sort of gallery feature, instead just have a wall of photos...&lt;/del&gt; Edit 6/27/18: now have a gallery!&lt;/p&gt;
+
+&lt;div class=&quot;gallery&quot;&gt;
+&lt;figure name=&quot;4&quot; alt=&quot;classic Space Needle photo&quot; caption=&quot;The classic view of the Space Needle with a beautiful blue sky background. The whole Seattle Center area felt like Tomorrowland, from Disney World, but less fake. It was extremely geometric and saturated.&quot;&gt;&lt;/figure&gt;
+
+&lt;figure name=&quot;6&quot; alt=&quot;views from Space Needle&quot; caption=&quot;An excellent view of the Puget Sound from the top of the Space Needle.&quot;&gt;&lt;/figure&gt;
+
+&lt;figure name=&quot;5&quot; alt=&quot;recent upgrades improved the view&quot; caption=&quot;Although parts of the Space Needle were still being renovated (and thus had almost no views of Downtown Seattle), the renovations were to replace the glass and drastically improve the view.&quot;&gt;&lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Heading to this area was definitely best done in the early morning. I arrived around 9, and there weren’t many people around. By the time I’d gone down from the Space Needle and had wandered around for a bit, it was around 11, and starting to get pretty crowded.&lt;/p&gt;
+
+&lt;div class=&quot;gallery&quot;&gt;
+&lt;figure name=&quot;7&quot; alt=&quot;mopop was beautiful from every angle&quot; caption=&quot;MoPOP, angle 1.&quot;&gt;&lt;/figure&gt;
+
+&lt;figure name=&quot;8&quot; alt=&quot;mopop was beautiful from every angle&quot; caption=&quot;MoPOP, angle 2.&quot;&gt;&lt;/figure&gt;
+
+&lt;figure name=&quot;9&quot; alt=&quot;mopop was beautiful from every angle&quot; caption=&quot;MoPOP, angle 3. Definitely resembled Tomorrowland with the monorail passing through it.&quot;&gt;&lt;/figure&gt;
+
+&lt;figure name=&quot;14&quot; alt=&quot;mopop was beautiful from every angle&quot; caption=&quot;MoPOP, angle 4.&quot;&gt;&lt;/figure&gt;
+
+&lt;figure name=&quot;15&quot; alt=&quot;mopop was beautiful from every angle&quot; caption=&quot;MoPOP, angle 5.&quot;&gt;&lt;/figure&gt;
+
+
+&lt;figure name=&quot;16&quot; alt=&quot;mopop was beautiful from every angle&quot; caption=&quot;MoPOP, angle 6.&quot;&gt;&lt;/figure&gt;
+
+
+&lt;figure name=&quot;17&quot; alt=&quot;mopop was beautiful from every angle&quot; caption=&quot;MoPOP, angle 7: This was almost exactly the angle of a Windows 7 desktop background.&quot;&gt;&lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;After walking around Seattle Center/MoPOP, I wandered towards the Olympic Sculpture Park, which continued with the trend of saturated and geometric shapes.&lt;/p&gt;
+
+&lt;div class=&quot;gallery&quot;&gt;
+&lt;figure name=&quot;10&quot; alt=&quot;seattle is hipster af&quot; caption=&quot;Wandering toward the Olympic Sculpture Park, I came across a new mural being painted on the side of a coffee shop - about as hipster as can be.&quot;&gt;&lt;/figure&gt;
+
+&lt;figure name=&quot;11&quot; alt=&quot;olympic sculpture park&quot; caption=&quot;The Olympic Sculpture Park was very peaceful in the morning, just a few people relaxing, and people riding bikes passing by.&quot;&gt;&lt;/figure&gt;
+
+&lt;figure name=&quot;12&quot; alt=&quot;olympic sculpture park&quot; caption=&quot;In the Olympic Sculpture Park, there was an area where you could climb down to the water level. There were some awesome textures with algae and rocks.&quot;&gt;&lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;After the Olympic Sculpture Park, I turned south and walked along the waterfront toward Pike Place, intending to meet up with Hunter for lunch. Pike’s Place was super vibrant, lots of cute little stores and coffee shops and bars and restaurants. I could definitely have stayed there and explored more, and it seemed like the place to be on a Friday or Saturday night.&lt;/p&gt;
+
+&lt;div class=&quot;gallery&quot;&gt;
+&lt;figure name=&quot;13&quot; alt=&quot;pike place&quot; caption=&quot;Wandering through Pike's Place seems to be the quintessential Seattle experience - hipster and vibrant (and surprisingly hilly).&quot;&gt;&lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;I met up with Hunter for lunch and we went to a food court/restaurant place nearby and got some excellent pasta. We also caught the tail end of the Spain/Portugal game, which had an exciting conclusion, back and forth, with Ronaldo kicking in an equalizer at 88’, finishing the game in a 3-3 draw. In the afternoon, I went back to Seattle Center to actually go inside MoPOP. The Marvel exhibit was interesting, especially the original costumes and some of the original artwork for the comic books. The rest of the museum was a bit too music-centric for my taste.&lt;/p&gt;
+
+&lt;div class=&quot;gallery&quot;&gt;
+&lt;figure name=&quot;2&quot; alt=&quot;air guitar: please do not touch&quot; caption=&quot;MoPOP had a decent sense of humor, though the overall focus was definitely more music-skewed than my tastes.&quot;&gt;&lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;I stopped by &lt;a href=&quot;http://www.delaurenti.com/&quot;&gt;DeLaurenti&lt;/a&gt; in Pike Place per Hunter’s suggestion, a pretty nice organic/meat and cheese and wine type of store, and picked up some pasta and wine for dinner. I suggested making Pasta Aglio e Olio, the most popular &lt;a href=&quot;https://www.youtube.com/watch?v=bJUiWdM__Qw&quot;&gt;Binging with Babish&lt;/a&gt; episode, though I utterly failed at estimating the 1 tsp of red pepper flakes the recipe called for, and we instead wound up with a palate-cleansing level of spiciness. No photos of that, because I can do better another time and maybe make a proper post about it.&lt;/p&gt;
+
+&lt;div class=&quot;gallery&quot;&gt;
+&lt;figure name=&quot;3&quot; alt=&quot;sunset from Hunter's building&quot; caption=&quot;Hunter's building had an awesome view of the sunset from the roof, though I would have killed for a proper telephoto.&quot;&gt;&lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;That pretty much concluded Friday, which was an awesome day, and instantly upgraded Seattle to probably my favorite west coast city.&lt;/p&gt;
+
+&lt;p&gt;Saturday, we met up with a couple of friends that were in Seattle for the summer and hiked Rattlesnake Ledge, a ~5 mile round trip hike with excellent views. There were 3 tiers of lookout points - Rattlesnake Ledge, Middle Ledge, and Upper Ledge, with Rattlesnake Ledge being the largest and most popular. We stopped by each, and they each offered unique and excellent views. The climb was a little steep, with about 2k ft of climbing in just 2 miles, but otherwise was pretty easy. It was definitely best to arrive in the morning, as we saw an absolute zoo of cars when we left around noon.&lt;/p&gt;
+
+&lt;p class=&quot;tiny&quot;&gt;&lt;del&gt;Again this is about where I wish I had some sort of gallery feature...&lt;/del&gt; Edit 6/27/18: now have a gallery!&lt;/p&gt;
+
+&lt;div class=&quot;gallery&quot;&gt;
+&lt;figure name=&quot;18&quot; alt=&quot;view up Rattlesnake Ledge&quot; caption=&quot;The view up Rattlesnake Ledge.&quot;&gt;&lt;/figure&gt;
+
+&lt;figure name=&quot;19&quot; alt=&quot;Rattlesnake Ledge&quot; caption=&quot;The ledge itself had great views, but was fairly occupied.&quot;&gt;&lt;/figure&gt;
+
+&lt;figure name=&quot;20&quot; alt=&quot;view from Rattlesnake Ledge&quot; caption=&quot;The view from Rattlesnake Ledge.&quot;&gt;&lt;/figure&gt;
+
+&lt;figure name=&quot;21&quot; alt=&quot;view from Rattlesnake Ledge&quot; caption=&quot;The view from Rattlesnake Ledge.&quot;&gt;&lt;/figure&gt;
+
+&lt;figure name=&quot;22&quot; alt=&quot;view from Rattlesnake Ledge&quot; caption=&quot;The view from Rattlesnake Ledge.&quot;&gt;&lt;/figure&gt;
+
+&lt;figure name=&quot;23&quot; alt=&quot;Hunter on Middle Ledge&quot; caption=&quot;Hunter, on Middle Ledge.&quot;&gt;&lt;/figure&gt;
+
+&lt;figure name=&quot;24&quot; alt=&quot;view from Middle Ledge&quot; caption=&quot;The view from the Middle Ledge.&quot;&gt;&lt;/figure&gt;
+
+&lt;figure name=&quot;25&quot; alt=&quot;Kalyn taking photos&quot; caption=&quot;Kalyn was one of the bonus friends, taking photos of the view.&quot;&gt;&lt;/figure&gt;
+
+&lt;figure name=&quot;26&quot; alt=&quot;hiking crew&quot; caption=&quot;The full crew.&quot;&gt;&lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Saturday night, we went to &lt;a href=&quot;http://www.poppyseattle.com/&quot;&gt;Poppy&lt;/a&gt; for dinner, which had really interesting thali combinations. I didn’t take photos, because I’m not usually in to taking photos of dinners that I didn’t cook - dinner at a restaurant should be enjoyed for the experience, I think.&lt;/p&gt;
+
+&lt;p&gt;Sunday, we visited the Arboretum, which was very pretty in the early summer - everything was green and there were lots of flowers.&lt;/p&gt;
+
+&lt;div class=&quot;gallery&quot;&gt;
+&lt;figure name=&quot;28&quot; alt=&quot;stream in the Arboretum&quot; caption=&quot;Stream in the Japanese Gardens in the Arboretum.&quot;&gt;&lt;/figure&gt;
+
+&lt;figure name=&quot;29&quot; alt=&quot;lilies in the Arboretum&quot; caption=&quot;Lilies in the Japanese Garden section of the Arboretum. These really reminded me of Duke Gardens.&quot;&gt;&lt;/figure&gt;
+
+&lt;figure name=&quot;30&quot; alt=&quot;koi&quot; caption=&quot;Koi.&quot;&gt;&lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Sunday afternoon, we went to &lt;a href=&quot;https://www.seattletechnicalbooks.com/&quot;&gt;Ada’s Technical Bookstore&lt;/a&gt;, which had an amazing vibe, and super interesting selection of books. If I weren’t just visiting, I probably would have walked out with at least 3 books. Added to my list were:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Cooks-Science-Unlock-Favorite-Ingredients/dp/1940352452/ref=tmm_hrd_swatch_0?_encoding=UTF8&amp;amp;qid=&amp;amp;sr=&quot;&gt;Cook’s Science&lt;/a&gt;, a pretty cool looking cookbook with fairly technical descriptions.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Oldest-Living-Things-World/dp/022605750X/ref=tmm_hrd_swatch_0?_encoding=UTF8&amp;amp;qid=&amp;amp;sr=&quot;&gt;The Oldest Living Things in the World&lt;/a&gt;, a gorgeous coffee-table book of nature images.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/12-Bottle-Bar-Bottles-Cocktails/dp/076117494X/ref=tmm_pap_swatch_0?_encoding=UTF8&amp;amp;qid=&amp;amp;sr=&quot;&gt;The 12 Bottle Bar&lt;/a&gt;, a cocktail recipe book that used only 12 base ingredients (and had plenty of suggestions for if you just wanted to use 3-5 ingredients). I hardly drink, but cocktails offer a large variety of flavors and combinations that appeal to me.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Artemis-Novel-Andy-Weir-ebook/dp/B06Y55SB48/ref=sr_1_1?ie=UTF8&amp;amp;qid=1529360808&amp;amp;sr=8-1&quot;&gt;Artemis&lt;/a&gt;, a novel by author of &lt;em&gt;The Martian&lt;/em&gt; that I didn’t know existed.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Blackfish-City-Sam-J-Miller-ebook/dp/B071DSNY9G/ref=sr_1_1?ie=UTF8&amp;amp;qid=1529360817&amp;amp;sr=8-1&quot;&gt;Blackfish City&lt;/a&gt;, a dystopian city novel, which mostly caught my eye due to the interesting cover art (yes, yes, judge a cover by the book, etc).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Sunday evening, Hunter had a lamb burger recipe for us to try, with arugula, roasted bell peppers, and a mint/lime yogurt. It was excellent, the burgers were some of the best I’ve ever had.&lt;/p&gt;
+
+&lt;div class=&quot;gallery&quot;&gt;
+&lt;figure name=&quot;31&quot; alt=&quot;lamb burgers, pre-cooking&quot; caption=&quot;Lamb burgers, pre-cooking.&quot;&gt;&lt;/figure&gt;
+
+&lt;figure name=&quot;32&quot; alt=&quot;lamb burgers, assembled&quot; caption=&quot;Lamb burgers, fully assembled and delicious.&quot;&gt;&lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Monday, Hunter was at work again, so I explored the &lt;a href=&quot;https://www.starbucksreserve.com/&quot;&gt;Starbuck’s Roastery&lt;/a&gt; in the morning, and the &lt;a href=&quot;https://www.seattlespheres.com/&quot;&gt;Amazon Biospheres&lt;/a&gt; exhibit in the afternoon. I’m not a huge coffee fan, but I was promised that the roastery was interesting for its aesthetics and engineering, which definitely undersold it. It was super interesting to see all of the machines and hoppers and sensors, and they had a gigantic split-flap display, which is probably my favorite type of updateable signage. It also had some &lt;a href=&quot;https://www.miwe.eu/download/produktinformation_wenz1919_en.pdf&quot;&gt;insane ovens&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;gallery&quot;&gt;
+
+	&lt;figure name=&quot;2018-06-18-seattle-trip-41.gif&quot; alt=&quot;split-flap display at Starbucks roastery&quot; caption=&quot;_Massive split-flap display at the Starbucks Roastery showed information on the specialized roastings available.&quot;&gt;&lt;/figure&gt;
+
+	&lt;figure name=&quot;34&quot; alt=&quot;architecture drawing&quot; caption=&quot;There was a library section with architectural drawings and renderings of the space, very similar to what we might have draw in 2.744.&quot;&gt;&lt;/figure&gt;
+
+	&lt;figure name=&quot;35&quot; alt=&quot;matching hoppers&quot; caption=&quot;The matching hoppers in real life, with whimsical yet functional tubes for bean delivery.&quot;&gt;&lt;/figure&gt;
+
+	&lt;figure name=&quot;2018-06-18-seattle-trip-42.gif&quot; alt=&quot;bean chain conveyor&quot; caption=&quot;To transport the beans between hoppers, roasters, grinders, and other pieces of machinery, tubes with plungers connected by chain were used - the space between each set of plungers holds one bag worth of beans, and allows the beans to be transported in tubes in any orientation. Truly, Seattle's infinite coffee is an amazing sight.&quot;&gt;&lt;/figure&gt;
+
+&lt;figure name=&quot;37&quot; alt=&quot;fancy oven&quot; caption=&quot;The bakery inside had some of the most entertainingly over-the-top ovens I've seen: pure rustic, wood-fired look on the front, but actually ultra-sophisticated electronic controls, accessed from the side.&quot;&gt;&lt;/figure&gt;
+
+&lt;figure name=&quot;38&quot; alt=&quot;high tech controls&quot; caption=&quot;Super modern controls with very obviously custom software ran most of the roastery, but appropriately-dressed men with beards in jeans were present to add to the effect.&quot;&gt;&lt;/figure&gt;
+
+&lt;figure name=&quot;39&quot; alt=&quot;macarons&quot; caption=&quot;I stopped by another coffee shop on the way back, which had some amazing-looking macarons.&quot;&gt;&lt;/figure&gt;
+
+&lt;figure name=&quot;40&quot; alt=&quot;tea&quot; caption=&quot;I'm not much of a coffee guy, so I got tea at a coffee shop nearby after visiting the roastery.&quot;&gt;&lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Amazon Biospheres sadly wasn’t really available for public tours except by appointment on Saturdays, which I didn’t realize until planning my day Monday morning. They did have a small visitor’s center with some interactive videos about the space, the theory behind it, the construction, and other details. That was all pretty interesting - it looks like a really nice space to walk around (though I don’t think I could be productive there). It also didn’t look like it was being very heavily utilized (though, to be fair, it was near the end of the work day when I visited).&lt;/p&gt;
+
+&lt;p&gt;After Amazon Biospheres, I wandered around a bit more, then went up to University Village to grab dinner with another friend - we went to &lt;a href=&quot;http://sizzleandcrunch.com/&quot;&gt;Sizzle and Crunch&lt;/a&gt;, a perfectly passable Vietnamese Chipotle-style restaurant. There were also some awesome bike trails around that area, which I would have loved to ride if I’d had a bike with me.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;overall-thoughts&quot;&gt;Overall Thoughts&lt;/h2&gt;
+
+&lt;p&gt;This was my first time visiting Seattle, or the Pacific Northwest at all. Everything felt very green, both in the metaphorical sense of environmentalism and the literal sense of foliage. Seattle itself was hillier than I’d expected, but it was incredibly easy to get around via buses or light rail - the bus network was probably the most useful of any city I’ve been in. There was also a shocking abundance of rack-less bicycle shares, the bikes littered every corner. There were coffee shops everywhere, all sharing the bring-a-macbook-and-read-the-new-yorker vibe. The city was clean and the air was clear, though I also lucked out with a beautiful weekend of weather - sunny and low 70’s the whole time. Seattle has probably jumped to my #1 favorite west-coast city.&lt;/p&gt;
+
+&lt;div class=&quot;gallery&quot;&gt;
+&lt;figure name=&quot;27&quot; alt=&quot;hunter is an excellent host&quot; caption=&quot;Hunter was a lovely host - thanks for hanging out with me and showing me around Seattle!&quot;&gt;&lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Thanks Hunter for hosting me, and thanks for reading :)&lt;/p&gt;</content><author><name>Landon</name></author><category term="travel" /><summary type="html">After graduation, I wanted to go travel a bit, and especially visit some friends on the west coast that I haven’t seen for a while, and probably won’t get to see for a little while. Hunter has been working in Seattle and is moving back to Boston soon, so it was also a good opportunity to visit her before she moved.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.rishabhjain.me/pages/rishabmps/assets/img/thumbnail/2018-06-18-seattle-trip-4_thumb_800.jpg" /></entry><entry><title type="html">Links of the Week 6/12</title><link href="https://www.rishabhjain.me/pages/rishabmps/2018-06-12/lotw-6" rel="alternate" type="text/html" title="Links of the Week 6/12" /><published>2018-06-12T00:00:00+00:00</published><updated>2018-06-12T00:00:00+00:00</updated><id>https://www.rishabhjain.me/pages/rishabmps/2018-06-12/lotw-6</id><content type="html" xml:base="https://www.rishabhjain.me/pages/rishabmps/2018-06-12/lotw-6">&lt;p&gt;As soon as I called it an almost-regular series, I got busy with final presentations, thesis, graduation, and moving things, but Links of the Week is back! Except this time it’s for like 3 weeks of material. This might wind up a bit long.&lt;/p&gt;
+
+&lt;h2 id=&quot;gdpr&quot;&gt;GDPR&lt;/h2&gt;
+&lt;p&gt;The time period this post covers includes when GDPR was rolling out and everyone got 12 billion emails from services they didn’t even know had their email.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/tsengineering/the-gdpr-blog-post-9a571b13079d&quot;&gt;Touch Surgery introspection&lt;/a&gt;: A Medium post about how GDPR has made a small-ish startup more aware of its users and assumptions they were making. It’s a bit self-congratulatory, but does a decent job of explaining why GDPR is a good thing.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.bloombergquint.com/business/2018/05/25/blocking-500-million-users-is-easier-than-complying-with-gdpr#gs.3w_eFcU&quot;&gt;Blocking all of Europe&lt;/a&gt;: Another approach to compliance is just to completely block all European users. That’s an amusing response, considering the 2 years where solutions could have been implemented.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/internetofshit/status/999619364541394944&quot;&gt;Smart Appliances that probably shouldn’t be smart&lt;/a&gt;: In this episode: lights! Why do your lights need your email address? Who knows!&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/varjag/status/998496423019778048&quot;&gt;Smart Appliances that probably shouldn’t be smart&lt;/a&gt;: The chilling sequel (ba-dum-tsh), fridges also seriously shouldn’t need your email.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;roboticshardware&quot;&gt;Robotics/Hardware&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://hackaday.com/2018/05/31/modular-robotics-made-easier-with-ros/&quot;&gt;ROS&lt;/a&gt;: Robot Operating System, or ROS, is a tool I used very briefly for a UROP, but which I never really got comfortable with. It’s a really good framework for distributed computing and distributed sensors. I could imagine using it as a foundation for local IOT sensor networks.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://hackaday.com/2018/05/28/talking-to-laptop-batteries-with-the-esp8266/&quot;&gt;Laptop Batteries + MQTT&lt;/a&gt;: Though the article is mostly about interfacing with laptop batteries, the brief mention of MQTT is interesting - it’s a messaging protocol for IOT devices, designed to be very lightweight and tolerant of poor bandwidth.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=y44_xMFsPQQ&quot;&gt;Rotational Rectifier&lt;/a&gt;: An interesting mechanism, and an interesting book reference.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=K4zFefh5T-8&quot;&gt;Aerospike Engines&lt;/a&gt;: A slightly different rocket engine design that’s somewhat more efficient at the expense of some complexity, but mostly lack of development.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://hackaday.io/project/143014-compact-25-spectrometer/details&quot;&gt;Compact PCB Spectrometer&lt;/a&gt;: This looks like a great detector to toss on the end of a cheap DIY GC/HPLC.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://hackaday.com/2015/07/18/tracking-nearly-every-aircraft-with-a-raspberry-pi/&quot;&gt;Tracking airplanes for FlightAware&lt;/a&gt;: Hackaday publishes a lot of articles on SDR (Software Defined Radio), and radio seems like a cool thing to play around with - it was definitely the domain of the OG hackers, before there were PC’s and 3D printers.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.reddit.com/r/woodworking/comments/8m1ik2/hickory_all_hard_wood_stair_me_and_the_boss_built/?st=jhm4filn&amp;amp;sh=ef17e399&quot;&gt;Crazy beautiful wooden staircase&lt;/a&gt;: This is the most beautiful bent wood construction I’ve ever seen. I don’t want to know how much it cost.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;software&quot;&gt;Software&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.benfrederickson.com/python-as-a-declarative-programming-language/&quot;&gt;Python as a Declarative Language&lt;/a&gt;: Basically, use Python to describe the function of a program at a very high level, but use C++ modules to actually perform the computation. This is basically how Tensorflow, PyTorch, and all of the other machine learning libraries work, and is probably the “Pythonic” way of doing things - Python is, after all, at its core a scripting language.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.economist.com/business/2017/02/25/the-rise-of-artificial-intelligence-is-creating-new-variety-in-the-chip-market-and-trouble-for-intel&quot;&gt;Accelerator cards are making a return&lt;/a&gt;: Accelerator cards - GPU’s, AI cards like Google’s TPU’s, specialty cards like Intel’s Xeon Phi, and networking cards featuring Xilinx FPGA’s are becoming more and more popular for dedicated servers, and that’s pretty cool, since personal computers used to have all of those things for simpler tasks, like networking, audio, and graphics - graphics are the only ones really remaining, and even then, most people use integrated graphics. It’d be nice to see some dedicated image debayering and kernel convolution cards (not too dissimilar from GPU’s, I suppose) - Lightroom is still painfully slow.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.reddit.com/r/DataHoarder/comments/8ocjxz/200tb_glusterfs_odroid_hc2_build/?st=ji0hz05o&amp;amp;sh=de8c3cf5&quot;&gt;GlusterFS using Odroid HC2&lt;/a&gt;: GlusterFS is something I’ve looked into before - it’s not something I’m at a scale to need yet, but it is interesting. The same author did a &lt;a href=&quot;https://www.reddit.com/r/DataHoarder/comments/8q6b52/100_5_sata_port_glusterfs_node_using_espressobin/?st=jia8guu3&amp;amp;sh=ace394be&quot;&gt;followup using an Espressobin&lt;/a&gt;. Unfortunately, it’s not really high enough performance for me - my needs lie more on the performance curve than the $$$/TB curve (and I do pretty well there anyway by scrounging old hard drives).&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://hackaday.com/2018/06/07/linux-fu-watch-that-filesystem/&quot;&gt;incron + inotifiy Linux-Fu&lt;/a&gt;: Most of Hackaday’s Linux-Fu is either stuff I already knew about or don’t find useful - this is the exception. These are tools I’d never heard of, but they look super useful. I might set something up with this to produce thumbnails, or re-encode videos, or just publish a directory listing.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;photography&quot;&gt;Photography&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.normankoren.com/Tutorials/MTF.html&quot;&gt;Understanding MTF&lt;/a&gt;: This is an incredibly good explanation of MTF and how it affects all of the different pieces of a photographic system. Probably the best resource I’ve seen for semi-technical use.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://nikonrumors.com/2018/05/27/new-nikon-d850-cooled-camera-for-astrophotography.aspx/&quot;&gt;TEC-cooled D850&lt;/a&gt;: This is easily the new king of astrophotography, but is also shockingly affordable, considering an unmodified D850 is already over $3k.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=H7p5YEOrlSc&quot;&gt;DIY Raspi Security Camera&lt;/a&gt;: From Linus Tech Tips, which of course means that everything is overblown for the camera, but has some useful things all thrown in one place, which is always nice. I could see this additionally being useful for making timelapses.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;foodcooking&quot;&gt;Food/Cooking&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.engadget.com/amp/2018/05/31/best-kitchen-gadgets-tech-gear/&quot;&gt;Kitchen Gadgets&lt;/a&gt;: It’s interesting how many of these things are actually just small computers, but referring to an online recipe is something I absolutely do more frequently than I need to, and setting timers is super useful. There are times when I’ll use both the microwave timer and oven timer for different things, and labelling them or setting them with voice commands would be pretty handy.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=cygx0Ng6qMk&quot;&gt;Rebuilding a pasta machine&lt;/a&gt;: This is my favorite type of YouTube collaboration, between two of my favorite channels (See also &lt;a href=&quot;https://www.youtube.com/watch?v=SUXYiF9kDXw&quot;&gt;Diresta making a pizza cutter&lt;/a&gt; and &lt;a href=&quot;https://www.youtube.com/watch?v=nygAtf-DwfU&quot;&gt;Alex French Guy making a pizza&lt;/a&gt;. I guess this particular side of the collaboration might belong more in the hardware category, but the food/cooking category was looking a bit sparse :P&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=BfdwoqNauzk&quot;&gt;Easy Bake -&amp;gt; Mega Bake&lt;/a&gt;: Another video that might fall on the “hardware” side of food/cooking, Alton Brown turns an Easy Bake up to 11. He’s also got the opposite end of the spectrum, &lt;a href=&quot;https://www.youtube.com/watch?v=btv4eElxOcU&quot;&gt;making ice cream instantly&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;mildly-philosophical&quot;&gt;Mildly Philosophical&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=DdSbbG2uhxg&quot;&gt;Anime Has Changed&lt;/a&gt;: Lots of thoughts from gigguk. I’ve noticed a lot of his comments even over just the 4-5 years that I’ve been watching anime.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/svilenk/what-i-learned-from-the-2-000-elusive-design-book-designing-programmes-f518faefcf4b&quot;&gt;Designing Programmes&lt;/a&gt;: This sounds almost exactly like Prof. Wallace’s research, and is very similar to a lot of lectures in 2.744. I find a lot of it to be…either intuitive or overstated.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/social-choice/why-a-dutch-court-stopped-high-school-students-from-exchanging-schools-1315303a48b6&quot;&gt;Voting Systems for high schools&lt;/a&gt;: This is a really interesting problem, and a lot of the results are pretty counterintuitive. Voting systems are really hard, and none are optimal for all scenarios. We spent a few weeks on voting systems in my high school mathematical modeling class. It’s also particularly relevant when considering, eg, the US presidential elections…&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=g38kRk6YAA0&quot;&gt;The Edgerton Shot&lt;/a&gt;: It’s really interesting to me how widespread Edgerton’s photos are, since they’re just all around the hallways at MIT - it seems to me like a totally MIT thing, but in fact it was a much wider phenomenon. The milkdrop shot was literally on the cover of &lt;a href=&quot;http://100photos.time.com/&quot;&gt;Time’s 100 most influential photos of all time&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.reddit.com/r/anime/comments/8ktmvu/nerdpost_how_fansubbers_make_your_anime_look/?st=jhfo9um1&amp;amp;sh=21d418bf&quot;&gt;How Anime Fansubbers encode things&lt;/a&gt;: This is pretty interesting. I had no idea how advanced and methodical anime encodes were. I could probably stand to be this methodical in my video projects.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;other&quot;&gt;Other&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.wired.com/story/the-physicsand-physicalityof-extreme-juggling/&quot;&gt;Physics of Juggling&lt;/a&gt;: This is the definition of niche research, but went viral for a couple of days.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://imgur.com/a/TwY6q&quot;&gt;History of Chernobyl&lt;/a&gt;: Every now and then I find visual histories of random events that are extremely well put-together and well-written, and thus just interesting to read, even if I didn’t originally have much interest in the subject. This falls into that category.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://puzzling.stackexchange.com/questions/66181/im-not-a-fan-of-hedgehogs-&quot;&gt;I’m not a fan of hedgehogs&lt;/a&gt;: I was looking up something completely unrelated on stackoverflow and just saw this title.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.curbed.com/2016/6/2/11833698/brownstone-greystone-chicago-new-york-city&quot;&gt;Brownstones vs. Greystones&lt;/a&gt;: I’ve been looking at a lot of apartments recently, and saw the term “greystone” for the first time. I’ve heard of “brownstones” but was never quite sure &lt;em&gt;exactly&lt;/em&gt; what they referred to (and certainly didn’t know how they differed from greystones).&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=IvUU8joBb1Q&quot;&gt;Wintergatan Marble Machine&lt;/a&gt;: This one I got via &lt;a href=&quot;https://litchin.wordpress.com/&quot;&gt;litchin&lt;/a&gt;, a friend of mine with a literary blog. It’s a pretty awesome music/machine video. I’m curious how much of the magic happened in post production though, it seems like this object just had to be finnicky, given how many moving parts are present.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And finally, an interesting meta-piece on &lt;a href=&quot;https://www.theverge.com/platform/amp/2018/5/18/17366528/snapchat-decline-internet-ghost-towns&quot;&gt;the joy of internet ghost towns&lt;/a&gt;: Another one via litchin. It’s a pretty interesting read, and matches some of my experiences and interests - I am, after all, starting a blog in 2018, while blogging was most popular in the mid 00’s. It’s nice to have my own space on the internet, my own little site to talk and rant and document.&lt;/p&gt;
+
+&lt;p&gt;As always, thanks for reading! :)&lt;/p&gt;</content><author><name>Landon</name></author><category term="LOTW" /><summary type="html">As soon as I called it an almost-regular series, I got busy with final presentations, thesis, graduation, and moving things, but Links of the Week is back! Except this time it’s for like 3 weeks of material. This might wind up a bit long.</summary></entry><entry><title type="html">Ramen</title><link href="https://www.rishabhjain.me/pages/rishabmps/2018-06-04/ramen" rel="alternate" type="text/html" title="Ramen" /><published>2018-06-04T00:00:00+00:00</published><updated>2018-06-04T00:00:00+00:00</updated><id>https://www.rishabhjain.me/pages/rishabmps/2018-06-04/ramen</id><content type="html" xml:base="https://www.rishabhjain.me/pages/rishabmps/2018-06-04/ramen">&lt;p&gt;Ramen is a popular Japanese dish, and is usually seen in America in instant ramen, or cup noodle varieties - needless to say, these are about as representative of good ramen as Twinkies are of a good sponge cake. There are plenty of ramen shops around Boston/Cambridge, and I think at this point I’ve sampled pretty much all of them. My favorites would be Santouka, in Harvard Square, Sapporo, in Porter Square (not the Sapporo in Hmart, which is distinctly not as good), and Yume Wo Katare, in Porter Square. After seeing a handful of videos on Youtube of people making ramen from scratch, I decided to give it a try.&lt;/p&gt;
+
+&lt;p&gt;There were a few cool things for me to try for the first time when making ramen from scratch - making a bone broth, slow cooking/sous vide, and making pasta from scratch.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;After browsing a large number of ramen broth, toppings, tare, and oil recipes online, I settled on a Tonkotsu-ish broth, Shoyu tare, and black garlic oil, with char-siu pork, nori, scallions, and bean sprouts as toppings. I would have thrown in a soft-boiled egg too, but I ran out of time. I was also disappointed that I couldn’t source any pork fat to really make the broth thick, but I wound up boiling it down a bit more and it thickened up on its own.&lt;/p&gt;
+
+&lt;p&gt;General directions: Start the tonkotsu broth early the day before you want to serve the ramen, and start the char siu pork about 6 hours before serving time. Start the remaining components about 2 hours ahead of time.&lt;/p&gt;
+
+&lt;h1 id=&quot;tonkotsu-pork-broth&quot;&gt;Tonkotsu Pork Broth&lt;/h1&gt;
+&lt;p&gt;(makes about 6 large bowls)&lt;/p&gt;
+
+&lt;h3 id=&quot;ingredients&quot;&gt;Ingredients:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;3 lbs pig trotters, split. Note: I got pig trotters with skin still on. In retrospect, I think this made the broth too collagen-y. It was much stickier than other broths that I’ve had, so I would recommend either no skin, or at least removing some of the skin.&lt;/li&gt;
+  &lt;li&gt;2 lbs chicken feet, declawed&lt;/li&gt;
+  &lt;li&gt;2 tbs vegetable oil&lt;/li&gt;
+  &lt;li&gt;1 large onion, skin on, halved&lt;/li&gt;
+  &lt;li&gt;1 head of garlic, halved&lt;/li&gt;
+  &lt;li&gt;1 3” knob of ginger, sliced roughly&lt;/li&gt;
+  &lt;li&gt;2 whole leeks, washed thoroughly and chopped roughly&lt;/li&gt;
+  &lt;li&gt;2 bunches of scallions, white parts only, roughly chopped&lt;/li&gt;
+  &lt;li&gt;1 sheet of kombu&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;directions&quot;&gt;Directions:&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Declaw chicken feet, and place in large stockpot with pig trotters. Cover with cold water and bring to a boil. Remove from heat when water boils.&lt;/li&gt;
+  &lt;li&gt;While pot is heating, in a large skillet, sautee the onion, garlic, and ginger until lightly charred.&lt;/li&gt;
+  &lt;li&gt;Once the stockpot has come to a boil, pour the water out. Carefully wash the pig trotters and chicken feet, removing any soft bone marrow with a chopstick (this would become scum in your broth otherwise).&lt;/li&gt;
+  &lt;li&gt;Return pig trotters and chicken feet to the stockpot, along with remaining ingredients. Cover with water and bring to a slow rolling boil. Cover the stockpot, and boil for about 12 hours, topping up the water as necessary to keep the ingredients covered.&lt;/li&gt;
+  &lt;li&gt;After 12 hours, strain solids out of the broth and return the liquid section to the stockpot. Skim any remaining solids off the top, and boil vigorously to reduce the volume to about 3 quarts.&lt;/li&gt;
+  &lt;li&gt;Once volume has reduced, store the broth in a sealed container in the fridge overnight. It will solidify into a tough gelatin, but will melt quickly when heated. Heat to a gentle simmer just before serving.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;This recipe I modified from &lt;a href=&quot;https://www.seriouseats.com/recipes/2012/02/rich-and-creamy-tonkotsu-ramen-broth-from-scratch-recipe.html&quot;&gt;Serious Eats&lt;/a&gt;, removing the mushrooms and pork fat back because I didn’t happen to pick up mushrooms and couldn’t find pork back fat. I didn’t have the kombu in the first round of ramen, but included it in the second round, and felt that it mellowed and rounded out the flavor in a pleasing way, while the fresh vegetables had added a bit too distinct of a tang. Mushrooms would probably be another good substitute, or reducing the quantity of scallions somewhat.&lt;/p&gt;
+
+&lt;div class=&quot;gallery&quot;&gt;
+&lt;figure name=&quot;1&quot; alt=&quot;declawing chicken feet&quot; caption=&quot;Declawing chicken feet is best accomplished with a heavy cleaver.&quot;&gt;&lt;/figure&gt;
+
+&lt;figure name=&quot;2&quot; alt=&quot;pig trotters&quot; caption=&quot;The pig trotters I found were split both crosswise and lengthwise. Having them split crosswise made the soft marrow easier to remove.&quot;&gt;&lt;/figure&gt;
+
+&lt;figure name=&quot;3&quot; alt=&quot;meat in the pot&quot; caption=&quot;Meat in the pot, initially.&quot;&gt;&lt;/figure&gt;
+
+&lt;figure name=&quot;4&quot; alt=&quot;meat in the pot&quot; caption=&quot;Meat in the pot, after initial boil. Note the cloudiness and scum - this is removed after the trotters and chicken feet are washed.&quot;&gt;&lt;/figure&gt;
+
+&lt;figure name=&quot;5&quot; alt=&quot;caramelized onion&quot; caption=&quot;Onion should look like this after sauteeing - get that Maillard reaction going and caramelize it. Your kitchen will smell great.&quot;&gt;&lt;/figure&gt;
+
+&lt;figure name=&quot;6&quot; alt=&quot;roughly chopped leeks&quot; caption=&quot;Roughly chopped leeks.&quot;&gt;&lt;/figure&gt;
+
+&lt;figure name=&quot;7&quot; alt=&quot;everything in broth&quot; caption=&quot;Once the trotters and chicken feet are cleaned, the rest of the ingredients are added and the broth should not be cloudy or have scum floating on top.&quot;&gt;&lt;/figure&gt;
+
+&lt;figure name=&quot;10&quot; alt=&quot;solid broth&quot; caption=&quot;After refrigeration, the broth will solidify into a hard gel, but will melt quickly when reheated.&quot;&gt;&lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&quot;char-siu-pork&quot;&gt;Char Siu Pork&lt;/h1&gt;
+&lt;p&gt;(Makes about 8 servings)&lt;/p&gt;
+
+&lt;h3 id=&quot;ingredients-1&quot;&gt;Ingredients:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;1.5 lbs pork belly, skin removed. Note: I doubled this recipe, but that was a bit too much to match the broth. 1.5x would probably be best.&lt;/li&gt;
+  &lt;li&gt;salt&lt;/li&gt;
+  &lt;li&gt;1 scallions, green part only, roughly chopped&lt;/li&gt;
+  &lt;li&gt;2 slices of ginger&lt;/li&gt;
+  &lt;li&gt;1 garlic clove&lt;/li&gt;
+  &lt;li&gt;150 mL soy sauce&lt;/li&gt;
+  &lt;li&gt;100 mL mirin&lt;/li&gt;
+  &lt;li&gt;100 mL sake&lt;/li&gt;
+  &lt;li&gt;50 mL water&lt;/li&gt;
+  &lt;li&gt;1 tbs sugar&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;directions-1&quot;&gt;Directions:&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Rub in salt to season the pork. Dip the meat briefly in boiling water to blanch it, then tie it into a tight roll with butchers twine so that it cooks evenly. This is probably less necessary since it’s going to sous vide, but it nothing else, it looks legit. #doitforinstagram&lt;/li&gt;
+  &lt;li&gt;Prepare the scallions, ginger, and crush the garlic.&lt;/li&gt;
+  &lt;li&gt;Add the soy sauce, mirin, sake, water, and sugar to a saucepot and just barely simmer.&lt;/li&gt;
+  &lt;li&gt;Wrap the pork in a paper towel, and place in a plastic bag. Add remaining ingredients, and seal the bag, removing as much air as possible.&lt;/li&gt;
+  &lt;li&gt;Place in a water bath in a rice cooker on “keep warm” mode for 4-5 hours to simulate sous vide. Ensure that the internal temperature of the meat reaches 64 °C.&lt;/li&gt;
+  &lt;li&gt;Remove meat and slice thinly along the grain to serve. The slices will probably be too long, so cut them in half for a more normal-sized char siu slice.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;This recipe I modified from a &lt;a href=&quot;https://junskitchen.com/homemade-ramen&quot;&gt;Jun’s Kitchen video&lt;/a&gt;, simplifying it just a bit. It turned out pretty excellent - soft without falling apart, and very flavorful. As I mentioned, I doubled the recipe, and did 1.5 lbs in each rice cooker. It fits perfectly in a 4-cup rice cooker.&lt;/p&gt;
+
+&lt;div class=&quot;gallery&quot;&gt;
+&lt;figure name=&quot;8&quot; alt=&quot;pork in rice cooker&quot; caption=&quot;Pork belly sitting in the rice cooker just before starting. Note the paper towel, to ensure the pork is always marinating.&quot;&gt;&lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&quot;black-garlic-oil&quot;&gt;Black Garlic Oil:&lt;/h1&gt;
+&lt;p&gt;(makes about 20 servings)&lt;/p&gt;
+
+&lt;h3 id=&quot;ingredients-2&quot;&gt;Ingredients:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;15 cloves of garlic, finely chopped.&lt;/li&gt;
+  &lt;li&gt;1 cup vegetable oil&lt;/li&gt;
+  &lt;li&gt;2 tbs sesame oil&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;directions-2&quot;&gt;Directions:&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Place the garlic and vegetable oil in a small saucepan and fry/simmer lightly until the garlic turns nearly black.&lt;/li&gt;
+  &lt;li&gt;Let the mixture cool, then blend it until no chunks of garlic remain. Add sesame oil and bottle for future use.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;This recipe is from &lt;a href=&quot;https://www.youtube.com/watch?v=NnnEY7SZIHM&quot;&gt;Alex French Guy’s ramen addiction series&lt;/a&gt;, where he made a variety of different oils. I’d like to try some of the others in the future, but this one sounded the best and was the easiest since I had a lot of garlic left over from the broth. His recipe called for the garlic to turn completely black, but I thought that was a bit too far after tasting it. The good garlic smells also subsided around the time the garlic turned black, which was probably the correct indication of when to stop. Your kitchen will smell amazing while making this though. I’d be curious to turn the excess of this into a vinaigrette, but I’m not sure what sort of salad would benefit from a garlic vinaigrette.&lt;/p&gt;
+
+&lt;div class=&quot;gallery&quot;&gt;
+&lt;figure name=&quot;9&quot; alt=&quot;garlic frying&quot; caption=&quot;Garlic frying smells amazing. This is also a pretty good guide on how large your garlic should be chopped.&quot;&gt;&lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&quot;shoyu-tare&quot;&gt;Shoyu Tare&lt;/h1&gt;
+&lt;p&gt;(Makes about 20 servings)&lt;/p&gt;
+
+&lt;h3 id=&quot;ingredients-3&quot;&gt;Ingredients:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;1 3” knob of ginger, sliced roughly&lt;/li&gt;
+  &lt;li&gt;1 garlic clove, crushed&lt;/li&gt;
+  &lt;li&gt;1 1/2 cup soy sauce&lt;/li&gt;
+  &lt;li&gt;3/4 cup sake&lt;/li&gt;
+  &lt;li&gt;3/4 cup mirin&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;directions-3&quot;&gt;Directions:&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;Combine all ingredients in a saucepan and boil for about 5 minutes.&lt;/li&gt;
+  &lt;li&gt;Remove the garlic and ginger and bottle for future use.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;This recipe is from &lt;a href=&quot;https://www.youtube.com/watch?v=aafmrrx7Bh4&quot;&gt;Asian at home&lt;/a&gt;, who also did a bunch of other pieces of ramen. It’s a pretty straightforward shoyu tare, and can be used for other things too - most places that you could use soy sauce, you can substitute this and just achieve a slightly more complex flavor.&lt;/p&gt;
+
+&lt;h1 id=&quot;ramen&quot;&gt;Ramen&lt;/h1&gt;
+&lt;p&gt;(Makes about 4-5 servings)&lt;/p&gt;
+
+&lt;h3 id=&quot;ingredients-4&quot;&gt;Ingredients:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;3 g baking soda, baked (see directions)&lt;/li&gt;
+  &lt;li&gt;250 g flour&lt;/li&gt;
+  &lt;li&gt;100 g warm water&lt;/li&gt;
+  &lt;li&gt;3 g salt&lt;/li&gt;
+  &lt;li&gt;1/2 cup flour/cornstarch, to coat prepared noodles&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;directions-4&quot;&gt;Directions:&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Bake the baking soda at 275 °F for about an hour. This dehydrates the sodium bicarbonate, producing sodium carbonate, a stronger base. You can do this in a much higher quantity than you need, about a tablespoon. I used a muffin tin to keep it contained.&lt;/li&gt;
+  &lt;li&gt;Mix the dry ingredients, then pour in the water.&lt;/li&gt;
+  &lt;li&gt;Knead (a ton) until it takes shape. Once the dough holds its shape well, switch to the pasta maker to flatten the dough until it becomes supple and not crumbly at all.&lt;/li&gt;
+  &lt;li&gt;Flatten the dough with the pasta maker until it’s about 2mm thick, then cut into square noodles. Flour/cornstarch liberally to keep the noodles from sticking together.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;This recipe also came from &lt;a href=&quot;https://www.youtube.com/watch?v=fnrW4oan_Mo&quot;&gt;Alex French Guy’s ramen addiction series&lt;/a&gt;, and was my first attempt making noodles/pasta from scratch. It was pretty magical watching the dough come together, and the pasta attachment to our stand mixer made things pretty easy. Unfortunately, I was cheap and decided not to get the noodle-cutting attachment, so we cut the noodles by hand. That was a lot more difficult to do well than I expected, and our noodles turned out uneven. We also didn’t flour the noodles enough after flattening and cutting, which made them stick together more when cooking. The noodles should be fairly white with flour/corstarch.&lt;/p&gt;
+
+&lt;div class=&quot;gallery&quot;&gt;
+&lt;figure name=&quot;12&quot; alt=&quot;working ramen dough&quot; caption=&quot;Victor really enjoyed the pasta attachment. Next time I'll get the noodle-cutting attachment as well.&quot;&gt;&lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&quot;toppings-and-assembly&quot;&gt;Toppings and Assembly&lt;/h1&gt;
+
+&lt;h3 id=&quot;ingredients-per-bowl&quot;&gt;Ingredients (per bowl)&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;150g ramen noodles&lt;/li&gt;
+  &lt;li&gt;2 tbs shoyu tare&lt;/li&gt;
+  &lt;li&gt;1 tbs black garlic oil&lt;/li&gt;
+  &lt;li&gt;2 cups tonkotsu broth&lt;/li&gt;
+  &lt;li&gt;4 inch square of nori&lt;/li&gt;
+  &lt;li&gt;3 slices of char siu pork&lt;/li&gt;
+  &lt;li&gt;a small handful of bean sprouts&lt;/li&gt;
+  &lt;li&gt;1 scallion, green part only, julienned finely&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;directions-5&quot;&gt;Directions:&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Cook the ramen noodles.&lt;/li&gt;
+  &lt;li&gt;Place shoyu tare and black garlic oil in the bottom of a ramen bowl, then top with tonkotsu broth.&lt;/li&gt;
+  &lt;li&gt;Place the ramen noodles in the bowl, folding elegantly to show off.&lt;/li&gt;
+  &lt;li&gt;Place the nori square in the bowl, half in the broth, point up.&lt;/li&gt;
+  &lt;li&gt;Top with layered char siu pork, bean sprouts, and scallions.&lt;/li&gt;
+  &lt;li&gt;Take a picture and post it to instagram.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Assembly is very important for an appropriately aesthetic bowl of ramen, and after all, instagram likes are all we’re really after, right?&lt;/p&gt;
+
+&lt;div class=&quot;gallery&quot;&gt;
+&lt;figure name=&quot;11&quot; alt=&quot;julienning scallions&quot; caption=&quot;Sonia and Chuck helped julienne the scallions.&quot;&gt;&lt;/figure&gt;
+
+&lt;figure name=&quot;13&quot; alt=&quot;bowl #1&quot; caption=&quot;Bowl #1 had an excellent pork layering and scallion topping, but forgot the nori.&quot;&gt;&lt;/figure&gt;
+
+&lt;figure name=&quot;14&quot; alt=&quot;bowl #2&quot; caption=&quot;With everything assembled, it looks about as good as any restaurant ramen.&quot;&gt;&lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Overall, this recipe was a lot of effort. I definitely learned a lot and practiced some new techniques, but for how much ramen even at a decent ramen shop costs, I don’t know if I’m likely to do it again. I did get to check that one off the bucket list of things to make though! Thanks for reading :)&lt;/p&gt;</content><author><name>Landon</name></author><category term="recipes" /><summary type="html">Ramen is a popular Japanese dish, and is usually seen in America in instant ramen, or cup noodle varieties - needless to say, these are about as representative of good ramen as Twinkies are of a good sponge cake. There are plenty of ramen shops around Boston/Cambridge, and I think at this point I’ve sampled pretty much all of them. My favorites would be Santouka, in Harvard Square, Sapporo, in Porter Square (not the Sapporo in Hmart, which is distinctly not as good), and Yume Wo Katare, in Porter Square. After seeing a handful of videos on Youtube of people making ramen from scratch, I decided to give it a try.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.rishabhjain.me/pages/rishabmps/assets/img/thumbnail/2018-06-04-ramen-14_thumb_800.jpg" /></entry><entry><title type="html">MEng Thesis</title><link href="https://www.rishabhjain.me/pages/rishabmps/2018-06-02/meng-thesis" rel="alternate" type="text/html" title="MEng Thesis" /><published>2018-06-02T00:00:00+00:00</published><updated>2018-06-02T00:00:00+00:00</updated><id>https://www.rishabhjain.me/pages/rishabmps/2018-06-02/meng-thesis</id><content type="html" xml:base="https://www.rishabhjain.me/pages/rishabmps/2018-06-02/meng-thesis">&lt;p&gt;Last week, I finished up my MEng thesis and turned it in, which was my last task to accomplish before graduating, again. I’ve added it to my &lt;a href=&quot;/pages/rishabmps/projects&quot;&gt;projects&lt;/a&gt; page.&lt;/p&gt;
+
+&lt;p&gt;My thesis was titled “&lt;a href=&quot;/assets/pdf/MIT_Thesis.pdf&quot;&gt;Multi-Path Planning for Hydraulic Fluid Routing&lt;/a&gt;,” and focused on a path-planning algorithm I started working on during a SuperUROP, designed to route hydraulic fluid pipes within a 3D printed robot. The algorithm is far more general than that though - it solves the circuit-routing problem, which has multiple paths routed through a common space without intersecting.&lt;/p&gt;
+
+&lt;h1 id=&quot;summary&quot;&gt;Summary&lt;/h1&gt;
+
+&lt;p&gt;As far as I can tell, there aren’t any other published exact solutions to the general circuit-routing problem, mostly because such a thing is not very useful in most scenarios - the problem is NP-Complete, so exact solutions are slow (probably, I never actually proved it, but variations are). Furthermore, exact solutions are very rarely useful - an approximate solution is usually good enough, and is much faster to compute. In the special case where \(z = 2\), topology-based algorithms are quite successful. This is particularly relevant for the problem’s namesake-circuit routing, especially on 2-layer PCBs.&lt;/p&gt;
+
+&lt;p&gt;Nevertheless, it was an interesting problem to work on. The solution that I came up with was basically a series of nested graph searches - each path is planned independently using a variant of A*, then collisions between the paths are checked, then the outer “graph search” splits - when two paths intersect, at most one of them can use the node in question in the optimal solution, so two branches are created - one where one path can use the node, and one where the other path can use the node. The paths are then replanned with the new constraints, and the procedure repeats until an optimal solution is found. That’s just a rough overview - see the paper for more details.&lt;/p&gt;
+
+&lt;h1 id=&quot;lpa&quot;&gt;LPA*&lt;/h1&gt;
+
+&lt;p&gt;One cool thing that I found was this algorithm called “Lifelong Planning A*”, aka LPA*. This algorithm was developed by &lt;a href=&quot;https://www.cs.cmu.edu/~maxim/files/aij04.pdf&quot;&gt;Koenig et al in 2005&lt;/a&gt;. This is a variant of A* which remembers the intermediate values and updates them intelligently when movement costs are updated (ie, when a node is marked as unusable in the outer graph search). This allows replans to be extremely fast, a key feature in the algorithm I developed.&lt;/p&gt;
+
+&lt;h1 id=&quot;optimizations&quot;&gt;Optimizations&lt;/h1&gt;
+
+&lt;p&gt;I managed to get the algorithm working last year, during my SuperUROP, but it was still fairly slow. For my MEng, I focused on speed improvements and benchmarking.&lt;/p&gt;
+
+&lt;h2 id=&quot;code-profiling&quot;&gt;Code Profiling&lt;/h2&gt;
+
+&lt;p&gt;I had a few theories about things that could be optimized in the code based on my own reasoning about the code, but the best way to figure out the actual steps to take to maximize the impact was to profile the code. I used &lt;a href=&quot;https://docs.python.org/2/library/profile.html&quot;&gt;cProfile&lt;/a&gt; to profile the code and &lt;a href=&quot;https://jiffyclub.github.io/snakeviz/&quot;&gt;SnakeViz&lt;/a&gt; to visualize it. This was amazingly easy to get working, and the visualizations were really pretty. You can (sorta) see the visualization &lt;a href=&quot;/assets/other/meng-profiling/profiling_results.htm&quot;&gt;here&lt;/a&gt;, but this is just a saved copy of the webpage. Without snakeviz actually running and serving things correctly, the page misbehaves slightly. If you’d like to see them for real, just install SnakeViz and grab the profiling results from my &lt;a href=&quot;https://github.com/lycarter/mpa-star&quot;&gt;GitHub repo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;priority-queue-optimization&quot;&gt;Priority Queue Optimization&lt;/h2&gt;
+
+&lt;p&gt;After profiling the code, I noticed that my priority queue implementation was very slow. I’d noted when I wrote it that the &lt;code class=&quot;highlighter-rouge&quot;&gt;remove&lt;/code&gt; operation was just \(O(n)\), and that really showed. I investigated and implemented a number of other priority queue implementations, and wound up settling on wrapping &lt;a href=&quot;http://www.grantjenks.com/docs/sortedcontainers/&quot;&gt;SortedSets&lt;/a&gt; from the Sorted Containers Python library. &lt;a href=&quot;http://stromberg.dnsalias.org/~dstromberg/treap/&quot;&gt;Treap&lt;/a&gt;, also from PyPI, also performed quite well, but had a bit more overhead. Turns out Python lists are &lt;em&gt;really fast&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;By optimizing the priority queue, I improved performance by about 70%.&lt;/p&gt;
+
+&lt;h2 id=&quot;caching-layer&quot;&gt;Caching Layer&lt;/h2&gt;
+
+&lt;p&gt;In certain scenarios, different branches of the outer graph search can converge to contain identical inner graph searches. Without a caching layer on inner graph searches, duplicate work will be done to solve both inner graph searches, so I added a caching layer. This turned out to be a bit difficult - chasing pointers in Python isn’t very intuitive, and I actually had some objects being duplicated that I didn’t want duplicated. I eventually solved that and finished adding the caching layer. The added benefit was a significantly reduced memory footprint, not that the algorithm tended to have an unwieldy memory footprint anyway.&lt;/p&gt;
+
+&lt;p&gt;By adding the caching layer, I improved performance by an additional 50%.&lt;/p&gt;
+
+&lt;h1 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h1&gt;
+
+&lt;p&gt;Frankly, I didn’t have as much time to work on this research or my thesis as I would have liked. I was busy &lt;a href=&quot;/pages/rishabmps/2018-05-18/taing-009-744&quot;&gt;TA’ing 2.009 and 2.744&lt;/a&gt;, which meant the amount of time I had to dedicate to research was pretty small. With some more time, I probably would have reimplemented everything in Java, or even better, learned C++ and implemented it in that. Java especially would have made debugging the caching layer addition quite a bit easier - I had a hell of a time debugging that without type-checking. Either reimplementation probably would have improved performance by a healthy margin. Anyway, feel free to shoot me a message or pull request if there’s things you’re interested in.&lt;/p&gt;
+
+&lt;p&gt;On the (very unlikely) chance that you need to reference this work, here’s the appropriate BibTeX citation (to be updated later with a &lt;a href=&quot;https://dspace.mit.edu/&quot;&gt;DSpace&lt;/a&gt; link as well):&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;@thesis{carter_2018,
+	place={Cambridge},
+	title={Multi-Path Planning for Hydraulic Fluid Routing},
+	url={https://www.lycarter.com/assets/pdf/MIT_Thesis.pdf},
+	school={MIT},
+	author={Carter, Landon Y},
+	year={2018}
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Thanks for reading! :)&lt;/p&gt;</content><author><name>Landon</name></author><category term="thoughts" /><summary type="html">Last week, I finished up my MEng thesis and turned it in, which was my last task to accomplish before graduating, again. I’ve added it to my projects page.</summary></entry><entry><title type="html">Google Codejam 2018</title><link href="https://www.rishabhjain.me/pages/rishabmps/2018-05-18/google-codejam" rel="alternate" type="text/html" title="Google Codejam 2018" /><published>2018-05-18T00:00:00+00:00</published><updated>2018-05-18T00:00:00+00:00</updated><id>https://www.rishabhjain.me/pages/rishabmps/2018-05-18/google-codejam</id><content type="html" xml:base="https://www.rishabhjain.me/pages/rishabmps/2018-05-18/google-codejam">&lt;p&gt;I participated in Google Code Jam for the first time last year, making it through the first two rounds to the round of 3000. I looked at the problems in the round of 3000 last year, but didn’t happen to have time to actually make a good effort at solving any of them.&lt;/p&gt;
+
+&lt;p&gt;This year I’m competing again, and writing this post as I go along. Once again, I’m not super invested in the competition, but I’d like to at least match last year’s result.&lt;/p&gt;
+
+&lt;h2 id=&quot;qualification-round-drafted-4718&quot;&gt;Qualification Round (drafted 4/7/18)&lt;/h2&gt;
+
+&lt;p&gt;I glanced at the problems Friday night shortly after the release, but then got distracted playing a game of &lt;em&gt;Werewords&lt;/em&gt; with my roommates and finishing reading &lt;em&gt;Ready Player One&lt;/em&gt;. On Saturday morning, I woke up early and looked at the problems again, intending to get enough points in the morning to guarantee moving on. I opened Cubic UFO first and started drawing some things out. I pretty quickly worked out the geometry as either a rectangle or a hexagon. The rectangle covered cases for \(A \leq \sqrt{2} \), and the hexagon covered larger cases. I worked out the specifics of the geometry after a half hour of struggling to remember how trig works, and coded up a quick binary search numerical solver, determining that binary search would be fast enough for the input spec. Unfortunately, the server was experiencing high load, and wouldn’t accept my answer before I had to head out for the day. Edit: Turns out that my solution for the hexagon case was wrong - I probably swapped a sign somewhere on accident.&lt;/p&gt;
+
+&lt;p&gt;I came back later in the day to find that my answer had &lt;em&gt;not&lt;/em&gt; been accepted, and with very little to debug with, I decided to just do the first two problems and call it a day. Saving The Universe Again I quickly worked out a bucket system, where each shot was in a certain power bucket. The President could swap commands to move a shot down one bucket, halving its power. After that realization, the coding was a straightforward greedy simulation. When submitting that problem, I realized that my output line for Cubic UFO had been missing a colon after copying it over for the new problem, so I fixed that and resubmitted Cubic UFO. Since the server had been fixed, both solutions went through and were marked correct.&lt;/p&gt;
+
+&lt;p&gt;Now that the server was working again, I decided to go ahead and finish up the remaining two problems. I pretty quickly realized that Trouble Sort was flawed because it could not change the parity of any element, and coded up a solution with a dictionary of &lt;code class=&quot;highlighter-rouge&quot;&gt;{element value -&amp;gt; (count_even, count_odd)}&lt;/code&gt;, which then subtracted from the same dictionary after sorting. The first time a count went negative on the second pass was the problem element. This isn’t exactly what the problem was asking for, but as it turns out, the two are equivalent. I didn’t even realize until reading over the problem again to write this blog post. Go figure.&lt;/p&gt;
+
+&lt;p&gt;For the final problem, Go, Gopher!, I decided that a clever predictive algorithm probably wasn’t necessary (or if it was, I didn’t care enough to code it). I started by squaring off the area into a low-aspect-ratio rectangle (in retrospect, I could have hard-coded 5x4 and 15x14). I first approached with an algorithm that would calculate the “expected value” of each interior cell of my target rectangle, then realized that I could carry this information over for each step, so I refactored to keep track of the expected value of each cell, commanding the gopher to dig at the best cell. This turned out to work just fine on pretty much the first try (modulo syntax errors and off-by-one errors), completing the contest. Final “actual time” per problem: it was about 55, 15, 15, and 30 mins for Cubic UFO, Saving The Universe Again, Trouble Sort, and Go, Gopher!, respectively. I felt pretty rusty at the beginning, but was feeling better by the end. Total score: 79/100, and an easy qualification to Round 1.&lt;/p&gt;
+
+&lt;h2 id=&quot;round-1-completed-51818&quot;&gt;Round 1 (completed 5/18/18)&lt;/h2&gt;
+
+&lt;p&gt;I was busy during round 1A, traveling to NYC for a weekend trip.&lt;/p&gt;
+
+&lt;p&gt;During 1B, I started by coding Rounding Error, submitting a bit less than an hour into the contest. Reading the analysis, I definitely solved the full problem correctly, including the greedy approach. Unfortunately, my implementation had some sort of bug, or perhaps I missed a corner case. Anyway, didn’t get it. I looked for the bug for about 10 minutes before deciding to move on.&lt;/p&gt;
+
+&lt;p&gt;Mysterious Road Signs looked pretty difficult for the amount of points it was worth, so I decided to skip it and look at Transmutation. I decided that I would just attempt Test set 1 with a naive approach, and coded that up in about an hour, submitting at 1:41 out of 2:30. Unfortunately, my implementation for this problem &lt;em&gt;also&lt;/em&gt; had a bug.&lt;/p&gt;
+
+&lt;p&gt;At that point, I decided I didn’t quite care enough to debug - both my solution to Rounding Error and Transmutation passed all of the test cases I gave them, so I would have to try to hunt down some corner case that I was missing, which didn’t sound fun. I got 0 points, and didn’t advance.&lt;/p&gt;
+
+&lt;p&gt;And then round 1C started at like 5am, which definitely wasn’t worth waking up for.&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;Turns out, I’m pretty rusty at coding - I’ve barely done any coding since the end of my internship last year, and none under any sort of time pressure (even loose time constraints like the assignment being due the next day). The problems were pretty interesting to look at though, and kept me at least a little sharp. It’ll be interesting to attempt it again next year after coding full-time for 8 months. Hopefully I’ll do better then? Maybe I’ll even practice a bit :P&lt;/p&gt;
+
+&lt;p&gt;As always, thanks for reading!&lt;/p&gt;</content><author><name>Landon</name></author><category term="thoughts" /><summary type="html">I participated in Google Code Jam for the first time last year, making it through the first two rounds to the round of 3000. I looked at the problems in the round of 3000 last year, but didn’t happen to have time to actually make a good effort at solving any of them.</summary></entry><entry><title type="html">Links of the Week 5/18</title><link href="https://www.rishabhjain.me/pages/rishabmps/2018-05-18/lotw-5" rel="alternate" type="text/html" title="Links of the Week 5/18" /><published>2018-05-18T00:00:00+00:00</published><updated>2018-05-18T00:00:00+00:00</updated><id>https://www.rishabhjain.me/pages/rishabmps/2018-05-18/lotw-5</id><content type="html" xml:base="https://www.rishabhjain.me/pages/rishabmps/2018-05-18/lotw-5">&lt;p&gt;Fifth in my almost-regular series (I managed 4 weeks in a row, then skipped one, so I think it’s now fair to say almost-regular), here’s some things I found this week that I thought were cool and wanted to share:&lt;/p&gt;
+
+&lt;h2 id=&quot;foodcooking&quot;&gt;Food/Cooking&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/hendricius/the-bread-code&quot;&gt;Bread Github&lt;/a&gt;: A Github repo with bread recipes. It’s intended to be open-source, collaborative, so pull requests of new bread recipes are encouraged. Maybe I’ll submit my brioche recipe sometime, or try one of their recipes. I’ve been thinking about making a whole-grain sandwich bread…&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=t6IrJ6466sc&quot;&gt;Transparent Tomato Soup&lt;/a&gt;: This guy’s transparent pie went viral a few months ago, which I saw but didn’t look into. Seeing an actual YouTube video explaining some of the refinement process and thought process is pretty interesting. It’s similar to the professional baker recreating popular snacks &lt;a href=&quot;https://www.youtube.com/watch?v=4nqJiBRNQuw&amp;amp;list=PLKtIunYVkv_RezN3GB12YA8orYOScQUdA&quot;&gt;videos from Bon Appetit&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;softwaretech&quot;&gt;Software/Tech&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://techcrunch.com/2018/05/06/subscription-hell/&quot;&gt;Subscription Hell&lt;/a&gt;: This article went mildly viral on HackerNews, and it brings up some pretty interesting points. I have only a few subscriptions that I pay for, but there are a number of services I use that have a paid option that I’ve considered in the past, but are just a bit too niche to spend money on. A subscription aggregator would be something I would seriously consider - in fact, I already have a bundled Spotify + Hulu subscription.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://texblog.org/2008/10/16/lists-enumerate-itemize-description-and-how-to-change-them/&quot;&gt;LaTeX Enumeration/Itemization Customization&lt;/a&gt;: I never actually knew that LaTeX enumerators were customizeable besides, I assumed, editing the .sty file. I suppose I should have figured that they were customizeable, because everything about LaTeX is. I’ll just tuck this little tidbit away for future use.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://nickjanetakis.com/blog/a-recycled-ip-address-caused-me-to-pirate-390000-books-by-accident&quot;&gt;Subdomain Hijacking&lt;/a&gt;: This is kinda scary, but at least the fixes are super simple. I have even less surface area for attack than this guy, since my site is (currently) hosted on Github Pages, but I turned on Google Alerts anyway.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://aws.amazon.com/blogs/aws/amazon-aurora-backtrack-turn-back-time/&quot;&gt;Amazon Aurora Backtrack&lt;/a&gt;: This article reminds me quite a bit of some of the data structures we studied in 6.851 (Advanced Data Structures, taught by Erik Demaine). It also sorta makes me wish I’d taken databases at MIT, but I focused more on ML and Algorithms than systems.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://arstechnica.com/information-technology/2018/05/ubuntu-18-04-the-return-of-a-familiar-interface-marks-the-best-ubuntu-in-years/&quot;&gt;Ubuntu 18.04&lt;/a&gt;: My data server is still running 16.04, but my desktop VM runs 17.10 currently. I’ll probably upgrade to 18.04, but I might try out Kubuntu. I haven’t been a fan of GNOME since I grew up with Ubuntu on Unity, but that’s mostly due to not knowing the keyboard shortcuts. I’m sure if I learned the new keyboard shortcuts, it would be fine. That said, I’ve heard lots of good things about KDE, and if I’m going to be learning some new keyboard shortcuts anyway, might as well try it out.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.facebook.com/notes/protect-the-graph/pyre-fast-type-checking-for-python/2048520695388071/&quot;&gt;Pyre&lt;/a&gt;: Facebook’s static type-checker for Python. I know that Dropbox has an internal typing system for Python, and it looks like mypy has also existed for a while too. After working with Java for a summer, static type-checking seems like a godsend for larger projects. It’d be nice if Python had some version of this that worked in an IDE, too.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;hardware&quot;&gt;Hardware&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.adafruit.com/product/2821&quot;&gt;Adafruit Feather&lt;/a&gt;: I’ve never encountered the Feather/Wing series from Adafruit, but it looks pretty cool actually - a variety of dev boards, stackable, standardized. There’s also lots of great documentation, which is always a plus.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cnbc.com/2018/05/08/google-launches-tpu-3-point-0-third-version-of-ai-chips.html&quot;&gt;Google TPU&lt;/a&gt;: Google TPUs are pretty neat - the first round of them came out while I was interning at Google, and I remember reading the paper about them. They’re basically an ASIC plus RAM, and the ASIC is pretty much just a giant multiplication block. It’s really simple conceptually, but turns out matrix multiplications are exactly what neural nets are, so the speedup is pretty good. Efficiency is still only marginally better than GPUs, but far less optimization was put into TPUs than modern GPUs. I expect that the efficiency margin will improve with each release.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.bloomberg.com/news/features/2018-05-10/inside-the-brotherhood-of-pi-hole-ad-blockers&quot;&gt;Pi-hole&lt;/a&gt;: Maybe once I have my own apartment and my own network, I’ll install one of these. My primary motivation would be to decrease my system load - adblockers use a surprisingly large chunk of CPU and RAM, which seems unnecessary.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.reddit.com/r/homelab/comments/8iemka/freenas_is_up/?st=jh0tnjnw&amp;amp;sh=8eab5047&quot;&gt;FreeNAS and automation&lt;/a&gt;: I had a FreeNAS server very briefly freshman year, but it ran on junk hardware and I only gave it some random 80 GB hard drive. I’m happy with my current Ubuntu/ZFS + Samba setup, but it would be a good idea to add a bunch more automation to ensure drive integrity.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;other&quot;&gt;Other&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=lY_-GF1ojss&quot;&gt;The Assault on Intelligence&lt;/a&gt;: This looks like it might actually be a really interesting book, maybe I’ll give it a look.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.engadget.com/2018/05/10/spacex-falcon-9-block-5-rocket-launches-today/&quot;&gt;Final Block 5 launch&lt;/a&gt;: SpaceX is a company that’s actually doing some really cool things. I considered applying for an internship at one point, but due to a variety of external factors, didn’t wind up following through on that.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=UN3uF3990Q0&quot;&gt;NYC in 12K&lt;/a&gt;: This is my new favorite test footage. It looks fantastic on my 4K monitor, and I’d love to give it a try on an 8K monitor at some point. This is also right up my alley - expensive camera equipment being used in a precision manner to produce beautiful footage.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.reddit.com/r/AskReddit/comments/8gy4nd/what_are_some_cool_websites_where_you_can/?st=jgs3z89v&amp;amp;sh=cadd6727&quot;&gt;Websites with free things&lt;/a&gt;: Another nice list to just file away.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.washingtonpost.com/news/speaking-of-science/wp/2018/05/04/one-space-between-each-sentence-they-said-science-just-proved-them-wrong-2/&quot;&gt;One space vs two&lt;/a&gt;: This article states that two spaces is correct following a period. They are wrong. Any decent modern font will appropriately space sentences with just a single space - the article used courier new, which is fixed-width, and thus in a &lt;em&gt;completely&lt;/em&gt; different playing field.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/lapsed-historian/the-long-way-round-the-plane-that-accidentally-circumnavigated-the-world-c04ca734c6bb&quot;&gt;The Plane that Accidentally Circumnavigated the World&lt;/a&gt;: This is a pretty random, but interesting and engaging article. One of those little pieces of trivia to file away for later.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;fun&quot;&gt;Fun&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://arxiv.org/ftp/arxiv/papers/1604/1604.03511.pdf&quot;&gt;Directed Energy Missions for Planetary Defense&lt;/a&gt;: Got this paper from a thread on ec-discuss about the best (most hilarious) papers from various fields. This looks hilarious - one of my favorite things is when silly discussions get a full scientific treatment and analysis.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=iCl8ek0gLPA&quot;&gt;Adam Savage Dropped in Bubble Wrap&lt;/a&gt;: Tested has been posting a handful of videos of Adam answering questions from SVCC, and they’re all wonderful. Adam has a ton of great stories.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=5WTbiXsTGC4&quot;&gt;JJ Abrams/Stephen Colbert Times Square&lt;/a&gt;: This is just plain fun.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.esquire.com/entertainment/books/a15872842/in-defense-of-puns/&quot;&gt;Pun Competition&lt;/a&gt;: Puns are great. Coming up with puns on the fly is one of the most satisfying things to do - as the article states, quick, clever quips are a thing to be respected, not derided.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.reddit.com/r/AskReddit/comments/8gg3ty/nonbritish_people_whats_something_you_want/dybg1hm/?st=jgpbcwee&amp;amp;sh=753544e0&quot;&gt;Cockney rhyming slang&lt;/a&gt;: This is fascinating. I actually feel like my friend group, especially MITERS, does some similar things - less rhyming, but the substitutions are definitely there, and MITERS has a certain way of modifying words to abbreviate or add humor.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://abstrusegoose.com/589&quot;&gt;Flight of the Good Idea&lt;/a&gt;: This is part of the reason I started this website - to document things. I also keep a notebook, and recently started using Google Keep to jot random things down. The general population of CNC manufacturing/business people (NYC CNC, Grimsmo knives, Pierson workholding, etc) mention pretty frequently that information shouldn’t be stored in heads, it should be written down, catalogued, and put where it can be seen and actually remembered. I definitely believe that.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.reddit.com/r/factorio/comments/8ewp8q/clusterio_60k_spm_project_friday_april_27_2000_utc/?st=jgwdn165&amp;amp;sh=0a71873c&quot;&gt;Factorio Clusterio 60K SPM&lt;/a&gt;: Like the laser article, fun things taken to the extreme are always entertaining.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.reddit.com/r/factorio/comments/8i34hq/autotorio_now_supports_oil_outpost_beacons_and/?st=jgz5t9hd&amp;amp;sh=9cea0e29&quot;&gt;Factorio Autorio oil beacons&lt;/a&gt;: Again, fun things taken to extremes (or, in this case, automated).&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=FfbFkfRRb7A&quot;&gt;GCN Bikepacking&lt;/a&gt;: This looks stunning. GCN has also posted a couple of “Epic Rides” (&lt;a href=&quot;https://www.youtube.com/watch?v=vc-EvSJr1ZE&quot;&gt;Gran Canaria&lt;/a&gt;, &lt;a href=&quot;https://www.youtube.com/watch?v=JQKIbywRic8&quot;&gt;Andalucia&lt;/a&gt;, &lt;a href=&quot;https://www.youtube.com/watch?v=77Nf4uPEtZc&quot;&gt;Alpe D’Huez&lt;/a&gt;, and &lt;a href=&quot;https://www.youtube.com/watch?v=Sxfd2xzlM6k&quot;&gt;Taiwan KOM Challenge&lt;/a&gt;, to name a few), and it really makes me want to go vacation purely to go cycling in beautiful locations. I was considering cycling around Taiwan this summer, but those plans fell through. Maybe this winter, or sometime in the future. I also have a friend that biked from Seattle to LA along Route 1, which looks pretty beautiful as well.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;As always, thanks for reading! :)&lt;/p&gt;</content><author><name>Landon</name></author><category term="LOTW" /><summary type="html">Fifth in my almost-regular series (I managed 4 weeks in a row, then skipped one, so I think it’s now fair to say almost-regular), here’s some things I found this week that I thought were cool and wanted to share:</summary></entry><entry><title type="html">TA’ing 2.009 and 2.744</title><link href="https://www.rishabhjain.me/pages/rishabmps/2018-05-18/taing-009-744" rel="alternate" type="text/html" title="TA'ing 2.009 and 2.744" /><published>2018-05-18T00:00:00+00:00</published><updated>2018-05-18T00:00:00+00:00</updated><id>https://www.rishabhjain.me/pages/rishabmps/2018-05-18/taing-009-744</id><content type="html" xml:base="https://www.rishabhjain.me/pages/rishabmps/2018-05-18/taing-009-744">&lt;p&gt;TA’ing 2.009 and 2.744 has roughly been my full-time job for the past year or so, and 2.744 just wrapped up. This has been an incredibly rewarding, frustrating thing to do, and I’ve learned a lot. I’ll try to expand on that, but it’s hard to enumerate all the things that I’ve learned, because so much of it is soft skills.&lt;/p&gt;
+
+&lt;h1 id=&quot;background&quot;&gt;Background&lt;/h1&gt;
+&lt;p&gt;First, some background. I was a double-major as an undergrad, 2A and 6-3, so I took 2.009 in Fall 2016, graduated Spring 2017, TA’d 2.009 Fall 2017, TA’d 2.744 Spring 2018 (I haven’t ever taken 2.744). Both classes are taught by &lt;a href=&quot;http://meche.mit.edu/people/faculty/DRWALLAC@MIT.EDU&quot;&gt;Professor David Wallace&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;2009&quot;&gt;2.009&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;http://web.mit.edu/2.009/www/index.html&quot;&gt;2.009&lt;/a&gt; is MIT’s MechE capstone class, “Product Engineering Processes”. Students are assigned to teams of about 20, initially split into two halves. The task of the semester is to design a product for the year’s theme, and present an alpha prototype at the final presentations. The year I took the class, the theme was “&lt;a href=&quot;http://web.mit.edu/2.009/www/interestMedia/themes/theme2016/theme2016.html&quot;&gt;Rough Tough &amp;amp; Messy&lt;/a&gt;”, and when I TA’d, the theme was “&lt;a href=&quot;http://web.mit.edu/2.009/www/interestMedia/themes/theme2017/theme2017.html&quot;&gt;Super&lt;/a&gt;”. Themes are generally intended to be fairly open-ended, but there have been some slightly more focused ones in the past, like “&lt;a href=&quot;http://web.mit.edu/2.009/www/interestMedia/themes/theme2010/theme2010.html&quot;&gt;Food&lt;/a&gt;”, from 2010. 2.009 is very structured, with milestones roughly every two weeks, and most of the lectures focused in engineering process - ideation, brainstorming, prototyping, testing, consensus-forming. I’ll talk more about my experience taking 2.009 in a future blog post though - this one is about TA’ing 2.009.&lt;/p&gt;
+
+&lt;p&gt;2.009 overall is characterized by its insanely high production value. Skim through the &lt;a href=&quot;https://vimeo.com/247247675#at=2073&quot;&gt;final presentations from 2017&lt;/a&gt; to get an idea of that. There are usually 4 TAs for 2.009, and we generally handle all of the media associated with the class - nearly 100 thousand photos and many terabytes of video footage, not to mention dozens, if not hundreds, of graphics. It’s a monumental undertaking - I probably worked at least 60 hours a week on average, more than twice as much as I spent on 2.009 as a student. As I mentioned, it was incredibly rewarding, frustrating, and a distinct learning experience.&lt;/p&gt;
+
+&lt;div class=&quot;gallery&quot;&gt;
+&lt;figure name=&quot;8&quot; alt=&quot;2.009 Confetti&quot; caption=&quot;Confetti at the conclusion of the 2.009 final presentations.&quot;&gt;&lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;2744&quot;&gt;2.744&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;http://web.mit.edu/2.744/www/index.html&quot;&gt;2.744&lt;/a&gt; is a graduate product design class, taught every other year by Professor Wallace. Students form teams of about 6, and the primary task of the semester is to design a product for the semester’s client - this year, the client was &lt;a href=&quot;http://5-wits.com/&quot;&gt;5 Wits&lt;/a&gt;, a production company by MIT alum Matt Duplessie, and students were tasked with designing gags/games to be used in a new concept that 5 Wits has been exploring. 2.744 is skill-focused, with many lectures on sketching, rendering, prototyping, and general design lectures. There are fewer milestones throughout the semester than 2.009, and teams are much more independent.&lt;/p&gt;
+
+&lt;p&gt;2.744 is a much lower-key class than 2.009, but there are still a number of high production value components, and the experience as a whole is still very tightly designed. Again, TAs are generally responsible for the media associated with the class in addition to general class prep. However, the scale is very different - only about 10k photos throughout the semester, as opposed to the roughly 100k from 2.009. The only video components are documentation, there’s no creative video editing to be done, and the number of custom graphics is also smaller.&lt;/p&gt;
+
+&lt;div class=&quot;gallery&quot;&gt;
+&lt;figure name=&quot;9&quot; alt=&quot;2.744 Final Presentations&quot; caption=&quot;Playtesting during the 2.744 Final Presentations.&quot;&gt;&lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&quot;learning---hard-skills&quot;&gt;Learning - hard skills&lt;/h1&gt;
+&lt;p&gt;I didn’t learn many &lt;em&gt;new&lt;/em&gt; hard skills through TA’ing 2.009 or 2.744, but I definitely sharpened some existing skills. In no particular order:&lt;/p&gt;
+
+&lt;h2 id=&quot;photo-editing&quot;&gt;Photo editing&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;I got a ton faster at photo editing. With the sheer volume of photos to edit, I got faster out of necessity. That involved memorizing and committing to muscle memory most of Lightroom’s keyboard shortcuts. Check out the &lt;a href=&quot;http://web.mit.edu/2.009/www/gallery.html&quot;&gt;2.009&lt;/a&gt; and &lt;a href=&quot;http://web.mit.edu/2.744/www/gallery.html&quot;&gt;2.744&lt;/a&gt; galleries for some examples.&lt;/li&gt;
+  &lt;li&gt;I also developed a stronger sense for organizing photos. Most of my photo sets previously have just been ordered chronologically, but photo sets for 2.009 and 2.744 were rearranged creatively for visual interest, telling a story, or visual puns.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;gallery&quot;&gt;
+&lt;figure name=&quot;4&quot; alt=&quot;Visual Pun&quot; caption=&quot;&quot;&gt;&lt;/figure&gt;
+&lt;figure name=&quot;5&quot; alt=&quot;Visual Pun&quot; caption=&quot;Visual pun diptych from 2.744, walls (are bad).&quot;&gt;&lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;I got even stricter with my folder and naming conventions, again, out of necessity. Unfortunately for 2.009, this effort was confounded by some of the other TAs not always being as strict…&lt;/li&gt;
+  &lt;li&gt;Memory card organization. I numbered all of our dozens of memory cards, and tried implementing a system for “to dump” cards where the contents were written on a post-it so that the photos could be appropriately sorted and labeled. That too was confounded somewhat by other TAs being less strict…&lt;/li&gt;
+  &lt;li&gt;Physical camera organization and operation - in keeping with the theme of organization of large quantities of media/things, I took point on our camera organization, charging setup, and prepping cameras for class, which involved selecting lenses and ensuring each camera had a fresh battery and empty memory card. It doesn’t sound like much, but when you do it 3 or more times per week for 4 months, it becomes notable.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;video-editing&quot;&gt;Video editing&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;For 2.009, I didn’t actually take or edit that many photos, relatively speaking - I usually shot video during lectures, milestones, and events, and organized all of that media.&lt;/li&gt;
+  &lt;li&gt;Video editing itself was something I had done only minimally before 2.009. During 2.009, I was the primary editor for two videos: &lt;a href=&quot;https://vimeo.com/238690617&quot;&gt;Teardown&lt;/a&gt; and the &lt;a href=&quot;https://vimeo.com/247183239&quot;&gt;quadcopter video&lt;/a&gt;. Both of those probably deserve their own post, but basically, video editing is &lt;em&gt;hard&lt;/em&gt;. I always felt like I needed more footage and more time. Getting high-quality footage is really difficult in the context of 2.009, where most things are filmed run-and-gun style, without enough time to think through things. 2.009 also uses a bunch of different cameras, and it’s very difficult to make them all look nice when edited together.&lt;/li&gt;
+  &lt;li&gt;Flying a quadcopter was something I’d never done before 2.009, and though I’ve crashed (twice), I consider myself fairly decent at it now. It really gives a unique perspective and raises the production value.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;gallery&quot;&gt;
+&lt;figure name=&quot;13&quot; alt=&quot;Quadcopter&quot; caption=&quot;Quadcopter flying for 2.009. I was the primary pilot during the semester.&quot;&gt;&lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;
+&lt;iframe src=&quot;https://player.vimeo.com/video/247183239&quot; width=&quot;800&quot; height=&quot;450&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;em&gt;Celebrate MIT: Quadcopter 2017. Probably my proudest artistic achievement.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;other-softwaretech&quot;&gt;Other software/tech&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Bash scripts are something I’ve used before, but not as extensively as I used them in 2.009/2.744. In 2.009, we had a video editing script that &lt;a href=&quot;http://victorhh.com/&quot;&gt;Victor&lt;/a&gt; wrote a while ago, which you could give a video file, in and out timestamps, and a new name, and it would automatically clip that section from the videos, with a fade in and fade out, and rename it. This was extremely useful for milestones, where I would have to produce 48 video files (6 ideas per team x 8 teams) in just a few hours. For 2.744, I had to systematically rename tons of photos - for in-class assignments, I either scanned paper submissions or took photos of every student’s submission. I had to edit each of these and then rename them to the student’s kerberos, which was easily scriptable.&lt;/li&gt;
+  &lt;li&gt;To help with the bash scripting, I utilized Google Sheets pretty heavily - columns for different fields and a final column to merge them together appropriately to the command to be invoked. Obviously, bash itself or some other scripting language would be capable of this, but it was easier to visualize and edit in Google Sheets.&lt;/li&gt;
+  &lt;li&gt;To incrementally back up the many, many terabytes of photos and videos, I used &lt;a href=&quot;https://en.wikipedia.org/wiki/Rsync&quot;&gt;rsync&lt;/a&gt;, which is a cool tool that I haven’t used before. It definitely beats individually figuring out which folders or files are on which drives.&lt;/li&gt;
+  &lt;li&gt;Spreadsheets as an organizational tool. I’ve used spreadsheets before, obviously, but usually in the normal contexts spreadsheets are used - numerical data. I’ve also used them for puzzle-solving, but that’s a different story. Using them for organization is something that makes a lot of sense to me - organizing the camera setup for build challenge was the prime example of this, where I coordinated 42 different cameras to record or photograph simultaneously, and organized all of that data afterwards. It took me nearly 3 days just to dump and back up all of the files from build challenge.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;gallery&quot;&gt;
+&lt;figure name=&quot;1&quot; alt=&quot;Build Challenge Spreadsheet&quot; caption=&quot;To organize 42 cameras recording simultaneously, a spreadsheet is crucial.&quot;&gt;&lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;design&quot;&gt;Design&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;I’ve always had a bit of an eye for web design, but it was pretty unrefined. &lt;a href=&quot;http://bettermotherfuckingwebsite.com/&quot;&gt;This&lt;/a&gt; (warning: language) was generally my idea of a nice-looking website (and, as you can tell by this website, that hasn’t changed much). What has changed is that I’ve refined that vision a bit, and improved my familiarity with CSS &amp;amp; JS by working on the 2.009 and 2.744 websites (though they still need a pile of work, if not a redesign from scratch).&lt;/li&gt;
+  &lt;li&gt;That’s all well and good for web dev, but I’ve also gotten exponentially better at Illustrator, moving from nearly completely incompetent to only somewhat incompetent! Still have a lot of work to do here, but I’m at least more likely to open up Illustrator to accomplish something than most other programs nowadays.&lt;/li&gt;
+  &lt;li&gt;Finally, designing a lecture, or a curriculum, is another interesting challenge that I hadn’t really considered prior to TA’ing. The goal is to convey information in an organized, memorable fashion, and there’s a lot of things that go into that. Organizing topics in a lecture, balancing the amount of information conveyed vs the length of the lecture, and using relevant examples or exercises all tie in to conveying information. I had the opportunity to give a lecture and a half on web design for 2.744. Luckily, I had Victor’s slides from 2016 as a basis for my lectures, but was able to update them, reorganize them, and put my own spin on them. I got a lot of positive feedback from the students, and was overall very happy with the lectures (aside from some verbal tics that I’d like to work on for future public speaking opportunities).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;gallery&quot;&gt;
+&lt;figure name=&quot;3&quot; alt=&quot;Lecturing Web 101&quot; caption=&quot;Lecturing Web 101 was a very rewarding experience.&quot;&gt;&lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;making&quot;&gt;Making&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;For the physical aspect of making things, I mostly served as a consultant for teams in both 2.009 and 2.744, but I did get a chance to flex my own skills a bit. In 2.744, I was in charge of 3D printing 219 soffits for the teams to use in their scale models (I know the exact number, of course, because I used a spreadsheet to organize all of this). That involved quite a bit of fiddling with the printers and print settings to achieve a good balance of print speed and reliability - at the end, I got the speed up to about 20 mins/part, down from about an hour per part prior to optimization, with about 95% reliability.&lt;/li&gt;
+  &lt;li&gt;At one point in the 3D printing process, casting crossed my mind as a potential way to increase the production speed, so I tried casting a few parts. It worked alright, but I didn’t spend enough time dialing in my process to make perfect parts. Still, it was my first experience casting anything, so that was cool.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;gallery&quot;&gt;
+&lt;figure name=&quot;6&quot; alt=&quot;3D Printed Soffits&quot; caption=&quot;3D printed soffit test.&quot;&gt;&lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&quot;learning---soft-skills&quot;&gt;Learning - soft skills&lt;/h1&gt;
+
+&lt;h2 id=&quot;how-to-make-nice-things&quot;&gt;How to make Nice Things™&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;This involves a huge variety of skills, which I’ll go over in future sections, but 2.009 especially has a lot of Nice Things™, from media to lectures to activities. One of the biggest endeavors every year is build challenge, where we literally built a mountain in the middle of Kresge.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;gallery&quot;&gt;
+&lt;figure name=&quot;15&quot; alt=&quot;Build Challenge Setup&quot; caption=&quot;Build challenge 2017 setup, featuring a 25' tall mountain.&quot;&gt;&lt;/figure&gt;
+&lt;figure name=&quot;14&quot; alt=&quot;Mountain detail&quot; caption=&quot;Volunteers on the mountain lobbed water balloons at teams throughout build challenge. Even their outfits were themed.&quot;&gt;&lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;designing-an-experience&quot;&gt;Designing an experience&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;As I mentioned at the start, 2.009 can be characterized by an overall insanely high production value. This was certainly on display for the videos, and something I’d had less experience with beforehand. All of the videos went through multiple review stages, and the editing was always tight, the content high-quality. Putting together a piece of work with such a high effort-to-length ratio is something I had very little experience with before 2.009.&lt;/li&gt;
+  &lt;li&gt;One of the aspects of a high production value is that the experience is excellent - everything is well-organized, and things are delivered or published in a timely fashion. This was definitely true for photos, which were usually published to the course website within 48 hours. For 2.744, with the lower photo volume and less things to do, I usually published photos within 8 hours. I actually have fluctuated on my posting speed - in freshman &amp;amp; sophomore year, I would post photos of big events within 12 hours, usually, going so far as to pull all-nighters editing, just so I could have photos out by the following morning. Through college, my editing preferences tended towards higher-quality, lower-speed editing techniques. 2.009 and 2.744 refined that further to a balance of the two, where I could maintain nearly my highest standard of quality, but still get photos out quickly. Unfortunately, photo editing seems to be an \(O(n^2)\) type of activity, so big events still take me a while to edit.&lt;/li&gt;
+  &lt;li&gt;As an extension of the high-quality experience that 2.009 and 2.744 had, lecture preparation was a surprisingly impactful thing to me. In 2.009 and 2.744, there are frequently very involved lecture demos, handouts, mini-quizzes, etc. The TAs would set up the lecture hall beforehand for the students before they came in, laying out the handouts at each seat, setting up the demos. For the handouts, we would not only set handouts at every seat, but would organize them precisely so that each student had a “place setting”. This, I think, was an underappreciated but crucial part of the 2.009 and 2.744 experience. I actually walked into a math class that I was thinking about taking, and when we had to pick up handouts from the front of the class, it felt distinctly lower-quality. By ensuring that the student experience was so polished, I think 2.009 and 2.744 helped ensure that the student projects reached a similar level of polish.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;gallery&quot;&gt;
+&lt;figure name=&quot;2&quot; alt=&quot;2.744 Place Setting&quot; caption=&quot;One of the more elaborate 2.744 place settings, each student had clay modeling materials neatly laid out.&quot;&gt;&lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;consistent-theming&quot;&gt;Consistent theming&lt;/h2&gt;
+&lt;p&gt;Another aspect of the production value of 2.009 and 2.744 was the consistent theming and design language of everything. Most classes actually achieve this, but only by virtue of having no theming and the word editor default fonts for everything. This is something that I actually felt pretty strong in even before TA’ing - my personal brand/website has always been the same grey/blue color scheme, and my logo has always been the block “LC” of the favicon.&lt;/p&gt;
+
+&lt;div class=&quot;gallery&quot;&gt;
+&lt;figure name=&quot;11&quot; alt=&quot;2.009 Kresge Theming&quot; caption=&quot;Universal theming for 2.009 revolves around team colors.&quot;&gt;&lt;/figure&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;2.009 had the theme of “Super”, and a design language consisting of randomly-arranged triangles in the team colors, evolving to an 8-bit graphic style and a retro-gaming theme for the final presentations.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;gallery&quot;&gt;
+&lt;figure name=&quot;12&quot; alt=&quot;2.009 8-bit&quot; caption=&quot;2.009 theming evolved into an 8-bit style for final presentations (still heavily featuring team colors).&quot;&gt;&lt;/figure&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;2.744 had no “theme” per se this year, but the graphic language consisted of black background, outlined “2.744”, and purple and orange highlights. All of our website and graphic theming followed this, and frequently was angled consistently to add visual interest. Overall, a bit less complex, because there were fewer things to theme, but a consistent design language helped drill into the students the importance of design.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;gallery&quot;&gt;
+&lt;figure name=&quot;2018-05-18-taing-009-744-7.png&quot; alt=&quot;2.744 website&quot; caption=&quot;The 2.744 website theming from this year.&quot;&gt;&lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;working-on-a-team&quot;&gt;Working on a team&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;One of the most difficult aspects of taking and TA’ing 2.009 was working on a team. I consider myself a decent team leader, and identified some points to work on during 2.009 and while TA’ing. One of my strong points as a leader is that I have a wide pool of knowledge and experience to draw from, and thus can be efficient and decisive. The flip side is that I’m not very good at giving other opinions a fair shot, which can lead to friction. That said, if there’s a matter that I’m indifferent to, or not knowledgeable in, I can be very hands-off.&lt;/li&gt;
+  &lt;li&gt;An aspect of this flaw of mine is that when others on the team are working on things I’m not directly involved in, I probably don’t give them the credit they deserve, because I don’t clearly see all of the work to get to the end result, only the result.&lt;/li&gt;
+  &lt;li&gt;One other aspect of this is the value of specialization in tasks vs balancing workload between team members. Though it was never really voiced, I felt like an underlying tension in the 2.009 TA team was workload balance. At times, any of the 4 TAs might be working much harder on a particular task than others, or working on an undesirable task, and anytime I had to stay later than everyone else, I generally felt annoyed. One way to solve this would have been to have everyone work on every task equally, but that’s not feasible - things get more efficient when you specialize. This can also lead to a general lack of appreciation of everyone else’s work. I under-appreciated the other TAs for their work on miniquizzes, but I also felt like my work on camera organization went under-appreciated when the other TAs didn’t follow the system I tried to establish.&lt;/li&gt;
+  &lt;li&gt;Compounding all of these issues was, of course, sleep deprivation. I get more irritable when I’m extremely tired, and I don’t think there’s any way around that except to acknowledge it and try to avoid scenarios like that. Of course, that’s impossible in a setting like 2.009 when there’s so much work to do, so I’m sorry to my fellow TAs for all of the times that it was late, I was tired, and I was irritable.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;working-with-a-manager&quot;&gt;Working with a manager&lt;/h2&gt;
+&lt;ul&gt;
+	&lt;li&gt;The other aspect of working on a team is working with a team leader, or manager. I've had surprisingly few times when I actually worked for someone on day-to-day tasks. In all of my internships, tasks have generally been assigned in much larger chunks, and the process of breaking those tasks down into hourly or daily activities was always up to me, as well as the scheduling of those smaller pieces. Working on 2.009 and 2.744 was completely different - tasks were assigned in small pieces (usually less than 2 days of work), but were generally assigned much more last-minute. In any given day or week, I rarely knew what I would be doing more than a day in advance, and this made scheduling and load-balancing &lt;em&gt;very&lt;/em&gt; difficult. I had no idea how much that would affect me, but this was absolutely my chief complaint with 2.009. This was significantly improved in 2.744, mostly because Audrey knew the class very well, and was very proactive in asking for specifics on upcoming lecture and tasks.&lt;/li&gt;
+	&lt;li&gt;This was also my first time working with a manager that wasn't working on the same sorts of things as I was - in all of my internships, I was working in the same codebase as my mentors, so they had a really good idea of what I was doing, how difficult it might be, and how long it took. Working with David was pretty different from that - David was focused on lectures, and almost never was working on the same things as the TAs. This led to more pain and compounded the lack of control over scheduling. It was frustratingly frequently that David would offhandedly ask for an additional task to be done that would take at least a few hours as if it were nothing. The most painful example from 2.009 was when I was working on build challenge footage.
+		&lt;blockquote&gt;&lt;p&gt;I was working on organizing all of the footage, sorting through all 60 hours of footage to extract the 1% that was useful. This was a pretty monumental task, and I estimated it would take me about 4 solid days of work to get it done (after 3 days of work just transferring, backing up, and organizing the footage). Our video editor asked on a Thursday for an estimate of when he could get the processed footage, emphasizing that he needed it ASAP to get started on editing. I said I could get it to him by Tuesday for sure, or probably even Monday afternoon. He said he absolutely needed it by Monday to get started in time, and I responded saying that I'd try my best to get it to him by 9am Monday. David replied, not acknowledging my email, and promised it would get done by 5pm on Sunday. I worked straight through the weekend, sleeping only a few hours Friday and Saturday night, and sure enough, come 5pm Sunday, I didn't have it done. I literally couldn't get it done by the deadline David had set, and as a result, the video editor had to make an extra round trip to MIT to collect the footage (I nearly made it, finishing around 9pm on Sunday).&lt;/p&gt;&lt;/blockquote&gt;
+	The lack of acknowledgment of my opinion on how long it would take to accomplish the task was incredibly frustrating, and wasted both my sanity and the editor's time.&lt;/li&gt;
+	&lt;li&gt;At times, David would have feedback for us, and almost always, this feedback was given to the TA team as a whole. This was fine when the feedback was universal, but frequently it was more personalized. At one point, he critiqued a photo gallery that I'd put together, noting that it didn't tell a cohesive story, unequally featured certain members of the class, and a few other points. This was all fair critique, and I got better at editing galleries as a result (those weren't even things I was thinking about beforehand), but having the feedback given so publicly wasn't something I appreciated.&lt;/li&gt;
+	&lt;li&gt;This list has been mostly negative so far, but David was far from a bad manager - he was an excellent role model and absolutely spearheaded the high quality that I appreciated so much from 2.009 and 2.744. He was always available to give advice on how to do things. It's a bit hard to explain, but just by being in the presence of such a hard worker, with such high expectations and a high level of polish completely raised the bar on everything I'll do in the future. David was so incredibly willing to put in 110%, and put himself out there, that the TAs couldn't help but follow.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;gallery&quot;&gt;
+&lt;figure name=&quot;16&quot; alt=&quot;David as Product Man&quot; caption=&quot;David was really willing to put himself out there, revealing himself as Product Man during final presentations.&quot;&gt;&lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&quot;final-thoughts&quot;&gt;Final thoughts&lt;/h1&gt;
+&lt;p&gt;TA’ing 2.009 and 2.744 was, as I said at the start, incredibly rewarding and, at times, incredibly frustrating. I am eminently grateful for the opportunity to work on such a large-scale, high quality activity, and my sense of experience design and visual design has grown exponentially thanks to the influence of such a high-expectations, talented group of people. The quadcopter video I made for 2.009 is one of my proudest artistic achievements, and the web design lectures I gave for 2.744 were two of my proudest teaching/public speaking moments. Through all the stress and points of improvement I’ve highlighted, there has been also an extreme trust and level of respect for the TAs, for which I’m grateful. Thank you to David and my fellow TAs (Grace, Chuck, Georgia, Audrey, and Josh, plus bonus TAs Dabin, Victor, and Geoff) for an incredible year.&lt;/p&gt;
+
+&lt;p&gt;If any future TAs or students happen across this post, feel free to ping me through the usual channels for any extra advice or opinions. Thanks for reading :)&lt;/p&gt;
+
+&lt;div class=&quot;gallery&quot;&gt;
+&lt;figure name=&quot;10&quot; alt=&quot;2.009 TA Team&quot; caption=&quot;The 2.009 super TAs!&quot;&gt;&lt;/figure&gt;
+&lt;/div&gt;</content><author><name>Landon</name></author><category term="thoughts" /><summary type="html">TA’ing 2.009 and 2.744 has roughly been my full-time job for the past year or so, and 2.744 just wrapped up. This has been an incredibly rewarding, frustrating thing to do, and I’ve learned a lot. I’ll try to expand on that, but it’s hard to enumerate all the things that I’ve learned, because so much of it is soft skills.</summary></entry><entry><title type="html">Jekyll Site Improvements</title><link href="https://www.rishabhjain.me/pages/rishabmps/2018-05-09/site-improvements" rel="alternate" type="text/html" title="Jekyll Site Improvements" /><published>2018-05-09T00:00:00+00:00</published><updated>2018-05-09T00:00:00+00:00</updated><id>https://www.rishabhjain.me/pages/rishabmps/2018-05-09/site-improvements</id><content type="html" xml:base="https://www.rishabhjain.me/pages/rishabmps/2018-05-09/site-improvements">&lt;p&gt;I’ll talk about some of the things I’ve done to make this site a bit more my own, or upgrade it a bit. You can also follow along in real-time by following the &lt;a href=&quot;https://github.com/lycarter/lycarter.github.com&quot;&gt;source&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;customized-fonts-and-colors&quot;&gt;Customized fonts and colors&lt;/h2&gt;
+&lt;p&gt;This was one of the first things I did, and one of the reasons I moved away from Blogger - it was very difficult to customize Blogger’s appearance, With Jekyll, it’s much easier, and Tale has extremely nice scss support, and a particularly nice variables.scss file. I’ve never dealt with scss before, but it was super easy to figure out and change. Commit &lt;a href=&quot;https://github.com/lycarter/lycarter.github.com/commit/9faf7e06ed6dae4a9065417798e4d7f97b8c018e#diff-a747c56a582f71180f6c87cc19d7bae9&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;9faf7e0&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;customized-layout&quot;&gt;Customized layout&lt;/h2&gt;
+&lt;p&gt;Since Jekyll is a normal content site with a good templating engine, it’s pretty easy to customize page layout too, just by editing the layout files. You can also add custom layouts for specific posts, which I’ll cover when I talk about Mathjax. I made a few changes early on in commit &lt;a href=&quot;https://github.com/lycarter/lycarter.github.com/commit/492a6d59076fff15e9c9365edd0ae191bb3ee4f8&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;492a6d5&lt;/code&gt;&lt;/a&gt; and commit &lt;a href=&quot;https://github.com/lycarter/lycarter.github.com/commit/78a49e226a7a9d19a45e4050c636df8759be0f61&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;78a49e2&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;thumbnail-generation&quot;&gt;Thumbnail generation&lt;/h2&gt;
+&lt;p&gt;One of the things I really wanted in my new site was a seamless way to integrate photos. I still haven’t gotten it where I want it (I wrote up a &lt;a href=&quot;https://github.com/lycarter/lycarter.github.com/blob/master/_drafts/2018-03-19-content-vs-perfection.md&quot;&gt;draft&lt;/a&gt; on that), but one thing I did add was a thumbnail generation script in commit &lt;a href=&quot;https://github.com/lycarter/lycarter.github.com/commit/46473e3efa922c3f4e51ba9b60872bebbe16de6e&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;46473e3&lt;/code&gt;&lt;/a&gt;. Unfortunately, it does need to be triggered manually.&lt;/p&gt;
+
+&lt;h2 id=&quot;mathjax-support&quot;&gt;Mathjax support&lt;/h2&gt;
+&lt;p&gt;This was my first foray into custom front matter, adding a &lt;code class=&quot;highlighter-rouge&quot;&gt;math: true&lt;/code&gt; tag to my front matter enables a code block that loads mathjax. This is pretty cool - I could just enable mathjax on every page, but by only loading it when needed, I can make pages more lightweight and load faster. That was added to &lt;code class=&quot;highlighter-rouge&quot;&gt;_layouts/post.html&lt;/code&gt; in commit &lt;a href=&quot;https://github.com/lycarter/lycarter.github.com/commit/627c82e3132542b9395a0b8afbdf92c1014ee107#diff-663f387b6a1a407ab38de055a12bc7c8&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;627c82e&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;google-analytics&quot;&gt;Google Analytics&lt;/h2&gt;
+&lt;p&gt;I wanted at least a little bit of metrics on how many people actually looked at this site, so I added Google Analytics. I should probably add a customization so that analytics is only added on the live site, because I definitely pollute my data when I’m editing the site locally. That’s a task for later, though. Analytics was added in commit &lt;a href=&quot;https://github.com/lycarter/lycarter.github.com/commit/8a78a676fbcdab491330f85305f847d3622b4b34&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;8a78a67&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;debugging-page&quot;&gt;Debugging Page&lt;/h2&gt;
+&lt;p&gt;I didn’t actually have anything to debug here, but again while browsing the Jekyll docs, I found some stuff I wanted to try. This is roughly equivalent to a “dumpfile” that you might have in other post-processors, but you can peek at it if you navigate to &lt;a href=&quot;/pages/rishabmps/about-technical&quot;&gt;/about-technical&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;jekyll-plugins&quot;&gt;Jekyll Plugins&lt;/h2&gt;
+
+&lt;p&gt;I was browsing through the available Jekyll plugins and decided to add a few. They were all ridiculously easy to add, which has been awesome.&lt;/p&gt;
+
+&lt;h3 id=&quot;xml-feed&quot;&gt;XML Feed&lt;/h3&gt;
+&lt;p&gt;I found one to generate an Atom XML feed, which would be great for anyone that wants to follow with an RSS reader (I use feedly). Turns out it was ridiculously easy to add, just two lines in commit &lt;a href=&quot;https://github.com/lycarter/lycarter.github.com/commit/19bc218d0f675fb795fd5951df3f02852b4117df&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;19bc218&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;sitemap&quot;&gt;Sitemap&lt;/h3&gt;
+&lt;p&gt;Adding a sitemap is useful for search engines to correctly crawl your webpage. My secret goal is to push this blog way up on Google results for “Landon Carter” or “Landon Carter Blog” or similar. There are a lot of other Landon Carter’s in the world - I need to surpass them all, at least on Google. Anyway, adding a sitemap was literally just another line in &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; in commit &lt;a href=&quot;https://github.com/lycarter/lycarter.github.com/commit/52e38fd4a583010a468f069295f93c344734ffa3&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;52e38fd&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;seo&quot;&gt;SEO&lt;/h3&gt;
+&lt;p&gt;Search Engine Optimization adds some meta information to page headers so that search engines know what they’re looking at. It also helps with sharing things on Facebook or other social media sites. This one was slightly more involved, at 3 lines of code in commit &lt;a href=&quot;https://github.com/lycarter/lycarter.github.com/commit/b3c338366b6b62a8ce37010c81779e1c3df219b5&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;b3c3383&lt;/code&gt;&lt;/a&gt;. I can also add custom SEO tags, like I did for my &lt;a href=&quot;/pages/rishabmps/2018-05-05/dinner-party&quot;&gt;dinner party post&lt;/a&gt;. I added a custom image so I could share it on Facebook with that specific image selected, you can see that change in commit &lt;a href=&quot;https://github.com/lycarter/lycarter.github.com/commit/a7ce057a6ac20cfcf20d2802ff2e0b276413990f&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;a7ce057&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;tags&quot;&gt;Tags&lt;/h3&gt;
+&lt;p&gt;This isn’t quite a plugin, but is a baked-in feature that you can use if you choose. I didn’t start out with it, but now my posts have tags. You can browse posts by tags by navigating to &lt;a href=&quot;/pages/rishabmps/tags&quot;&gt;/tags&lt;/a&gt;. This was inspired by [Rebecca’s site](http://rebecca.li/tags/, which has tags, and from the &lt;a href=&quot;https://github.com/rebeccali/rliwebsite&quot;&gt;source code&lt;/a&gt; of which I borrowed the tags page with some minor tweaks. Added in commit &lt;a href=&quot;https://github.com/lycarter/lycarter.github.com/commit/bb09075e26637d92e123af0dd8d6939e9fd82916&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;bb09075&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Overall, this has been a pretty fun project, with nice bite-size pieces to tackle. I’ve been pleased at how well I can actually keep up with it, even during the semester. Thanks for reading :)&lt;/p&gt;</content><author><name>Landon</name></author><category term="meta" /><summary type="html">I’ll talk about some of the things I’ve done to make this site a bit more my own, or upgrade it a bit. You can also follow along in real-time by following the source</summary></entry><entry><title type="html">Birthday Dinner 2018</title><link href="https://www.rishabhjain.me/pages/rishabmps/2018-05-05/dinner-party" rel="alternate" type="text/html" title="Birthday Dinner 2018" /><published>2018-05-05T00:00:00+00:00</published><updated>2018-05-05T00:00:00+00:00</updated><id>https://www.rishabhjain.me/pages/rishabmps/2018-05-05/dinner-party</id><content type="html" xml:base="https://www.rishabhjain.me/pages/rishabmps/2018-05-05/dinner-party">&lt;p&gt;For my birthday this year, rather than going out for a meal, I decided to cook a really fancy dinner for a few friends. Unfortunately, I was constrained by the size of Safetyfourth’s table to just a few friends, but the meal turned out excellent. I served a cheese board with assorted cheeses and crackers prior to dinner, mushroom and pea risotto, grilled asparagus, and grilled salmon for the main course, and crêpes suzette for dessert. I also served everything on my brand-new dishes (thanks mom and dad!).&lt;/p&gt;
+
+&lt;p&gt;I saw &lt;a href=&quot;https://www.nytimes.com/interactive/2017/10/25/magazine/food-issue-art-of-dinner-party.html&quot;&gt;this article&lt;/a&gt; about dinner parties a while ago, and it struck a chord. I really enjoy the calm, relaxed, yet refined atmosphere of a dinner party. It feels adult, which I guess I would characterize by doing things &lt;em&gt;intentionally&lt;/em&gt;. That’s actually a topic that I feel like I have enough feelings on for a whole blog post, but suffice to say that the reward for intending to do something and then following through with it is very strong. Anyway, dinner parties are one manifestation of that - an intentional act of refinement, a practicing of expertise to prepare the meal, and even a bit of problem-solving ability required to figure out how to make everything ahead of time, but not too far ahead of time - how to keep things warm and juggle resources.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;So, I like dinner parties, and decided to throw one.&lt;/p&gt;
+
+&lt;h2 id=&quot;order-of-operations&quot;&gt;Order of Operations&lt;/h2&gt;
+&lt;p&gt;First, I prepared invites. These started the theme of “fancy” with a custom emboss (yet another project that deserves its own blog post). They were physically printed on cardstock and hand-delivered or mailed to each of my guests.&lt;/p&gt;
+
+&lt;p&gt;Next, I wanted to upgrade Safetyfourth’s dinnerware situation - what Safetyfourth has is a bunch of mismatched plates of different sizes, colors, and materials. It’s good enough for day-to-day use, but would be a noticeable detraction from a fancy dinner of the kind I wanted to serve (not to mention, I needed dinnerware for my apartment in NYC in a couple months anyway, and Palantir is handling my move). So, I looked around at dinnerware sets. I eventually settled on &lt;a href=&quot;https://www.crateandbarrel.com/roulette-blue-band-dinnerware/f11002&quot;&gt;Roulette Blue Band Dinnerware&lt;/a&gt; from Crate &amp;amp; Barrel, along with &lt;a href=&quot;https://www.crateandbarrel.com/york-5-piece-flatware-place-setting/s548036&quot;&gt;York Mirror&lt;/a&gt; flatware, &lt;a href=&quot;https://www.crateandbarrel.com/otis-highball-glass/s112003&quot;&gt;Otis Highball&lt;/a&gt; glasses, and &lt;a href=&quot;https://www.crateandbarrel.com/oregon-16-oz.-white-wine-glass/s437517&quot;&gt;Oregon&lt;/a&gt; white wine glasses (mostly listing them out for my own future reference in case I need replacements). It makes a very handsome set, all told. It’s also pretty similar in design to the set that I used growing up.&lt;/p&gt;
+
+&lt;div class=&quot;gallery&quot;&gt;
+&lt;figure name=&quot;1&quot; alt=&quot;place setting&quot; caption=&quot;New dishes make a nice place setting&quot;&gt;&lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;For the actual food prep, I started early in the morning with the dough for the brioche dinner rolls, and also got the salmon marinating. In the early afternoon, I finished baking the rolls before starting on the risotto, the longest dish to make, and one that required near-constant attention. I started by chopping up the mushrooms and onions before cooking for the next hour. Honestly, it wasn’t my best risotto - I had to split it into two pans to try to get the volume to surface area ratio correct for the correct speed of water evaporation that would result in the right consistency for the risotto. It was pretty challenging to handle two pans at once, especially since they had different surface areas.&lt;/p&gt;
+
+&lt;p&gt;After the risotto was done, I put it in a large pot to mix in the peas and parmesan, before putting it on the back burner to keep warm until dinner. At that point, there was about 30 minutes til guests were going to arrive, so I was pretty on-schedule. I quickly prepped the asparagus and tossed it in the oven. Luckily, the asparagus is a nearly zero-prep component of the meal - preheat the oven and toss the asparagus with olive oil, salt, and pepper before baking. After the asparagus went in the oven, I set the table quickly before starting on the salmon, handling 3 pieces at a time (out of 6 total). I had two pans going - one for the bottom of the fillets, and one for searing the top of the fillets with a grill pattern and finishing the cooking. By batching them and pipelining, I was able to get total cooking time down to about 20 minutes, so I was pulling the second round of salmon off the grill right as guests were arriving. The asparagus also finished up while the salmon was going, so I turned the oven down and put the rolls back in to heat up before dinner.&lt;/p&gt;
+
+&lt;div class=&quot;gallery&quot;&gt;
+&lt;figure name=&quot;2&quot; alt=&quot;cheese board&quot; caption=&quot;Fish, helping out by cutting up the cheese for the cheese plate&quot;&gt;&lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Guests arrived around 5:30, so as I tidied up the kitchen, we also snacked on the cheese and crackers that I’d set out. After snacking for a while and after the salmon had rested enough, dinner was served.&lt;/p&gt;
+
+&lt;div class=&quot;gallery&quot;&gt;
+&lt;figure name=&quot;3&quot; alt=&quot;dinner is served&quot; caption=&quot;Mushroom and pea risotto, grilled asparagus, and grilled salmon, with a freshly baked brioche dinner roll&quot;&gt;&lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;After a delicious and relaxed dinner, I prepped the crêpe batter for crêpes suzette before diving into the orange glaze. I managed to flambé very successfully this time! My crêpe batter wound up a bit lumpy - I might be adding the ingredients in the wrong order, or the cold milk might be causing the butter to chill and harden, so I still have a bit of room for improvement there. You couldn’t really tell in the final product though, which turned out beautiful, with a quenelle of vanilla ice cream on top.&lt;/p&gt;
+
+&lt;div class=&quot;gallery&quot;&gt;
+&lt;figure name=&quot;4&quot; alt=&quot;flambé!&quot; caption=&quot;The flambé looked even better in person, but having the lights off was pretty crucial&quot;&gt;&lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Now, on to the specific recipes!&lt;/p&gt;
+
+&lt;h1 id=&quot;brioche-bread&quot;&gt;Brioche Bread&lt;/h1&gt;
+&lt;p&gt;(makes about 1 loaf, or 14 dinner rolls)&lt;/p&gt;
+
+&lt;h3 id=&quot;ingredients&quot;&gt;Ingredients:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;2 tsp active dry yeast&lt;/li&gt;
+  &lt;li&gt;1/4 cup warm water&lt;/li&gt;
+  &lt;li&gt;500g baking flour&lt;/li&gt;
+  &lt;li&gt;2 eggs&lt;/li&gt;
+  &lt;li&gt;150 mL milk&lt;/li&gt;
+  &lt;li&gt;100g butter&lt;/li&gt;
+  &lt;li&gt;50g sugar&lt;/li&gt;
+  &lt;li&gt;8g salt&lt;/li&gt;
+  &lt;li&gt;1 egg, whisked, for the egg wash&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;directions&quot;&gt;Directions:&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Proof the active dry yeast in the warm water by dissolving it and letting it bubble.&lt;/li&gt;
+  &lt;li&gt;Mix the ingredients in, in order, using a stand mixer with a dough hook. Continue kneading at low speed until a sticky dough forms, about 3 minutes total.&lt;/li&gt;
+  &lt;li&gt;Cover the mixing bowl and proof for a bit over 2 hours in a warm place. I use the oven with the light on, which works pretty well and is out of the way.&lt;/li&gt;
+  &lt;li&gt;Remove the dough, which should have doubled in size, and preheat the oven to 400 °F.&lt;/li&gt;
+  &lt;li&gt;For a loaf, flour the countertop and separate the dough into 3 equal logs, about 40 cm long and 5 cm in diameter, braid together, and put in a loaf pan. For dinner rolls, work dough into golf ball sized balls, pinching the dough to ensure one side is smooth. Put that side on top, and fill a muffin tin.&lt;/li&gt;
+  &lt;li&gt;Cover, proof for an additional 20 minutes, and brush with the egg wash. Bake loaf for about 25 minutes and rolls for about 12 minutes.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;This recipe I got from &lt;a href=&quot;https://www.youtube.com/watch?v=hY19NK7qBCU&quot;&gt;Alex French Guy on youtube&lt;/a&gt;, and was inspired to try it after watching my roommate bake sourdough bread on a weekly basis. It was surprisingly difficult to form the dinner roll shape, since the dough was very sticky. I find that the loaf produces about 10 solid slices of bread, and I tend to enjoy them best when toasted lightly. The dinner rolls are best fresh - I overcooked them a bit when keeping them warm, which made them a bit drier and a bit harder, instead of soft and fluffy as they were fresh out of the oven. They don’t really need additional butter.&lt;/p&gt;
+
+&lt;div class=&quot;gallery&quot;&gt;
+&lt;figure name=&quot;5&quot; alt=&quot;dinner rolls&quot; caption=&quot;The egg wash helps make a nice glossy top&quot;&gt;&lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&quot;mushroom-and-pea-risotto&quot;&gt;Mushroom and Pea Risotto&lt;/h1&gt;
+&lt;p&gt;(makes about 4 servings)&lt;/p&gt;
+
+&lt;h3 id=&quot;ingredients-1&quot;&gt;Ingredients:&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;2 tbsp vegetable oil&lt;/li&gt;
+  &lt;li&gt;1 tbsp butter&lt;/li&gt;
+  &lt;li&gt;1 small onion, thinly sliced&lt;/li&gt;
+  &lt;li&gt;1 cup baby bella mushrooms, roughly chopped into 1/4” pieces&lt;/li&gt;
+  &lt;li&gt;1 cup uncooked Arborio rice&lt;/li&gt;
+  &lt;li&gt;3 1/2 cups chicken broth&lt;/li&gt;
+  &lt;li&gt;1/2 cup freshly grated Parmesan cheese&lt;/li&gt;
+  &lt;li&gt;1 cup sweet peas&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;directions-1&quot;&gt;Directions:&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Sautee the onion and mushrooms in oil and butter in a large skillet or small wok on medium heat.&lt;/li&gt;
+  &lt;li&gt;Add rice, and cook until edges are translucent. Stir in 1/2 cup chicken broth and cook for an additional 3 minutes, stirring constantly, until broth is absorbed.&lt;/li&gt;
+  &lt;li&gt;Stir in broth, 1 cup at a time, cooking for 5-8 minutes between additions until the broth is mostly absorbed. Stir frequently throughout the process. This is the tricky part - the heat, stirring, and rate of liquid addition need to be balanced well for the dish to result in the proper risotto texture. Luckily, even if it’s a bit wrong, it’s not too far off.&lt;/li&gt;
+  &lt;li&gt;Stir in the cheese and peas at the end. If using frozen peas, you’ll want to start the peas in the microwave around the time of the last liquid addition to the skillet.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;This recipe can be tricky to get the perfect texture out of - sometimes I’m very successful, sometimes I’m less successful. As I mentioned though, even if it’s wrong, it’s not too far off, and is certainly still a tasty meal. Instead of mushrooms, shrimp can be stirred in at the end for shrimp and pea risotto. This was adapted from the Betty Crocker Cookbook.&lt;/p&gt;
+
+&lt;div class=&quot;gallery&quot;&gt;
+&lt;figure name=&quot;6&quot; alt=&quot;risotto&quot; caption=&quot;I usually use the yellow wok in the foreground, but this quantity of risotto didn't fit. The blue 12&amp;quot; skillet in the background had a higher surface area to volume ratio, which made things difficult&quot;&gt;&lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&quot;grilled-asparagus&quot;&gt;Grilled Asparagus&lt;/h1&gt;
+&lt;p&gt;(Makes about 4 small servings)&lt;/p&gt;
+
+&lt;h3 id=&quot;ingredients-2&quot;&gt;Ingredients:&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;1 bunch of asparagus&lt;/li&gt;
+  &lt;li&gt;3 tbsp olive oil&lt;/li&gt;
+  &lt;li&gt;salt to taste&lt;/li&gt;
+  &lt;li&gt;pepper to taste&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;directions-2&quot;&gt;Directions:&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Preheat oven to 425 °F. Arrange asparagus on a baking sheet in a single layer. Drizzle with olive oil, and sprinkle with salt and pepper.&lt;/li&gt;
+  &lt;li&gt;Bake for about 12 minutes.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;This was a recipe my mom used to make every now and then, and is very similar to &lt;a href=&quot;https://www.allrecipes.com/recipe/214931/oven-roasted-asparagus/&quot;&gt;this recipe on allrecipes&lt;/a&gt;. It’s a super easy way to prepare asparagus. The only annoying thing is that the oven is then too hot to keep the rest of the dishes warm right before dinner. I can see why people like having 2 ovens now - one to cook in, the other to just keep things warm.&lt;/p&gt;
+
+&lt;div class=&quot;gallery&quot;&gt;
+&lt;figure name=&quot;7&quot; alt=&quot;asparagus&quot; caption=&quot;This is a super easy, quick, and tasty way to prep asparagus&quot;&gt;&lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&quot;grilled-salmon&quot;&gt;Grilled Salmon&lt;/h1&gt;
+&lt;p&gt;(Makes about 4 servings)&lt;/p&gt;
+
+&lt;h3 id=&quot;ingredients-3&quot;&gt;Ingredients:&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;1 1/2 lbs salmon fillet, cut into 4 pieces&lt;/li&gt;
+  &lt;li&gt;lemon pepper to taste&lt;/li&gt;
+  &lt;li&gt;garlic powder to taste&lt;/li&gt;
+  &lt;li&gt;salt to taste&lt;/li&gt;
+  &lt;li&gt;1/3 cup soy sauce&lt;/li&gt;
+  &lt;li&gt;1/3 cup brown sugar&lt;/li&gt;
+  &lt;li&gt;1/3 cup water&lt;/li&gt;
+  &lt;li&gt;1/4 cup vegetable oil&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;directions-3&quot;&gt;Directions:&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Rub salmon with lemon pepper, garlic powder, and salt to taste.&lt;/li&gt;
+  &lt;li&gt;Combine soy sauce, brown sugar, water, and vegetable oil. Whisk to combine. Put into a plastic bag with the salmon to marinate for at least 2 hours in the refrigerator.&lt;/li&gt;
+  &lt;li&gt;Pan fry the salmon on medium-high heat in a healthy skillet of vegetable oil for about 6-8 minutes per side. The skin side of the salmon will char, but that’s fine. For bonus presentation points, grill the top of the salmon fillet in a ribbed cast iron pan. This will also prevent excessive char flavor.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;I used to make a salmon recipe from my mom, which was just salmon, slathered with italian dressing and broiled for about a half hour, which was very tasty. However, I needed the oven for other things and wanted to branch out a bit, so I found &lt;a href=&quot;https://www.allrecipes.com/recipe/12720/grilled-salmon-i/&quot;&gt;this recipe online&lt;/a&gt; from allrecipes. In principle, the flavors are very similar to the italian dressing recipe I made, but the method of prep encourages a more intense char and crisps the salmon more. The brown sugar helps add some nice caramelization and color.&lt;/p&gt;
+
+&lt;div class=&quot;gallery&quot;&gt;
+&lt;figure name=&quot;8&quot; alt=&quot;salmon&quot; caption=&quot;The grill marks really enhance the presentation&quot;&gt;&lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&quot;crêpes-suzette&quot;&gt;Crêpes Suzette&lt;/h1&gt;
+&lt;p&gt;(makes about 2 servings)&lt;/p&gt;
+
+&lt;h3 id=&quot;ingredients-4&quot;&gt;Ingredients:&lt;/h3&gt;
+
+&lt;p&gt;Crêpes:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;10g melted butter&lt;/li&gt;
+  &lt;li&gt;1 tsp vanilla extract&lt;/li&gt;
+  &lt;li&gt;50g flour&lt;/li&gt;
+  &lt;li&gt;1 egg (beaten)&lt;/li&gt;
+  &lt;li&gt;120g milk&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Glaze:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;20g sugar&lt;/li&gt;
+  &lt;li&gt;20g butter&lt;/li&gt;
+  &lt;li&gt;10 mL Grand Marnier&lt;/li&gt;
+  &lt;li&gt;10 mL Cointreau&lt;/li&gt;
+  &lt;li&gt;1 cup orange juice&lt;/li&gt;
+  &lt;li&gt;a scoop of vanilla ice cream&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;directions-4&quot;&gt;Directions:&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Combine the crêpe ingredients. I combine them in that order, but it’s resulted in lumpy batter, so there might be a particular order that works best. Warming the milk before adding it might also help to keep the butter melted. That completes the crêpe batter, but we’ll prep the glaze before making the crêpes.&lt;/li&gt;
+  &lt;li&gt;In an 8” skillet, melt butter and sugar.&lt;/li&gt;
+  &lt;li&gt;In a small cup or wine glass, combine Grand Marnier and Cointreau. Heat slightly and light with a long-necked lighter. Ensure the flame is steady, remove the skillet from the stove, turn off the lights, and pour into the skillet to flambé. Make sure to do this in front of guests - it’s a showy technique, which is the whole point.&lt;/li&gt;
+  &lt;li&gt;After the fire has extinguished and the alcohol has boiled off, return the skillet to the stove and add the orange juice. Lower the heat to leave the mixture on a low simmer.&lt;/li&gt;
+  &lt;li&gt;Returning to the crêpes, heat another skillet over medium with a small amount of vegetable oil. Cook crêpes one at a time, making sure to get them nice and round. After each crêpe is complete, fold it in half and transfer to the simmering glaze.&lt;/li&gt;
+  &lt;li&gt;After simmering briefly in the glaze, fold the crêpe again to form quarters and plate with a bit of extra glaze and a quenelle of vanilla ice cream.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;I found this recipe from &lt;a href=&quot;https://www.youtube.com/watch?v=bF9zOykErJ4&quot;&gt;Jun’s Kitchen&lt;/a&gt;, though he shows a slightly fancier version of the recipe. I had a lot of trouble getting the flambé to work the first couple of times I tried the recipe - I accidentally added the orange juice first one time, and tried to flambé on the plate the second time, which also failed. I also managed to get it to mostly work once, but the flame isn’t very bright, so it’s not very pretty when the lights are on. For the dinner party though, it went perfectly. The quenelle of ice cream really finishes the presentation.&lt;/p&gt;
+
+&lt;div class=&quot;gallery&quot;&gt;
+&lt;figure name=&quot;9&quot; alt=&quot;crêpes suzette&quot; caption=&quot;Crêpes suzette is a really pretty dessert, and can be prepared live to show off a bit :D&quot;&gt;&lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Overall, the dinner was a huge success! Thanks for reading :)&lt;/p&gt;</content><author><name>Landon</name></author><category term="recipes" /><summary type="html">For my birthday this year, rather than going out for a meal, I decided to cook a really fancy dinner for a few friends. Unfortunately, I was constrained by the size of Safetyfourth’s table to just a few friends, but the meal turned out excellent. I served a cheese board with assorted cheeses and crackers prior to dinner, mushroom and pea risotto, grilled asparagus, and grilled salmon for the main course, and crêpes suzette for dessert. I also served everything on my brand-new dishes (thanks mom and dad!).</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.rishabhjain.me/pages/rishabmps/assets/img/thumbnail/2018-05-05-dinner-party-4_thumb_800.jpg" /></entry></feed>
