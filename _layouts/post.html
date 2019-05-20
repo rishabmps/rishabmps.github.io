@@ -2,58 +2,60 @@
 layout: default
 ---
 <div class="post">
-  <div class="post-info">
-    {% if page.date %}
-      <time datetime="{{ page.date }}">{{ page.date | date: "%B %d, %Y" }}</time>
-    {% endif %}
-  </div>
-  <h1 class="post-title">{{ page.title }}</h1>
-  {% if page.share %}
-    {% include share.html %}
-  {% endif %}
-  <div class="post-line" style="width: 9rem;"></div>
-  
-  
-  {% if page.tags %}
-    <div class="tags tags_top">
-      <div class="tags_values">
-        <strong>Tags:</strong>
-        {% for tag in page.tags %}
-          <a href="{{ site.baseurl }}/tags#{{ tag }}" class="tag">&#35;{{ tag }}</a>
-        {% endfor %}
-      </div>
-      
+    <div class="post-info">
+        {% if page.date %}
+            <time datetime="{{ page.date }}">{{ page.date | date: "%B %d, %Y" }}</time>
+        {% endif %}
     </div>
-    <br>  
-  {% endif %}
-  <div class="post-content">
-    {{ content }}
-  </div>
+    <h1 class="post-title">{{ page.title }}</h1>
+    {% if page.share %}
+        {% include share.html %}
+    {% endif %}
+    <div class="post-line" style="width: 9rem;"></div>
+    
+    
+    {% if page.tags %}
+        <div class="tags tags_top">
+            <div class="tags_values">
+                <strong>Tags:</strong>
+                {% for tag in page.tags %}
+                    <a href="{{ site.baseurl }}/tags#{{ tag }}" class="tag">&#35;{{ tag }}</a>
+                {% endfor %}
+            </div>
+            
+        </div>
+        <br>
+    {% endif %}
+    <div class="post-content">
+        {{ content }}
+    </div>
 </div>
 {% if page.tags %}
-  <hr style="background-color: #829ec0;display: block;height: 2px;/* border: 0; */border-top: 1px solid;margin: 1em 0;padding: 0;">
-  <div class="tags tags_bottom">
-    <strong>Tags:</strong>
-    {% for tag in page.tags %}
-      <a href="{{ site.baseurl }}/tags#{{ tag }}" class="tag">&#35;{{ tag }}</a>
-    {% endfor %}
-  </div>
-  <hr style="background-color: #829ec0;display: block;height: 2px;border: 0;border-top: 1px solid;margin: 1em 0;padding: 0;"  >
+    <hr style="background-color: #829ec0;display: block;height: 2px;/* border: 0; */border-top: 1px solid;margin: 1em 0;padding: 0;">
+    <div class="tags tags_bottom">
+        <strong>Tags:</strong>
+        {% for tag in page.tags %}
+            <a href="{{ site.baseurl }}/tags#{{ tag }}" class="tag">&#35;{{ tag }}</a>
+        {% endfor %}
+    </div>
+    <hr style="background-color: #829ec0;display: block;height: 2px;border: 0;border-top: 1px solid;margin: 1em 0;padding: 0;"  >
 {% endif %}
 <br>
 {% include pagination.html %}
 <br>
-{% if page.comments %}
-  {% include disqus_comments.html %}
+{% if jekyll.environment == "production" %}
+    {% if page.comments %}
+        {% include disqus_comments.html %}
+    {% endif %}
 {% endif %}
 {% if page.math %}
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-  </script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
 {% endif %}
 {% if page.gallery %}
-  {% for src in page.other_image_sources %}
-    <script src="{{ "/assets/img/sizes/" | relative_url }}{{ src }}.js"></script>
-  {% endfor %}
-  <script src = "{{ "/assets/img/sizes/" | relative_url }}{{ page.id | remove_first: '/' | replace: '/', '-' }}.js"></script>
-  <script src="{{ "/assets/js/photoswipe-initializer.js" | relative_url }}"></script>
+    {% for src in page.other_image_sources %}
+        <script src="{{ "/assets/img/sizes/" | relative_url }}{{ src }}.js"></script>
+    {% endfor %}
+    <script src = "{{ "/assets/img/sizes/" | relative_url }}{{ page.id | remove_first: '/' | replace: '/', '-' }}.js"></script>
+    <script src="{{ "/assets/js/photoswipe-initializer.js" | relative_url }}"></script>
 {% endif %}
