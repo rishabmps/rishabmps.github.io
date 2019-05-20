@@ -1,0 +1,170 @@
+* {
+    @include box-sizing;
+
+    line-height: 1.5;
+}
+
+html,
+body {
+    color: $default-color;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: $medium;
+    font-size: 18px;
+
+    @media (max-width: 767px) {
+        font-size: 16px;
+    }
+}
+
+body {
+    -webkit-text-size-adjust: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: $default-shade;
+    font-family: $medium-heading;
+
+    /*line-height: normal;*/
+    letter-spacing: 0;
+    font-weight: 700;
+    font-style: normal;
+}
+
+a {
+    color: $blue;
+    text-decoration: none;
+}
+
+blockquote {
+    border-left: 0.25rem solid $grey-2;
+    color: $grey-1;
+    margin: .8rem 0;
+    padding: .5rem 1rem;
+
+    p:last-child {
+        margin-bottom: 0;
+    }
+
+    @media (min-width: 600px) {
+        padding: 0 5rem 0 1.25rem;
+    }
+}
+
+img {
+    display: block;
+    margin: 0 0 1rem;
+    max-width: 100%;
+}
+
+td {
+    vertical-align: top;
+}
+
+p {
+    --x-height-multiplier: 0.375;
+    --baseline-multiplier: 0.17;
+    font-family: medium-content-serif-font,Georgia,Cambria,"Times New Roman",Times,serif;
+    letter-spacing: .01rem;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 21px;
+    line-height: 1.58;
+    color: rgba(0, 0, 0, 0.84);
+
+    @media (max-width: 767px) {
+        font-size: 18px;
+        line-height: 1.58;
+        letter-spacing: -.004em;
+    }
+}
+
+blockquote, blockquote p {
+    --x-height-multiplier: 0.375;
+    --baseline-multiplier: 0.17;
+    font-family: medium-content-serif-font,Georgia,Cambria,"Times New Roman",Times,serif;
+    letter-spacing: .01rem;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 21px;
+    line-height: 1.58;
+    letter-spacing: -.003em;
+
+    @media (max-width: 767px) {
+        font-size: 18px;
+        line-height: 1.58;
+        letter-spacing: -.004em;
+    }
+}
+
+.post-content ul > li:before {
+    font-size: 16.8px;
+    position: absolute;
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 78px;
+    margin-left: -78px;
+    text-align: right;
+    padding-top: 4px;
+    padding-right: 15px;
+    content: '\2022';
+    @media (max-width: 767px) {
+        font-size: 14.4px;
+    }
+}
+
+.post-content ol > li:before {
+    font-feature-settings: "liga" on,"lnum" on;
+    -moz-font-feature-settings: "liga" on,"lnum" on;
+    -webkit-font-feature-settings: "liga" on,"lnum" on;
+    padding-right: 12px;
+    counter-increment: post;
+    content: counter(post) ".";
+    position: absolute;
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 78px;
+    margin-left: -78px;
+    text-align: right;
+    
+}
+
+ul,ol {
+    padding: 0;
+    list-style: none;
+    list-style-image: none;
+    counter-reset: post;
+}
+
+.post-content ul,.post-content ol > li {
+    --x-height-multiplier: 0.375;
+    --baseline-multiplier: 0.17;
+    font-family: medium-content-serif-font,Georgia,Cambria,"Times New Roman",Times,serif;
+    letter-spacing: .01rem;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 21px;
+    line-height: 1.58;
+    letter-spacing: -.003em;
+    margin-left: 30px;
+    margin-bottom: 14px;
+
+    @media (max-width: 767px) {
+        font-size: 18px;
+        line-height: 1.58;
+        letter-spacing: -.004em;
+    }
+}
+b,strong {
+    font-weight: 700;
+}
