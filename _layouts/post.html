@@ -48,10 +48,6 @@ layout: default
         {% include disqus_comments.html %}
     {% endif %}
 {% endif %}
-{% if page.math %}
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-    </script>
-{% endif %}
 {% if page.gallery %}
     {% for src in page.other_image_sources %}
         <script src="{{ "/assets/img/sizes/" | relative_url }}{{ src }}.js"></script>

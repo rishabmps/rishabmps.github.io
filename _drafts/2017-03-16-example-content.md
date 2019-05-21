@@ -157,4 +157,17 @@ and `<br>` for line breaks.
 
 <br>
 
+GIST
+
+<script src="https://gist.github.com/rishabmps/36fef4c3e1750890ef18fa27a2e4099f.js"></script>
+
+{% highlight matlab  linenos %}
+// Sample javascript code
+x = -1:.1:1;
+y = -1:.1:1;
+[Xm, Ym] = meshgrid(x,y);
+Lm = Xm.^2 - Ym.^2;
+hdl = surf(Xm, Ym, Lm);
+{% endhighlight %}
+
 _The end_
