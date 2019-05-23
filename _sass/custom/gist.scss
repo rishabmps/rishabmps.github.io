@@ -46,3 +46,15 @@ body .gist .blob-num {
 body .gist .gist-meta {
     display: none;
 }
+
+@media (max-width: 767px) {
+    body .gist .highlight {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 400px) {
+    body .gist  {
+        padding: 0 2rem 0 0;
+    }
+}

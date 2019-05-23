@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Projects"
-author: "Landon"
+author: "Rishabh Agarwal Jain"
 permalink: /projects/
 ---
 

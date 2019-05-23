@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Debugging"
-author: "Rishabh"
+author: "Rishabh Agarwal Jain"
 table-zebra: true
 permalink: /about-technical/
 ---

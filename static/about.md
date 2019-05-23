@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "About"
-author: "Landon"
+author: "Rishabh Agarwal Jain"
 permalink: /about/
 ---
 
