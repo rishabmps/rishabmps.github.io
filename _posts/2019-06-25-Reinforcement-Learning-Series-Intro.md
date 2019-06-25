@@ -82,7 +82,7 @@ Interestingly,  it can be computed by recursion also:
 
 $$The \ value \ of\ any\ state = the\ immediate\ reward + the\ discounted\ value\ of\ the\ state\ that\ follows.$$
 
-It is also known as the bellman Equation. Using bellman equation in state value funtion :
+It is also known as the bellman Equation. Using bellman equation in state value function :
 
 $$ V_\pi(s) = \mathbb{E_\pi}[R_{t+1} + \gamma V_\pi (S_{t+1})| S_t = s]$$
 
@@ -106,7 +106,7 @@ $$ \pi ' >= \pi $$ if and only it $$V_{\pi '}(s) >= V_\pi(s)$$ for all $$ s \in 
 
 ## Action-value Function
 
-An action value funtion for a policy $$\pi$$ is denoted by $$q_\pi$$.The value of taking action $$a$$ in state $$s$$ under policy $$\pi$$ is:
+An action value function for a policy $$\pi$$ is denoted by $$q_\pi$$.The value of taking action $$a$$ in state $$s$$ under policy $$\pi$$ is:
 
 $$q_\pi(s,a) = \mathbb{E_\pi}[G_t|S_t = s , A_t = a]$$
 
@@ -118,7 +118,7 @@ For a deterministic policy $$\pi$$ :
 
 $$V_\pi(s) = q(s,\pi(s)) \ holds \ for \ all \ s\in S$$
 
-Optimal value funtion can derived from the optimal action value funtion by:
+Optimal value function can derived from the optimal action value function by:
 
 $$ V^*(s) = \max_{a \in A(s)} Q^*(s,a)$$
 
