@@ -11,7 +11,7 @@ share: true
 math: true
 ---
 
-## What is Reinforcement Learning(RL) ?
+## What is Reinforcement Learning(RL)?
 
 The study of decision making in the machines is called Reinforcement learning. 
 
@@ -21,15 +21,15 @@ According to Richard Sutton Book, RL was born after merging of two independent t
 
 ## Introduction
 
-Every Reiforcement learning system consists of an agent and an environment. An agent is a learner or decision maker. The environment is typically a set of states the _agent_ is attempting to influence via its choice of _actions_.
+Every Reinforcement learning system consists of an agent and an environment. An agent is a learner or decision maker. The environment is typically a set of states the _agent_ is attempting to influence via its choice of _actions_.
 The agent interacts with the environment to produce a series of states, actions and rewards at different time stamps $$S_0,A_0,R_1,S_1,A_1,R_2 ... S_T$$. The entire interaction between the agent and environment from start to terminal state is known as an episode.
 
-## How Does the Agent learns ? 
+## How Does the Agent learns? 
 
 Assume a new puppy;  it receives a treat if it follows the owner's commands, and nothing in case it does not follow the command. 
-The Agent(puppy) learns to perform well to the owner's command due to the rewards it is receiving.The concept of rewards is the principle behind an agent's learning.
+The Agent(puppy) learns to perform well to the owner's command due to the rewards it is receiving. The concept of rewards is the principle behind an agent's learning.
 
-Assume an environment in state $$S_0$$ and time stamp $$T_0$$. An agent interacting with the environment takes an action $$A_0$$ using the provided information(by following a policy). At the next timestamp, as the direct consequence of the agent's choice of action $$A_0$$ and environment state $$S_0$$, the environment transitions to a new state $$S_1$$ and gives some reward $$R_1$$ to the interaction agent.Now the agent receives the new state and reward and performs a new action. This cycle goes on.
+Assume an environment in state $$S_0$$ and time stamp $$T_0$$. An agent interacting with the environment takes action $$A_0$$ using the provided information(by following a policy). At the next timestamp, as the direct consequence of the agent's choice of action $$A_0$$ and environment state $$S_0$$, the environment transitions to a new state $$S_1$$ and gives some reward $$R_1$$ to the interaction agent. Now the agent receives the new state and reward and performs a new action. This cycle goes on.
 
 ### One step Dynamics 
 
@@ -68,7 +68,7 @@ The policy is a mapping from environmental states to actions. There are two type
 
 $$ \pi (a|s) = P(A_t=a|S_t=s)$$
 
-The above policy function accepts environment state $$S$$ and action $$A$$ and returns the probability that the agent takes an action $$a$$ while in state $$S$$.
+The above policy function accepts environment state $$S$$ and action $$A$$ and returns the probability that the agent takes action $$a$$ while in state $$S$$.
 
 ## State-Value Function.
 
@@ -78,7 +78,7 @@ State value function for a policy $$\pi$$ is represented as:
 
 $$ V_{\pi}(S) = \mathbb{E_\pi}[G_t|S_t = s]$$
 
-It should be noted that it can be computed by recursion like:
+Interestingly,  it can be computed by recursion also:
 
 $$The \ value \ of\ any\ state = the\ immediate\ reward + the\ discounted\ value\ of\ the\ state\ that\ follows.$$
 
@@ -126,12 +126,12 @@ $$where \ Q^*(s,a) = \mathbb{E_\pi}[R_{t+1} + \gamma V^* (S_{t+1})|S_t = s , A_t
 
 $$ \Rightarrow  Q^*(s,a) = \mathbb{E_\pi}[R_{t+1} + \gamma \max_{a' \in A(s)} Q^*(s_{t+1},a')|S_t = s , A_t = a]$$
 
-The optimal policy $$\pi^*$$ can be easily obtained from the optimal action value funtion $$q^*$$.
+The optimal policy $$\pi^*$$ can be easily obtained from the optimal action-value function $$q^*$$.
 
 $$Interaction \longrightarrow q^* \longrightarrow \pi^*$$
 
 $$\pi^*(s) = argmax_{a\in A(s)}\ q^* (s,a) \ for \ all \ s\in S $$
 
-**Note:** All optimal policies have same action value funtion $$q^*$$ called optimal action value funtion. And In case of two actions having the same optiomal value funtion, assign either or all with equal probablities in the policy. 
+**Note:** All optimal policies have same action value function $$q^*$$ called optimal action-value function. Moreover, In the case of two actions having the same optimal value function, assign either or all with equal probabilities in the policy. 
 
 
