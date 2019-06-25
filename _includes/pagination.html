@@ -1,12 +1,14 @@
 <div class="pagination">
-  {% if page.next.url %}
-  <div class="left-pagination">
-    <a href="{{ page.next.url | prepend: site.baseurl }}" class="left arrow"><strong>&#8592; {{page.next.title}}</strong></a>
+  {% if page.previous.url %}
+    <div class="left-pagination">
+      <a href="{{ page.previous.url | prepend: site.baseurl }}" class="left arrow"><strong> &#8592; {{page.previous.title}}</strong></a>
     </div>
   {% endif %}
-  {% if page.previous.url %}
-  <div class="right-pagination">
-    <a href="{{ page.previous.url | prepend: site.baseurl }}" class="right arrow"><strong>{{page.previous.title}} &#8594;</strong></a>
+  {% if page.next.url %}
+    <div class="right-pagination">
+      
+      <a href="{{ page.next.url | prepend: site.baseurl }}" class="right arrow"><strong> {{page.next.title}} &#8594;</strong></a>
+      
     </div>
   {% endif %}
   <a href="#" class="top"><strong>Top</strong></a>
