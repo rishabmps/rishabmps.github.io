@@ -4,8 +4,8 @@ title: "Reinforcement Learning Series: Introduction"
 author: "Rishabh Agarwal Jain"
 tags:
 - Reinforcement learning
-image: "/assets/img/thumbnail/saddle_min.jpg"
-gallery: true
+image: "/assets/img/2019-06-25-markov-decision-process-interation.jpg"
+gallery: false
 comments: true
 share: true
 math: true
@@ -59,6 +59,19 @@ At time step t, the agent picks an action $$A_t$$ to maximise expected rewards $
 $$G_t = R_{t+1} + \gamma R_{t+2} + \gamma^2 R_{t+3} + ..... \quad and \quad \gamma \in [0,1]$$
 
 It is known as **discounted returns**.
+
+## Markov Decision Process (MDP)
+
+![MDP]({{ "/assets/img/2019-06-25-markov-decision-process-interation.jpg" | absolute_url }} "Interation in MDP" ){:height="50%" width="75%"}_Agent Environment Interation in a MDP_
+
+A finite MDP $$(S,A,P,R,\gamma)$$ is defined by the following elements:
+1. A (finite) set of states$$(S)$$
+2. A (finite) set of actions $$A$$
+3. The one-step dynamics of the environment.
+4. A (finite) set of rewards. 
+5. Discount rate $$\gamma \in [0,1] $$.
+
+**Markov Property:** The state and the reward at any time step $$t+1$$ depends on the state at $$t$$ and action at time step $$t$$.
 
 ## Policies:
 
