@@ -57,7 +57,7 @@ $$G_t = R_{t+1} + R_{t+2} .... $$
 
 At time step t, the agent picks an action $$A_t$$ to maximise expected rewards $$G_t$$.However, since predicting the rewards in future is difficult, we add a hyperparameter $$\gamma$$ to reflect the confidence in rewards.
 
-$$G_t = R_{t+1} + \gamma R_{t+2} + \gamma^2 R_{t+3} + ..... \quad and \quad \gamma \in [0,1]$$
+$$G_t = R_{t+1} + \gamma R_{t+2} + \gamma^2 R_{t+3} + ..... \\ and \quad \gamma \in [0,1]$$
 
 It is known as **discounted returns**.
 
@@ -94,7 +94,7 @@ $$ V_{\pi}(S) = \mathbb{E_\pi}[G_t\vert S_t = s]$$
 
 Interestingly,  it can be computed by recursion also:
 
-$$The \ value \ of\ any\ state = the\ immediate\ reward + the\ discounted\ value\ of\ the\ state\ that\ follows.$$
+$$The \ value \ of\ any\ state = the\ immediate\ reward \\ + the\ discounted\ value\ of\ the\ state\ that\ follows.$$
 
 It is also known as the bellman Equation. Using bellman equation in state value function :
 

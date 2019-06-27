@@ -58,7 +58,9 @@ layout: default
 <br>
 {% if jekyll.environment == "production" %}
     {% if page.comments %}
-        {% include disqus_comments.html %}
+        <div class="disqus">
+            {% include disqus_comments.html %}
+        </div>
     {% endif %}
 {% endif %}
 {% if page.gallery %}
