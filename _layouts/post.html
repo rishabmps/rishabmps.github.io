@@ -13,16 +13,29 @@ layout: default
     {% endif %}
     <div class="post-line" style="width: 9rem;"></div>
     
-    
     {% if page.tags %}
         <div class="tags tags_top">
             <div class="tags_values">
                 <strong>Tags:</strong>
                 {% for tag in page.tags %}
-                    <a href="{{ site.baseurl }}/tags#{{ tag }}" class="tag">&#35;{{ tag }}</a>
+                    <a href="{{ site.baseurl }}/tag/{{ tag }}" class="tag">&#35;{{ tag }}</a>
                 {% endfor %}
+                
             </div>
-            
+            <!-- {% if site.collections %}
+                <div>
+                    
+                    {% for colection in site.collections  %}
+                        {% if colection.label == "tag" %}
+                            {{ colection.label }}
+                            {{ colection.output }}
+                            {% for doc in colection.docs  %}
+                                {{doc.url}}
+                            {% endfor %}
+                        {% endif %}
+                    {% endfor %}
+                </div>
+            {% endif %} -->
         </div>
         <br>
     {% endif %}
@@ -35,7 +48,7 @@ layout: default
     <div class="tags tags_bottom">
         <strong>Tags:</strong>
         {% for tag in page.tags %}
-            <a href="{{ site.baseurl }}/tags#{{ tag }}" class="tag">&#35;{{ tag }}</a>
+            <a href="{{ site.baseurl }}/tag/{{ tag }}" class="tag">&#35;{{ tag }}</a>
         {% endfor %}
     </div>
     <hr style="background-color: #829ec0;display: block;height: 2px;border: 0;border-top: 1px solid;margin: 1em 0;padding: 0;"  >

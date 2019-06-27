@@ -10,6 +10,13 @@ body {
     margin: 0;
     padding: 0;
 }
+.page{
+    min-height: 100vh;
+    position: relative;
+}
+.content_wrap{
+    padding-bottom: 7.5rem;
+}
 
 html {
     font-family: $medium;

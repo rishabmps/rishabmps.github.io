@@ -3,12 +3,13 @@ layout: post
 title: "Reinforcement Learning Series: Introduction"
 author: "Rishabh Agarwal Jain"
 tags:
-- Reinforcement learning
+- Reinforcement-learning
 image: "/assets/img/2019-06-25-markov-decision-process-interation.jpg"
 gallery: false
 comments: true
 share: true
 math: true
+references: true
 ---
 
 ## What is Reinforcement Learning(RL)?
@@ -35,7 +36,7 @@ Assume an environment in state $$S_0$$ and time stamp $$T_0$$. An agent interact
 
 The agent gets a reward and the next state based on one-step dynamics of the environment. It denotes the probability of going into state $$s'$$ and getting a reward $$r$$ from the environment after performing action $$a$$ in the state $$s$$ . It is denoted as :
 
-$$p(s', r|s,a) = \mathbb{P}(S_{t+1}=s',R_{t+1} = r | S_t = s,A_t = a)$$
+$$p(s', r\vert s,a) = \mathbb{P}(S_{t+1}=s',R_{t+1} = r \vert  S_t = s,A_t = a)$$
 
 $$for \ all\ s,s',a \ and \ r $$
 
@@ -62,7 +63,7 @@ It is known as **discounted returns**.
 
 ## Markov Decision Process (MDP)
 
-![MDP]({{ "/assets/img/2019-06-25-markov-decision-process-interation.jpg" | absolute_url }} "Interation in MDP" ){:height="50%" width="75%"}_Agent Environment Interation in a MDP_
+![MDP]({{ "/assets/img/2019-06-25-markov-decision-process-interation.jpg" |  absolute_url }} "Interation in MDP" ){:height="50%" width="75%"}_Agent Environment Interation in a MDP <br> (Image source: Sutton and Barto, Reinforcement Learning)_
 
 A finite MDP $$(S,A,P,R,\gamma)$$ is defined by the following elements:
 1. A (finite) set of states$$(S)$$
@@ -79,7 +80,7 @@ The policy is a mapping from environmental states to actions. There are two type
 1. The deterministic policy is a mapping $$\pi: S\to A$$.
 2. The Stochastic policy is a mapping $$\pi: S\to A \in [0,1]$$
 
-$$ \pi (a|s) = P(A_t=a|S_t=s)$$
+$$ \pi (a\vert s) = P(A_t=a\vert S_t=s)$$
 
 The above policy function accepts environment state $$S$$ and action $$A$$ and returns the probability that the agent takes action $$a$$ while in state $$S$$.
 
@@ -89,7 +90,7 @@ For each time stamp, the state value function yields the expected return, if the
 
 State value function for a policy $$\pi$$ is represented as:
 
-$$ V_{\pi}(S) = \mathbb{E_\pi}[G_t|S_t = s]$$
+$$ V_{\pi}(S) = \mathbb{E_\pi}[G_t\vert S_t = s]$$
 
 Interestingly,  it can be computed by recursion also:
 
@@ -97,19 +98,19 @@ $$The \ value \ of\ any\ state = the\ immediate\ reward + the\ discounted\ value
 
 It is also known as the bellman Equation. Using bellman equation in state value function :
 
-$$ V_\pi(s) = \mathbb{E_\pi}[R_{t+1} + \gamma V_\pi (S_{t+1})| S_t = s]$$
+$$ V_\pi(s) = \mathbb{E_\pi}[R_{t+1} + \gamma V_\pi (S_{t+1})\vert  S_t = s]$$
 
 If the agent's policy $$\pi$$ is deterministic, then,
 
-$$V_\pi(s) = \sum_{s' \in S^+ , r \in R} p(s',r|s,\pi(s))(r+\gamma V_\pi(s')) $$
+$$V_\pi(s) = \sum_{s' \in S^+ , r \in R} p(s',r\vert s,\pi(s))(r+\gamma V_\pi(s')) $$
 
 Here we  multiply the reward and the discounted value of the next state 
 $$( r + \gamma V_\pi(s')$$ by its corresponding probablity 
-$$ p(s',r|s,\pi(s))$$ and sum over all possibilities to yeild the expected value.
+$$ p(s',r\vert s,\pi(s))$$ and sum over all possibilities to yeild the expected value.
 
 If the agent's policy $$\pi$$ is stochastic, then,
 
-$$V_\pi(s) = \sum_{s' \in S^+ , r \in R,a \in A(s)} \pi(a|s)p(s',r|s,\pi(s))(r+\gamma V_\pi(s')) $$
+$$V_\pi(s) = \sum_{s' \in S^+ , r \in R,a \in A(s)} \pi(a\vert s)p(s',r\vert s,\pi(s))(r+\gamma V_\pi(s')) $$
 
 ### Optimality
 
@@ -121,11 +122,11 @@ $$ \pi ' >= \pi $$ if and only it $$V_{\pi '}(s) >= V_\pi(s)$$ for all $$ s \in 
 
 An action value function for a policy $$\pi$$ is denoted by $$q_\pi$$.The value of taking action $$a$$ in state $$s$$ under policy $$\pi$$ is:
 
-$$q_\pi(s,a) = \mathbb{E_\pi}[G_t|S_t = s , A_t = a]$$
+$$q_\pi(s,a) = \mathbb{E_\pi}[G_t\vert S_t = s , A_t = a]$$
 
 i.e.
 
-$$q_\pi(s,a) = \mathbb{E_\pi}[R_{t+1} + \gamma V(S_{t+1})|S_t = s , A_t = a]$$
+$$q_\pi(s,a) = \mathbb{E_\pi}[R_{t+1} + \gamma V(S_{t+1})\vert S_t = s , A_t = a]$$
 
 For a deterministic policy $$\pi$$ :
 
@@ -135,9 +136,9 @@ Optimal value function can derived from the optimal action value function by:
 
 $$ V^*(s) = \max_{a \in A(s)} Q^*(s,a)$$
 
-$$where \ Q^*(s,a) = \mathbb{E_\pi}[R_{t+1} + \gamma V^* (S_{t+1})|S_t = s , A_t = a]$$
+$$where \ Q^*(s,a) = \mathbb{E_\pi}[R_{t+1} + \gamma V^* (S_{t+1})\vert S_t = s , A_t = a]$$
 
-$$ \Rightarrow  Q^*(s,a) = \mathbb{E_\pi}[R_{t+1} + \gamma \max_{a' \in A(s)} Q^*(s_{t+1},a')|S_t = s , A_t = a]$$
+$$ \Rightarrow  Q^*(s,a) = \mathbb{E_\pi}[R_{t+1} + \gamma \max_{a' \in A(s)} Q^*(s_{t+1},a')\vert S_t = s , A_t = a]$$
 
 The optimal policy $$\pi^*$$ can be easily obtained from the optimal action-value function $$q^*$$.
 

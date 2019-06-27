@@ -3,9 +3,9 @@ layout: post
 title: "Reinforcement Learning Series: Dynamic Programming"
 author: "Rishabh Agarwal Jain"
 tags:
-- Reinforcement learning
+- Reinforcement-learning
 image: "/assets/img/thumbnail/saddle_min.jpg"
-gallery: true
+gallery: false
 comments: true
 share: true
 math: true
@@ -63,7 +63,7 @@ Similarly calculate $$V_2 , V_3 , V_4 $$ by using the latest state values.
 
 The Process can continue until value function converges or does not change much. A new hyperparameter $$\Delta$$ is introduced to denote the min change required for value function update.
 
-//Algo Image
+![Iterative Policy Evaluation]({{ "/assets/img/2019-06-26-iterative-policy-evaluation.jpg" |  absolute_url }} "Iterative Policy Evaluation" ){:height="60%" width="85%"}_Algorithm for Iterative Policy Evaluation <br> (Image source: Sutton and Barto, Reinforcement Learning)_
 
 ### Action value Estimates
 
@@ -81,7 +81,16 @@ Given a policy $$\pi$$ we estimate the value function $$v_\pi$$ using the algori
 
 Combination of policy evaluation and policy improvement is know as Policy Iteration. It is guarenteed to find the optimal policy for any finite MDP.
 
-\\Algo Image
+Policy transition over the course of algorithm is depicted below.
+
+$$\pi_0 \xrightarrow[]{\text{evaluation}} v_{\pi_0} \xrightarrow[]{\text{improve}}
+\pi_1 \xrightarrow[]{\text{evaluation}} v_{\pi_1} \xrightarrow[]{\text{improve}}
+\pi_2 \xrightarrow[]{\text{evaluation}} \dots \xrightarrow[]{\text{improve}}
+\pi_* \xrightarrow[]{\text{evaluation}} v_*$$
+
+Psedocode for the algorithm:
+
+![Policy Iteration]({{ "/assets/img/2019-06-26-policy-iteration.jpg" |  absolute_url }} "Policy Iteration" ){:height="60%" width="85%"}_Algorithm for Policy Iteration <br> (Image source: Sutton and Barto, Reinforcement Learning)_
 
 
 

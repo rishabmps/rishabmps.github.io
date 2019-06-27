@@ -27,5 +27,10 @@ plugins:
 
 # Permalinks
 permalink:      /:year-:month-:day/:title
-#permalink:      none
+#permalink:      pretty
 paginate:       10
+
+collections:
+  tag:
+    output: true
+  
