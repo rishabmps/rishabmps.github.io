@@ -5,6 +5,7 @@ author: "Chester"
 tags:
 - default
 gallery: true
+math: true
 other_image_sources:
 - 2018-04-09-chocolate-crinkles
 ---

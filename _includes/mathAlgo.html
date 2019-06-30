@@ -1,0 +1,52 @@
+<script type="text/javascript">
+var stateCheck;
+
+function parseAlgos() {
+    console.log("Hooked");
+    stateCheck = setInterval(convertAlgos, 100);
+};
+
+function convertAlgos() {
+    console.log(document.readyState);
+    console.log("convert running");
+    if (document.readyState === 'complete' || document.readyState === 'interactive') {
+        console.log("went inside");
+        clearInterval(stateCheck);
+        var algos = document.getElementsByClassName("algorithm");
+        console.log(algos + algos.length);
+        while (algos.length != 0) {
+            var options = {
+                lineNumber: true
+            };
+            console.log(algos[0]);
+            var htmlStr = pseudocode.renderToString(algos[0].innerText, options);
+            algos.item(0).outerHTML = htmlStr;
+        };
+        MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+    }
+}
+</script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+    jax: ["output/SVG"],
+    tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    //displayMath: [['$$','$$'], ['\[','\]']],
+    displayMath: [['$$','$$']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['code', 'script', 'noscript', 'style', 'textarea', 'pre'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+    extensions: ["AMSmath.js", "AMSsymbols.js"] }
+    }
+  });
+  
+  
+  MathJax.Hub.Register.StartupHook("TeX Jax Ready ",parseAlgos());
+  /*MathJax.Hub.signal.Interest(
+    function (message) {console.log("Hub: "+message)}
+  );*/
+</script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_HTMLorMML' async></script>
+<script src=" {{ "/assets/js/pseudocode.js" | relative_url }}"></script>
+<link rel="stylesheet" href=" {{ "/assets/css/pseudocode.min.css" | relative_url }} ">
