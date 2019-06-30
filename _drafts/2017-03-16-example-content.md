@@ -104,7 +104,7 @@ _This is an image with a caption_
 
 <div class="gallery">
   <figure name="1" alt="Image description" caption="caption 1"></figure>
-  <figure name="2018-04-09-chocolate-crinkles-1" alt="Image description" caption="caption 2"></figure>
+  <!-- <figure name="2018-04-09-chocolate-crinkles-1" alt="Image description" caption="caption 2"></figure> -->
 </div>
 
 # Code and Syntax Highlighting
@@ -169,5 +169,139 @@ y = -1:.1:1;
 Lm = Xm.^2 - Ym.^2;
 hdl = surf(Xm, Ym, Lm);
 {% endhighlight %}
+
+ALGORITHMS
+
+<pre class="algorithm" style="display:none">
+    \begin{algorithm}
+    \caption{Test text-style}
+    \begin{algorithmic}
+    \REQUIRE some preconditions
+    \ENSURE some postconditions
+    \INPUT some inputs
+    \OUTPUT some outputs
+    \PROCEDURE{Test-Declarations}{}
+        \STATE font families: {\sffamily sffamily, \ttfamily ttfamily, \normalfont normalfont, \rmfamily rmfamily.}
+        \STATE font weights: {normal weight, \bfseries bold, \mdseries 
+        medium, \lfseries lighter. }
+        \STATE font shapes: {\itshape itshape \scshape Small-Caps \slshape slshape \upshape upshape.}
+        \STATE font sizings:  \tiny tiny \scriptsize scriptsize \footnotesize
+        footnotesize \small small \normalsize normal \large large \Large Large
+        \LARGE LARGE \huge huge \Huge Huge \normalsize
+    \ENDPROCEDURE
+    \PROCEDURE{Test-Commands}{}
+        \STATE \textnormal{textnormal,} \textrm{textrm,} \textsf{textsf,} \texttt{texttt.}
+        \STATE \textbf{textbf,} \textmd{textmd,} \textlf{textlf.}
+        \STATE \textup{textup,} \textit{textit,} \textsc{textsc,} \textsl{textsl.}
+        \STATE \uppercase{uppercase,} \lowercase{LOWERCASE.}
+    \ENDPROCEDURE
+    \PROCEDURE{Test-Colors}{}
+    % feature not implemented
+    \ENDPROCEDURE
+    \end{algorithmic}
+    \end{algorithm}
+
+    \begin{algorithm}
+    \caption{Test atoms}
+    \begin{algorithmic}
+    \STATE \textbf{Specials:} \{ \} \$ \& \# \% \_
+    \STATE \textbf{Bools:} \AND \OR \NOT \TRUE \FALSE
+    \STATE \textbf{Carriage return:} first line \\ second line
+    \STATE \textbf{Text-symbols:} \textbackslash
+    \STATE \textbf{Quote-symbols:} `single quotes', ``double quotes''
+    \STATE \textbf{Math:} $(\mathcal{C}_m)$, $i \gets i + 1$, $E=mc^2$, \( x^n + y^n = z^n \), $\$$, \(\$\)
+    \END{ALGORITHMIC}
+    \END{ALGORITHM}
+</pre>
+<pre class="algorithm" style="display:none">
+        \begin{algorithm}
+        \caption{Test control blocks}
+        \begin{algorithmic}
+        \PROCEDURE{Test-If}{}
+            \IF{&lt;cond&gt;}
+                \STATE &lt;block&gt;
+            \ELIF{&lt;cond&gt;}
+                \STATE &lt;block&gt;
+            \ELSE
+                \STATE &lt;block&gt;
+            \ENDIF
+        \ENDPROCEDURE
+        \PROCEDURE{Test-For}{$n$}
+            \STATE $i \gets 0$
+            \FOR{$i < n$}
+                \PRINT $i$
+                \STATE $i \gets i + 1$
+            \ENDFOR
+        \ENDPROCEDURE
+        \PROCEDURE{Test-For-All}{$n$}
+            \FORALL{$i \in \{0, 1, \cdots, n\}$}
+                \PRINT $i$
+            \ENDFOR
+        \ENDPROCEDURE
+        \PROCEDURE{Test-While}{$n$}
+            \STATE $i \gets 0$
+            \WHILE{$i < n$}
+                \PRINT $i$
+                \STATE $i \gets i + 1$
+            \ENDWHILE
+        \ENDPROCEDURE
+        \PROCEDURE{Test-Repeat}{$n$}
+            \STATE $i \gets 0$
+            \REPEAT
+                \PRINT $i$
+                \STATE $i \gets i + 1$
+            \UNTIL{$i>n$}
+        \ENDPROCEDURE
+        \end{algorithmic}
+        \end{algorithm}
+        \begin{algorithm}
+        \caption{Test statements and comments}
+        \begin{algorithmic}
+        \PROCEDURE{Test-Statements}{}
+            \STATE This line is a normal statement
+            \PRINT \texttt{`this is print statement'}
+            \RETURN $retval$
+        \ENDPROCEDURE
+
+        \PROCEDURE{Test-Comments}{} \COMMENT{comment for procedure}
+            \STATE a statement \COMMENT{inline comment}
+            \STATE \COMMENT{line comment}
+            \IF{some condition}\COMMENT{comment for if}
+                \RETURN \TRUE \COMMENT{another inline comment}
+            \ELSE \COMMENT{comment for else}
+                \RETURN \FALSE \COMMENT{yet another inline comment}
+            \ENDIF
+        \ENDPROCEDURE
+        \end{algorithmic}
+        \end{algorithm}
+</pre>
+<pre class="algorithm" style="display:none">
+        % This quicksort algorithm is extracted from Chapter 7, Introduction 
+        % to Algorithms (3rd edition)
+        \begin{algorithm}
+        \caption{Quicksort}
+        \begin{algorithmic}
+        \PROCEDURE{Quicksort}{$A, p, r$}
+            \IF{$p < r$} 
+                \STATE $q = $ \CALL{Partition}{$A, p, r$}
+                \STATE \CALL{Quicksort}{$A, p, q - 1$}
+                \STATE \CALL{Quicksort}{$A, q + 1, r$}
+            \ENDIF
+        \ENDPROCEDURE
+        \PROCEDURE{Partition}{$A, p, r$}
+            \STATE $x = A[r]$
+            \STATE $i = p - 1$
+            \FOR{$j = p$ \TO $r - 1$}
+                \IF{$A[j] < x$}
+                    \STATE $i = i + 1$
+                    \STATE exchange
+                    $A[i]$ with     $A[j]$
+                \ENDIF
+                \STATE exchange $A[i]$ with $A[r]$
+            \ENDFOR
+        \ENDPROCEDURE
+        \end{algorithmic}
+        \end{algorithm}
+</pre>
 
 _The end_
