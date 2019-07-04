@@ -5,7 +5,9 @@ author: "Rishabh Agarwal Jain"
 permalink: /projects/
 ---
 
-# Research
+
+## Work in progress....
+<!-- # Research
 
 - [Multi-Path Planning for Hydraulic Fluid Routing]({{ "/assets/pdf/MIT_Thesis.pdf" }}) - My M. Eng thesis, an extension on the research below. This work focused on the fluid-routing algorithm, and performance optimizations I worked on during my M. Eng for Fall '17 and Spring '18.
 - [Computational Design for 3D Printable Robotics]({{ "/assets/pdf/3DPrintableRobotics.pdf" }}) - a SuperUROP project to close the loop on robot design, allowing robots to be designed automatically for 3D printing. I worked on this during Fall '16 and Spring '17.
@@ -42,5 +44,5 @@ permalink: /projects/
 # Humanities
 - [Mixed Reality in Japanese Pop Culture]({{ "/assets/pdf/mixed_reality_japanese_digital.pdf" }}) - my final project for Digital Media in Japan and Korea, focusing on representations and views of virtual reality and augmented reality in Japanese pop culture. I took this class Spring '17.
 - [The History of the Japanese Optical Industry and Relationship to World Events]({{ "/assets/pdf/nikonHistory.pdf" }}) - my final project for Intro to Japanese culture, focusing on Nikon's involvement in WWII. I took this class Fall '16.
-- [Camera Movements and Color Toning as Plot Elements in _House of Flying Daggers_]({{ "/assets/pdf/hofd_essay.pdf" }}) - my final project for Modern Chinese Fiction and Cinema, focusing on artistic elements of HoFD, one of Zhang Yimou's famous films. I took this class Fall '14.
+- [Camera Movements and Color Toning as Plot Elements in _House of Flying Daggers_]({{ "/assets/pdf/hofd_essay.pdf" }}) - my final project for Modern Chinese Fiction and Cinema, focusing on artistic elements of HoFD, one of Zhang Yimou's famous films. I took this class Fall '14. -->
 

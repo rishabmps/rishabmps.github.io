@@ -171,7 +171,17 @@ Lm = Xm.^2 - Ym.^2;
 hdl = surf(Xm, Ym, Lm);
 {% endhighlight %}
 
-ALGORITHMS
+## MATHS
+
+$$% <![CDATA[
+\begin{aligned}
+V_*(s) &= \max_{a \in \mathcal{A}} Q_*(s,a)\\
+\quad Q_*(s, a) &= R(s, a) + \gamma \sum_{s' \in \mathcal{S}} P_{ss'}^a V_*(s') \\
+\quad \quad V_*(s) &= \max_{a \in \mathcal{A}} \big( R(s, a) + \gamma \sum_{s' \in \mathcal{S}} P_{ss'}^a V_*(s') \big) \\
+Q_*(s, a) &= R(s, a) + \gamma \sum_{s' \in \mathcal{S}} P_{ss'}^a \max_{a' \in \mathcal{A}} Q_*(s', a')
+\end{aligned} %]]>$$
+
+## ALGORITHMS
 
 <pre class="algorithm" style="display:none">
     \begin{algorithm}
