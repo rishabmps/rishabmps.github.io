@@ -13,11 +13,11 @@ I will keep updating the blog with articles on topics that I acquire in MOOC or 
 
 Mostly, it will contain things related to cognitive sciences, but on occasion, there could be articles on stuff that I found interesting.
 
-## Me
+<!-- ## Me
 
 Now, to give a brief intro about myself. My name is Rishabh Agarwal, and I completed my Bachelor's in Chemical Engineering with few electives of CS from Birla Institute of Technology and Science (BITS Pilani). Being an undergraduate in the non-CS field, it was a little difficult for me to start a career in Computer Science. Currently, I am working as a Data Scientist in Citi Bank.
 
-Since this is my first attempt at writing online articles, you may find minor errors here and there. Feel free to correct me in the comments.
+Since this is my first attempt at writing online articles, you may find minor errors here and there. Feel free to correct me in the comments. -->
 
 ## Blog Design
 
